@@ -42,13 +42,6 @@
                 </div>
                 
                 <div class="legal-certifications">
-                    <div class="age-restriction-footer">
-                        <div class="age-circle">
-                            <span class="age-number">18</span>
-                            <div class="age-plus">+</div>
-                        </div>
-                    </div>
-                    
                     <div class="certification-logos">
                         <a href="https://anj.fr" target="_blank" rel="noopener noreferrer" class="cert-logo cert-anj"></a>
                         <a href="https://www.gambleaware.org" target="_blank" rel="noopener noreferrer" class="cert-logo cert-gambleaware"></a>

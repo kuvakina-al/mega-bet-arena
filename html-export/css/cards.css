@@ -417,43 +417,205 @@
 }
 
 @media (max-width: 480px) {
-  .card-content {
-    flex-direction: column;
-    gap: 12px;
-    padding: 8px 0;
+  .cards-container {
+    width: 440px;
+    gap: 10px;
+    padding: 0;
   }
   
   .betting-card {
+    width: 400px;
     height: auto;
-    min-height: 120px;
-    padding: 12px;
+    min-height: 447px;
+    padding: 20px;
+    gap: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(148.6% 103.44% at 129.03% 148.97%, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%), 
+                radial-gradient(78.68% 73.83% at -14.43% -16.04%, rgba(12, 130, 243, 0.5) 0%, rgba(12, 130, 243, 0) 100%), 
+                linear-gradient(90deg, rgba(0, 130, 255, 0.1) 0%, rgba(255, 0, 0, 0.1) 100%), 
+                rgba(0, 0, 0, 0.55);
+    background-blend-mode: screen, screen, normal, normal;
+    backdrop-filter: blur(15px);
+  }
+  
+  .card-content {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    width: 360px;
+    height: auto;
+    padding: 0;
   }
   
   .card-logo {
-    order: 1;
+    order: 0;
+    width: 112.93px;
+    height: 59.69px;
   }
   
   .card-bonus {
-    order: 2;
-    width: 100%;
+    order: 1;
+    width: 358px;
+    height: 78px;
     text-align: center;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bonus-amount {
+    justify-content: center;
+    align-items: center;
+    width: 335px;
+    height: 44px;
+    gap: 8px;
+  }
+  
+  .bonus-number {
+    font-size: 64px;
+    line-height: 120%;
+    width: 99px;
+    height: 44px;
+  }
+  
+  .bonus-text {
+    font-size: 64px;
+    line-height: 120%;
+    width: 228px;
+    height: 44px;
+  }
+  
+  .bonus-description {
+    font-size: 20px;
+    line-height: 120%;
+    height: 14px;
+    text-align: center;
+    width: 358px;
   }
   
   .card-rating {
-    order: 3;
-    width: 100%;
-    max-width: 200px;
+    order: 2;
+    width: 360px;
+    height: 62px;
+    align-self: stretch;
+  }
+  
+  .rating-content {
+    width: 336px;
+    height: 38px;
+    align-self: stretch;
+  }
+  
+  .rating-header {
+    width: 336px;
+    height: 10px;
+    align-self: stretch;
+  }
+  
+  .rating-bar {
+    width: 336px;
+    height: 16px;
+    align-self: stretch;
   }
   
   .payment-methods {
-    order: 4;
-    width: 100%;
-    justify-content: center;
+    order: 3;
+    width: 360px;
+    height: 40px;
+    flex-direction: row;
+    gap: 4.18px;
+    justify-content: space-between;
+    align-self: stretch;
+  }
+  
+  .payment-icon {
+    width: 56.52px;
+    height: 40px;
+    flex-grow: 1;
+    padding: 0 14.4762px;
+    gap: 7.62px;
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 3.80952px;
+  }
+  
+  .payment-icon img {
+    background: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
   }
   
   .card-button {
-    order: 5;
-    width: 100%;
-    max-width: 200px;
+    order: 4;
+    width: 360px;
+    height: 64px;
+    padding: 20px 24px;
+    gap: 20px;
+    align-self: stretch;
+    background: linear-gradient(90deg, #E96500 0%, #E99F00 100%);
+  }
+  
+  .card-button-text {
+    font-size: 20px;
+    line-height: 20px;
+    width: auto;
+    height: 14px;
+    text-align: center;
+  }
+}
+
+/* PMU variant mobile */
+@media (max-width: 480px) {
+  .betting-card.pmu {
+    background: radial-gradient(148.6% 103.44% at 129.03% 148.97%, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%), 
+                radial-gradient(78.68% 73.83% at -14.43% -16.04%, rgba(12, 130, 243, 0.5) 0%, rgba(12, 130, 243, 0) 100%), 
+                linear-gradient(90deg, rgba(0, 130, 255, 0.4) 0%, rgba(255, 0, 0, 0.4) 100%), 
+                rgba(0, 0, 0, 0.55);
+    background-blend-mode: screen, screen, normal, normal;
+    height: 448.44px;
+  }
+  
+  .betting-card.pmu .card-bonus {
+    width: 346px;
+  }
+  
+  .betting-card.pmu .bonus-amount {
+    width: 346px;
+  }
+  
+  .betting-card.pmu .bonus-number {
+    width: 110px;
+  }
+  
+  .betting-card.pmu .bonus-description {
+    width: 300px;
+  }
+  
+  .betting-card.pmu .card-rating {
+    height: 62.75px;
+  }
+  
+  .betting-card.pmu .rating-content {
+    height: 38.75px;
+  }
+  
+  .betting-card.pmu .rating-bar {
+    height: 16.75px;
+  }
+  
+  .betting-card.pmu .card-button {
+    background: #FFFFFF;
+  }
+  
+  .betting-card.pmu .card-button-text {
+    background: linear-gradient(90deg, #E96500 0%, #E99F00 100%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    width: 117px;
+    height: 34px;
   }
 }

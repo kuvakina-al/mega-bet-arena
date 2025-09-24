@@ -43,6 +43,7 @@ img {
   flex-direction: column;
   max-width: 100vw;
   overflow-x: hidden;
+  padding-top: 32px; /* Account for fixed top bar */
 }
 
 .site-content {
@@ -63,25 +64,25 @@ img {
   padding: 0;
   width: 100%;
   max-width: 1200px;
-  height: 900px;
+  height: 800px;
   flex: none;
   position: relative;
-  margin: 0 auto;
+  margin: 20px auto 0; /* Add top margin for spacing */
 }
 
 /* Background Layers */
 .hero-bg-blur {
   position: absolute;
-  width: 1440px;
-  height: 592px;
+  width: 100%;
+  max-width: 1200px;
+  height: 600px;
   left: 50%;
-  top: 0px;
+  top: -100px;
   transform: translateX(-50%);
-  background: url('../images/hero background.png');
+  background: url('../images/hero-background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 1;
   z-index: -3;
 }
 
@@ -97,7 +98,20 @@ img {
   z-index: -2;
 }
 
-
+.hero-fg-image {
+  position: absolute;
+  width: 90%;
+  max-width: 1100px;
+  height: 500px;
+  left: 50%;
+  top: 120px;
+  transform: translateX(-50%);
+  background: url('../images/bg-overlay.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
 
 .hero-bottom-gradient {
   position: absolute;
@@ -115,7 +129,7 @@ img {
   width: 100%;
   max-width: 900px;
   left: 50%;
-  top: 100px;
+  top: 120px; /* Adjusted to account for header spacing */
   transform: translateX(-50%);
   font-family: 'Saira Extra Condensed';
   font-style: normal;
@@ -137,7 +151,7 @@ img {
   width: 100%;
   max-width: 900px;
   left: 50%;
-  top: 170px;
+  top: 190px; /* Adjusted to account for header spacing */
   transform: translateX(-50%);
   font-family: 'Saira Extra Condensed';
   font-style: normal;
@@ -235,71 +249,100 @@ img {
   content: '+';
 }
 
-/* Responsive Design */
-@media (max-width: 1200px) {
+/* Mobile specific hero adjustments */
+@media (max-width: 480px) {
+  .site-wrapper {
+    max-width: 440px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
   .hero-section {
-    max-width: 90%;
-    height: 700px;
+    width: 440px;
+    height: 423px;
+    max-width: none;
+    margin: 0 auto;
+  }
+  
+  .hero-bg-blur {
+    width: 925.5px;
+    height: 617px;
+    left: calc(50% - 925.5px/2 - 0.38px);
+    top: 0px;
+    transform: none;
+    filter: blur(3.5px);
+  }
+  
+  .hero-gradient-overlay {
+    width: 439.77px;
+    height: 411.27px;
+    left: calc(50% - 439.77px/2);
+    top: 205.73px;
+    transform: none;
+  }
+  
+  .hero-fg-image {
+    width: 756.78px;
+    height: 425.69px;
+    left: calc(50% - 756.78px/2 - 0.38px);
+    top: 236.53px;
+    transform: none;
+  }
+  
+  .hero-bottom-gradient {
+    height: 283.29px;
+    left: -0.03%;
+    right: 0.03%;
+    top: 333.53px;
+    transform: none;
   }
   
   .hero-title {
+    position: absolute;
+    width: 400px;
+    height: 81px;
+    left: 20px;
+    top: 170.28px;
+    transform: none;
     font-size: 48px;
-    max-width: 90%;
+    line-height: 100%;
+    text-align: center;
+    border: 1px solid #FFFFFF;
   }
   
   .hero-subtitle {
+    position: absolute;
+    width: 400px;
+    height: 14px;
+    left: 20px;
+    top: 269.28px;
+    transform: none;
     font-size: 20px;
-    max-width: 90%;
+    line-height: 100%;
+    text-align: center;
   }
   
   .cards-container {
-    max-width: 90%;
+    position: static;
+    width: 440px;
+    height: auto;
+    transform: none;
+    left: auto;
+    bottom: auto;
+    margin: 20px 0;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
   }
   
+  /* Text container mobile layout */
   .text-container {
-    max-width: 90%;
-    padding: 48px 24px;
-  }
-}
-
-@media (max-width: 768px) {
-  .hero-section {
-    height: 600px;
-  }
-  
-  .hero-title {
-    font-size: 36px;
-    top: 80px;
-  }
-  
-  .hero-subtitle {
-    font-size: 16px;
-    top: 130px;
-  }
-  
-  .cards-container {
-    bottom: 20px;
-  }
-  
-  .text-container {
-    padding: 32px 16px;
-    gap: 32px;
-  }
-  
-  .age-restriction {
-    width: 50px;
-    height: 48px;
-    bottom: 15px;
-    right: 15px;
-  }
-  
-  .age-number {
-    font-size: 22px;
-  }
-  
-  .age-plus {
-    width: 20px;
-    height: 16px;
-    font-size: 14px;
+    width: 440px;
+    height: 2977px;
+    padding: 64px 20px;
+    gap: 64px;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
   }
 }

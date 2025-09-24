@@ -34,11 +34,25 @@
   backdrop-filter: blur(15px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 5px;
+  transition: all 0.3s ease;
   /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
   z-index: 0;
+}
+
+.betting-card:hover {
+  border: 1px solid;
+  border-image-source: linear-gradient(90deg, #0082FF 0%, #FF0000 100%);
+  border-image-slice: 1;
+  background: 
+    radial-gradient(30.42% 258.48% at 107.54% -92.58%, #FF0000 0%, rgba(255, 0, 0, 0) 100%),
+    radial-gradient(29.17% 247.89% at -10.59% -74.24%, #0C82F3 0%, rgba(12, 130, 243, 0) 100%),
+    linear-gradient(90deg, rgba(0, 130, 255, 0.4) 0%, rgba(255, 0, 0, 0.4) 100%),
+    rgba(0, 0, 0, 0.55);
+  background-blend-mode: screen, screen, screen, normal;
+  transform: translateY(-2px);
 }
 
 /* Frame 1000002551 */

@@ -18,8 +18,11 @@
 </head>
 <body>
     <div class="site-wrapper">
+        <!-- Header Section -->
+        <?php include 'header.php'; ?>
+        
         <div class="site-content">
-            <!-- Hero Section with Header -->
+            <!-- Hero Section with Cards -->
             <section class="hero-section">
                 <!-- Background Layers -->
                 <div class="hero-bg-blur"></div>
@@ -27,18 +30,12 @@
                 <div class="hero-fg-image"></div>
                 <div class="hero-bottom-gradient"></div>
                 
-                <!-- Header in Hero -->
-                <div class="hero-header-wrapper">
-                    <?php include 'header.php'; ?>
-                </div>
-                
                 <!-- Hero Content -->
                 <h1 class="hero-title">Bienvenue sur Mega Bet 3000</h1>
                 <p class="hero-subtitle">Votre Guide Ultime des Paris Sportifs Légaux en France</p>
-            </section>
-
-<!-- Betting Cards -->
-<section class="cards-container">
+                
+                <!-- Betting Cards -->
+                <div class="cards-container">
     <div class="betting-card">
         <div class="card-content">
             <div class="card-logo logo-unibet"></div>
@@ -233,10 +230,11 @@
             </a>
         </div>
     </div>
-                </section>
-                
-                <!-- Text Container Section -->
-                <section class="text-container">
+                </div>
+            </section>
+            
+            <!-- Text Container Section -->
+            <section class="text-container">
                     <div class="text-box">
                         <h2 class="text-title-hidden">Comprendre les Paris Sportifs en France</h2>
                         <h3 class="text-subtitle-hidden">Analyse Comparative des Différents Bookmakers</h3>

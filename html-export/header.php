@@ -25,3 +25,18 @@
         <span class="nav-text nav-text-nba">NBA</span>
     </a>
 </nav>
+
+<div class="header-links">
+    <a href="mentions-legales-conditions.php" class="header-link">
+        <span class="header-link-text">Mentions Légales</span>
+    </a>
+    <a href="politique-protection-donnees.php" class="header-link">
+        <span class="header-link-text">Protection des Données</span>
+    </a>
+    <a href="jeu-responsable-informations.php" class="header-link">
+        <span class="header-link-text">Jeu Responsable</span>
+    </a>
+    <a href="regulation-francaise-jeux-en-ligne.php" class="header-link">
+        <span class="header-link-text">Régulation Française</span>
+    </a>
+</div>

@@ -1,107 +1,116 @@
-/* Footer - Fixed Styles */
+/* Footer Desktop */
 
 .footer-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0;
-  gap: 28px;
-  width: 100%;
-  max-width: 1200px;
-  height: auto;
-  margin: 0 auto;
+  padding: 0px;
+  gap: 32px;
+  isolation: isolate;
   position: relative;
-  overflow: hidden;
+  width: 1440px;
+  height: 466.56px;
+  margin: 0 auto;
 }
 
-/* Background Basketball Images */
 .footer-bg-left {
   position: absolute;
-  width: 400px;
-  height: 400px;
-  left: -50px;
-  top: -100px;
-  background: url('../images/basketball.png');
+  width: 493.52px;
+  height: 493.52px;
+  left: 20px;
+  top: -44.76px;
+  background: url('../images/bascketball.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-blend-mode: screen;
   opacity: 0.25;
   transform: rotate(90deg);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
   z-index: 0;
 }
 
 .footer-bg-right {
   position: absolute;
-  width: 250px;
-  height: 250px;
-  right: -20px;
-  top: -50px;
-  background: url('../images/basketball.png');
+  width: 311px;
+  height: 311px;
+  right: 40px;
+  top: -13.5px;
+  background: url('../images/bascketball.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-blend-mode: screen;
   opacity: 0.25;
   transform: matrix(1, 0, 0, -1, 0, 0);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
   z-index: 1;
 }
 
-/* Footer Content */
 .footer-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0;
-  gap: 10px;
-  width: 100%;
-  max-width: 350px;
-  height: auto;
+  padding: 0px;
+  gap: 12px;
+  width: 408px;
+  height: 164px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
   z-index: 2;
-  position: relative;
 }
 
-/* Footer Logo Container */
 .footer-logo-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0;
-  gap: 8px;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  position: relative;
+  padding: 0px;
+  gap: 10px;
+  isolation: isolate;
+  width: 100px;
+  height: 100px;
+  border-radius: 11111px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .footer-logo {
-  width: 60px;
-  height: 64px;
-  background: url('../images/megabet-logo.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  position: absolute;
+  width: 75.43px;
+  height: 80px;
+  left: calc(50% - 75.43px/2 - 0px);
+  top: 14px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
   cursor: pointer;
-  transition: transform 0.3s ease;
 }
 
 .footer-logo:hover {
   transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
-/* Footer Navigation */
 .footer-nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0;
-  gap: 16px;
-  width: 100%;
-  max-width: 350px;
-  height: 44px;
-  justify-content: center;
+  padding: 0px;
+  gap: 20px;
+  width: 408px;
+  height: 52px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .footer-nav-button {
@@ -109,59 +118,57 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 8px 16px;
-  gap: 8px;
-  height: 44px;
+  padding: 10px 20px;
+  gap: 10px;
+  height: 52px;
   border-radius: 5px;
+  flex: none;
+  flex-grow: 0;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer-nav-button-home {
+  width: 120px;
+  order: 0;
+}
+
+.footer-nav-button-basketball {
+  width: 166px;
+  order: 1;
+}
+
+.footer-nav-button-nba {
+  width: 82px;
+  height: 48px;
+  order: 2;
+}
+
+.footer-disclaimer {
+  width: 1211.7px;
+  height: 35px;
   font-family: 'Saira';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  text-decoration: none;
-}
-
-.footer-nav-button:hover {
-  background: rgba(255, 255, 255, 0.1);
-  transform: translateY(-1px);
-}
-
-.footer-nav-button-home {
-  width: 100px;
-}
-
-.footer-nav-button-basketball {
-  width: 140px;
-}
-
-.footer-nav-button-nba {
-  width: 70px;
-  height: 40px;
-}
-
-/* Footer Disclaimer */
-.footer-disclaimer {
-  width: 100%;
-  max-width: 1000px;
-  font-family: 'Saira';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #FFFFFF;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
   z-index: 3;
-  position: relative;
-  padding: 0 16px;
 }
 
-/* Footer Links */
 .footer-links {
   display: flex;
   flex-direction: row;
@@ -169,13 +176,16 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding: 0;
-  gap: 10px;
-  width: 100%;
-  max-width: 1200px;
-  height: auto;
+  padding: 0px;
+  gap: 12px;
+  isolation: isolate;
+  width: 1440px;
+  height: 38px;
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;
   z-index: 4;
-  position: relative;
 }
 
 .footer-link {
@@ -183,17 +193,18 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 8px 16px;
-  gap: 8px;
-  height: 32px;
+  padding: 10px 20px;
+  gap: 10px;
+  height: 38px;
   border-radius: 5px;
+  flex: none;
+  flex-grow: 0;
   cursor: pointer;
   transition: all 0.3s ease;
-  text-decoration: none;
 }
 
 .footer-link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.5);
   transform: translateY(-2px);
 }
 
@@ -201,497 +212,198 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
-  line-height: 16px;
+  font-size: 12px;
+  line-height: 19px;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
-  white-space: nowrap;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-/* Legal Certifications */
+.footer-link-1 {
+  width: 248px;
+  order: 0;
+  z-index: 0;
+}
+
+.footer-link-2 {
+  width: 281px;
+  order: 1;
+  z-index: 1;
+}
+
+.footer-link-3 {
+  width: 285px;
+  order: 2;
+  z-index: 2;
+}
+
+.footer-link-4 {
+  width: 295px;
+  order: 3;
+  z-index: 3;
+}
+
 .legal-certifications {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0;
-  gap: 28px;
-  width: 100%;
-  max-width: 440px;
-  height: 60px;
+  padding: 0px;
+  gap: 33.66px;
+  width: 516.21px;
+  height: 69.56px;
+  flex: none;
+  order: 6;
+  flex-grow: 0;
   z-index: 6;
-  position: relative;
 }
 
-/* Age Restriction in Footer */
 .age-restriction-footer {
-  width: 60px;
-  height: 58px;
-  position: relative;
+  width: 72.79px;
+  height: 69.56px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .age-restriction-footer .age-circle {
   box-sizing: border-box;
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 58px;
-  height: 58px;
-  border: 4px solid #FF0000;
-  border-radius: 50%;
+  left: 0%;
+  right: 4.44%;
+  top: 0%;
+  bottom: 0%;
+  border: 6.15641px solid #FF0000;
 }
 
 .age-restriction-footer .age-number {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Saira Semi Condensed';
+  left: 22.41%;
+  right: 26.76%;
+  top: 31.19%;
+  bottom: 29.99%;
+  font-family: 'Saira SemiCondensed';
   font-style: normal;
   font-weight: 700;
-  font-size: 28px;
-  line-height: 1;
+  font-size: 38.6303px;
+  line-height: 61px;
   text-align: center;
   color: #FFFFFF;
 }
 
 .age-restriction-footer .age-plus {
-  position: absolute;
-  right: -6px;
-  top: 2px;
-  width: 22px;
-  height: 18px;
-  background: #FF0000;
-  border-radius: 11px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  font-family: 'Saira';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  color: #FFFFFF;
+  align-items: center;
+  padding: 15.391px;
+  gap: 15.39px;
+  position: absolute;
+  left: 68.28%;
+  right: -2.11%;
+  top: 2.98%;
+  bottom: 61.62%;
+  background: #FF0000;
+  border-radius: 1709.94px;
 }
 
 .age-restriction-footer .age-plus::after {
   content: '+';
+  width: 1px;
+  height: 14.79px;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.1061px;
+  line-height: 49px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
-/* Certification Logos */
 .cert-anj {
-  width: 60px;
-  height: 44px;
+  width: 69.47px;
+  height: 50.6px;
   background: url('../images/anj-logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  cursor: pointer;
-  transition: transform 0.3s ease;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .cert-gambleaware {
-  width: 160px;
-  height: 22px;
+  width: 192.57px;
+  height: 25.85px;
   background: url('../images/gambleaware-logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  cursor: pointer;
-  transition: transform 0.3s ease;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
 }
 
 .cert-sos {
-  width: 68px;
-  height: 42px;
+  width: 80.41px;
+  height: 50.05px;
   background: url('../images/sos-joueurs-logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.cert-logo {
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
-.cert-anj:hover,
-.cert-gambleaware:hover,
-.cert-sos:hover {
+.cert-logo:hover {
   transform: scale(1.1);
 }
 
-/* Footer Bottom Bar */
 .footer-bottom {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0;
-  gap: 8px;
-  width: 100vw;
-  height: 28px;
+  padding: 0px;
+  gap: 10px;
+  width: 1439px;
+  height: 32px;
   background: rgba(0, 0, 0, 0.5);
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  flex: none;
+  order: 7;
+  flex-grow: 0;
   z-index: 7;
 }
 
 .footer-bottom-text {
+  width: 1439px;
+  height: 16px;
   font-family: 'Saira';
   font-style: normal;
   font-weight: 400;
-  font-size: 9px;
-  line-height: 14px;
+  font-size: 10px;
+  line-height: 16px;
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #15ADFF;
   opacity: 0.9;
-  padding: 0 16px;
-}
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-  .footer-wrapper {
-    max-width: 95%;
-    gap: 24px;
-  }
-  
-  .footer-bg-left {
-    width: 350px;
-    height: 350px;
-    left: -40px;
-    top: -80px;
-  }
-  
-  .footer-bg-right {
-    width: 220px;
-    height: 220px;
-    right: -15px;
-    top: -40px;
-  }
-  
-  .footer-content {
-    max-width: 320px;
-  }
-  
-  .footer-nav {
-    max-width: 320px;
-    gap: 12px;
-    height: 38px;
-  }
-  
-  .footer-nav-button {
-    padding: 6px 12px;
-    height: 38px;
-    font-size: 14px;
-  }
-  
-  .footer-nav-button-home {
-    width: 85px;
-  }
-  
-  .footer-nav-button-basketball {
-    width: 120px;
-  }
-  
-  .footer-nav-button-nba {
-    width: 60px;
-  }
-  
-  .footer-disclaimer {
-    font-size: 12px;
-    line-height: 18px;
-  }
-  
-  .footer-links {
-    gap: 8px;
-  }
-  
-  .footer-link {
-    padding: 6px 12px;
-    height: 28px;
-  }
-  
-  .footer-link-text {
-    font-size: 9px;
-  }
-  
-  .legal-certifications {
-    gap: 24px;
-    max-width: 380px;
-    height: 50px;
-  }
-  
-  .age-restriction-footer {
-    width: 50px;
-    height: 48px;
-  }
-  
-  .age-restriction-footer .age-circle {
-    width: 48px;
-    height: 48px;
-    border: 3px solid #FF0000;
-  }
-  
-  .age-restriction-footer .age-number {
-    font-size: 24px;
-  }
-  
-  .age-restriction-footer .age-plus {
-    width: 18px;
-    height: 15px;
-    font-size: 12px;
-  }
-  
-  .cert-anj {
-    width: 50px;
-    height: 36px;
-  }
-  
-  .cert-gambleaware {
-    width: 140px;
-    height: 18px;
-  }
-  
-  .cert-sos {
-    width: 58px;
-    height: 36px;
-  }
-}
-
-@media (max-width: 768px) {
-  .footer-wrapper {
-    gap: 20px;
-    padding: 0 16px;
-  }
-  
-  .footer-bg-left {
-    width: 280px;
-    height: 280px;
-    left: -30px;
-    top: -60px;
-  }
-  
-  .footer-bg-right {
-    width: 180px;
-    height: 180px;
-    right: -10px;
-    top: -30px;
-  }
-  
-  .footer-content {
-    max-width: 280px;
-  }
-  
-  .footer-logo {
-    width: 50px;
-    height: 54px;
-  }
-  
-  .footer-nav {
-    max-width: 280px;
-    gap: 10px;
-    height: 32px;
-    flex-wrap: wrap;
-  }
-  
-  .footer-nav-button {
-    padding: 4px 10px;
-    height: 32px;
-    font-size: 12px;
-  }
-  
-  .footer-nav-button-home {
-    width: 75px;
-  }
-  
-  .footer-nav-button-basketball {
-    width: 100px;
-  }
-  
-  .footer-nav-button-nba {
-    width: 50px;
-  }
-  
-  .footer-disclaimer {
-    font-size: 11px;
-    line-height: 16px;
-  }
-  
-  .footer-links {
-    gap: 6px;
-    flex-wrap: wrap;
-  }
-  
-  .footer-link {
-    padding: 4px 8px;
-    height: 24px;
-  }
-  
-  .footer-link-text {
-    font-size: 8px;
-  }
-  
-  .legal-certifications {
-    gap: 20px;
-    max-width: 320px;
-    height: 45px;
-  }
-  
-  .age-restriction-footer {
-    width: 42px;
-    height: 40px;
-  }
-  
-  .age-restriction-footer .age-circle {
-    width: 40px;
-    height: 40px;
-    border: 2px solid #FF0000;
-  }
-  
-  .age-restriction-footer .age-number {
-    font-size: 20px;
-  }
-  
-  .age-restriction-footer .age-plus {
-    width: 16px;
-    height: 13px;
-    font-size: 10px;
-    right: -4px;
-  }
-  
-  .cert-anj {
-    width: 42px;
-    height: 30px;
-  }
-  
-  .cert-gambleaware {
-    width: 120px;
-    height: 15px;
-  }
-  
-  .cert-sos {
-    width: 48px;
-    height: 30px;
-  }
-}
-
-@media (max-width: 480px) {
-  .footer-wrapper {
-    gap: 16px;
-    padding: 0 12px;
-  }
-  
-  .footer-bg-left {
-    width: 200px;
-    height: 200px;
-    left: -20px;
-    top: -40px;
-  }
-  
-  .footer-bg-right {
-    width: 130px;
-    height: 130px;
-    right: -5px;
-    top: -20px;
-  }
-  
-  .footer-content {
-    max-width: 240px;
-  }
-  
-  .footer-logo {
-    width: 40px;
-    height: 44px;
-  }
-  
-  .footer-nav {
-    max-width: 240px;
-    gap: 8px;
-    height: 28px;
-  }
-  
-  .footer-nav-button {
-    padding: 2px 8px;
-    height: 28px;
-    font-size: 10px;
-  }
-  
-  .footer-nav-button-home {
-    width: 65px;
-  }
-  
-  .footer-nav-button-basketball {
-    width: 85px;
-  }
-  
-  .footer-nav-button-nba {
-    width: 42px;
-  }
-  
-  .footer-disclaimer {
-    font-size: 10px;
-    line-height: 14px;
-  }
-  
-  .footer-links {
-    gap: 4px;
-  }
-  
-  .footer-link {
-    padding: 3px 6px;
-    height: 20px;
-  }
-  
-  .footer-link-text {
-    font-size: 7px;
-    line-height: 10px;
-  }
-  
-  .legal-certifications {
-    gap: 16px;
-    max-width: 280px;
-    height: 40px;
-    flex-wrap: wrap;
-  }
-  
-  .age-restriction-footer {
-    width: 35px;
-    height: 33px;
-  }
-  
-  .age-restriction-footer .age-circle {
-    width: 33px;
-    height: 33px;
-  }
-  
-  .age-restriction-footer .age-number {
-    font-size: 16px;
-  }
-  
-  .age-restriction-footer .age-plus {
-    width: 13px;
-    height: 11px;
-    font-size: 8px;
-  }
-  
-  .cert-anj {
-    width: 35px;
-    height: 25px;
-  }
-  
-  .cert-gambleaware {
-    width: 100px;
-    height: 12px;
-  }
-  
-  .cert-sos {
-    width: 40px;
-    height: 25px;
-  }
-  
-  .footer-bottom-text {
-    font-size: 8px;
-    line-height: 12px;
-  }
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }

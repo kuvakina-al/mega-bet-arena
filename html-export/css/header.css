@@ -1,12 +1,23 @@
-/* Header Styles */
-
-.header-wrapper {
-  position: relative;
-  width: 100%;
-  z-index: 100;
+/* Frame 1000002705 - Header Container */
+.header-section {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0;
+  padding-right: 32px;
+  padding-bottom: 0;
+  padding-left: 32px;
+  gap: 12px;
+  isolation: isolate;
+  width: 1439px;
+  height: 124px;
+  left: 1px;
+  top: 0;
 }
 
-.header-top-bar {
+/* Frame 1000002708 - Warning Bar */
+.header-warning {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -16,13 +27,17 @@
   padding-bottom: 0;
   padding-left: 0;
   gap: 10px;
-  width: 100%;
+  width: 1439px;
   height: 32px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
 }
 
-.header-top-text {
-  width: 100%;
+.header-warning-text {
+  width: 1439px;
   height: 16px;
   font-family: 'Saira';
   font-style: normal;
@@ -34,8 +49,12 @@
   text-transform: uppercase;
   color: #FFFFFF;
   opacity: 0.9;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
+/* Header Main */
 .header-main {
   display: flex;
   flex-direction: row;
@@ -45,27 +64,103 @@
   padding-right: 20px;
   padding-bottom: 0;
   padding-left: 20px;
-  width: 100%;
+  gap: 858px;
+  isolation: isolate;
+  width: 1375px;
   height: 80px;
-  position: relative;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 1;
 }
 
+/* Logo */
 .header-logo {
   width: 75.43px;
   height: 80px;
-  cursor: pointer;
+  background: url('../images/megabet logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
 }
 
-.header-logo:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
+/* 18+ Badge */
+.header-age-restriction {
+  width: 66.97px;
+  height: 64px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 1;
+  position: relative;
 }
 
-.header-nav {
+.header-age-circle {
+  box-sizing: border-box;
   position: absolute;
-  left: 50%;
-  top: 14px;
-  transform: translateX(-50%);
+  left: 0%;
+  right: 4.44%;
+  top: 0%;
+  bottom: 0%;
+  border: 5.66424px solid #FF0000;
+  border-radius: 50%;
+}
+
+.header-age-number {
+  position: absolute;
+  left: 20.91%;
+  right: 28.32%;
+  top: 31.19%;
+  bottom: 31.31%;
+  font-family: 'Saira SemiCondensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35.542px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.header-age-plus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 14.1606px;
+  padding-right: 14.1606px;
+  padding-bottom: 14.1606px;
+  padding-left: 14.1606px;
+  gap: 14.16px;
+  position: absolute;
+  left: 68.28%;
+  right: -2.11%;
+  top: 2.98%;
+  bottom: 61.62%;
+  background: #FF0000;
+  border-radius: 1573.24px;
+  width: 1px;
+  height: 13.61px;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.6193px;
+  line-height: 45px;
+  color: #FFFFFF;
+  align-items: flex-end;
+  text-align: center;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Frame 1000002704 - Navigation */
+.header-navigation {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -74,10 +169,18 @@
   padding-bottom: 0;
   padding-left: 0;
   gap: 20px;
+  position: absolute;
   width: 408px;
   height: 52px;
+  left: calc(50% - 408px/2);
+  top: 14px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
 }
 
+/* Menu Buttons - Active State */
 .nav-button {
   box-sizing: border-box;
   display: flex;
@@ -90,48 +193,40 @@
   padding-left: 20px;
   gap: 10px;
   height: 52px;
-  border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.nav-button-home {
-  width: 120px;
-  background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), 
-              radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), 
-              rgba(255, 255, 255, 0.1);
-  background-blend-mode: screen, screen, overlay;
-}
-
-.nav-button-basketball {
-  width: 166px;
-  background: rgba(255, 255, 255, 0.3);
-  background-blend-mode: overlay;
-}
-
-.nav-button-nba {
-  width: 82px;
-  background: transparent;
-}
-
-.nav-button:hover {
-  background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.5) 0%, rgba(12, 130, 243, 0) 100%), 
-              radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.5) 0%, rgba(255, 0, 3, 0) 100%), 
-              rgba(255, 255, 255, 0.2);
-  background-blend-mode: screen, screen, overlay;
-  transform: translateY(-2px);
+  text-decoration: none;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  flex: none;
+  flex-grow: 0;
 }
 
 .nav-button.active {
-  background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), 
-              radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), 
-              rgba(255, 255, 255, 0.1);
+  width: 120px;
+  background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), rgba(255, 255, 255, 0.1);
   background-blend-mode: screen, screen, overlay;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  font-weight: 600;
+  order: 0;
 }
 
-.nav-button.active .nav-text {
-  font-weight: 600;
+.nav-button.basketball {
+  width: 166px;
+  background: rgba(255, 255, 255, 0.3);
+  background-blend-mode: overlay;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  order: 1;
+}
+
+.nav-button.nba {
+  width: 82px;
+  order: 2;
 }
 
 .nav-text {
@@ -145,9 +240,12 @@
   color: #FFFFFF;
 }
 
+.nav-text.active {
+  font-weight: 600;
+}
+
 .nav-text-home {
   width: 80px;
-  font-weight: 600;
 }
 
 .nav-text-basketball {
@@ -156,40 +254,4 @@
 
 .nav-text-nba {
   width: 42px;
-}
-
-/* Mobile Menu Toggle */
-.mobile-menu-toggle {
-  display: none;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 30px;
-  height: 30px;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-}
-
-.mobile-menu-line {
-  width: 30px;
-  height: 3px;
-  background-color: #FFFFFF;
-  border-radius: 3px;
-  transition: all 0.3s linear;
-}
-
-.mobile-menu-toggle.open .mobile-menu-line:nth-child(1) {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.mobile-menu-toggle.open .mobile-menu-line:nth-child(2) {
-  opacity: 0;
-}
-
-.mobile-menu-toggle.open .mobile-menu-line:nth-child(3) {
-  transform: rotate(45deg) translate(-5px, -6px);
 }

@@ -67,31 +67,38 @@ img {
   flex: 1;
 }
 
-/* Hero Section */
+/* Frame 1000002714 - Hero Container */
 .hero-section {
-  position: relative;
-  width: 100%;
-  height: 828px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-/* Cards Container - positioned within hero */
-.cards-container {
-  position: absolute;
-  bottom: -200px; /* Overlap into text section */
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0;
+  width: 1440px;
+  height: 992px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  position: relative;
+}
+
+/* Frame 1000002716 - Cards Container */
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
   gap: 20px;
+  isolation: isolate;
   width: 1112px;
-  z-index: 10;
+  height: 400px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* Age Restriction Badge */
@@ -142,17 +149,16 @@ img {
   color: #FFFFFF;
 }
 
-/* Text Container - with padding for overlapping cards */
+/* Text Container */
 .text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 264px 164px 64px 164px; /* Extra top padding for cards */
+  padding: 64px 164px;
   gap: 64px;
   width: 1440px;
-  min-height: 1493px;
-  background: #010D1D;
+  height: 1493px;
   flex: none;
   order: 1;
   align-self: stretch;
@@ -166,8 +172,7 @@ img {
   height: 960px;
   left: calc(50% - 1440px/2 - 0.38px);
   top: -189.77px;
-  background: url('../images/hero backgorund.png');
-  filter: blur(3.5px);
+  background: url('../images/hero background.png');
 }
 
 /* Rectangle 40018 - Gradient Overlay */

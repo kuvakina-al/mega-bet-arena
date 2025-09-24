@@ -17,12 +17,9 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <div class="site-wrapper">
-        <!-- Header Section -->
-        <?php include 'header.php'; ?>
-        
+    <div class="site-wrapper">        
         <div class="site-content">
-            <!-- Hero Section with Cards -->
+            <!-- Hero Section with Header, Background and Cards -->
             <section class="hero-section">
                 <!-- Background Layers -->
                 <div class="hero-bg-blur"></div>
@@ -30,11 +27,14 @@
                 <div class="hero-fg-image"></div>
                 <div class="hero-bottom-gradient"></div>
                 
+                <!-- Header in Hero -->
+                <?php include 'header.php'; ?>
+                
                 <!-- Hero Content -->
                 <h1 class="hero-title">Bienvenue sur Mega Bet 3000</h1>
                 <p class="hero-subtitle">Votre Guide Ultime des Paris Sportifs Légaux en France</p>
                 
-                <!-- Betting Cards -->
+                <!-- Betting Cards at end of hero -->
                 <div class="cards-container">
     <div class="betting-card">
         <div class="card-content">

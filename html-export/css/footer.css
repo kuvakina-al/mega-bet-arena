@@ -20,7 +20,10 @@
   height: 493.52px;
   left: 20px;
   top: -44.76px;
-  background: url('../images/footer-bg-1.png');
+  background: url('../images/bascketball.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   background-blend-mode: screen;
   opacity: 0.25;
   transform: rotate(90deg);
@@ -36,7 +39,10 @@
   height: 311px;
   right: 40px;
   top: -13.5px;
-  background: url('../images/footer-bg-2.png');
+  background: url('../images/bascketball.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   background-blend-mode: screen;
   opacity: 0.25;
   transform: matrix(1, 0, 0, -1, 0, 0);

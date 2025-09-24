@@ -62,36 +62,22 @@
             
             <div class="payment-methods">
                 <div class="payment-icon">
-                    <svg width="26" height="15" viewBox="0 0 26 15" fill="white">
-                        <path d="M8.5 2h9v11h-9z"/>
-                        <path d="M1 2h7v11H1z"/>
-                        <path d="M18 2h7v11h-7z"/>
-                    </svg>
+                    <img src="images/mastercard logo.png" alt="Mastercard" />
                 </div>
                 <div class="payment-icon">
-                    <svg width="34" height="10" viewBox="0 0 34 10" fill="white">
-                        <path d="M0 2h34v6H0z"/>
-                    </svg>
+                    <img src="images/visa logo.png" alt="Visa" />
                 </div>
                 <div class="payment-icon">
-                    <svg width="43" height="7" viewBox="0 0 43 7" fill="white">
-                        <path d="M0 0h43v7H0z"/>
-                    </svg>
+                    <img src="images/neteller logo.png" alt="Neteller" />
                 </div>
                 <div class="payment-icon">
-                    <svg width="41" height="11" viewBox="0 0 41 11" fill="white">
-                        <path d="M0 0h41v11H0z"/>
-                    </svg>
+                    <img src="images/paypal logo.png" alt="PayPal" />
                 </div>
                 <div class="payment-icon">
-                    <svg width="35" height="12" viewBox="0 0 35 12" fill="white">
-                        <path d="M0 0h35v12H0z"/>
-                    </svg>
+                    <img src="images/skrill logo.png" alt="Skrill" />
                 </div>
                 <div class="payment-icon">
-                    <svg width="35" height="14" viewBox="0 0 35 14" fill="white">
-                        <path d="M0 0h35v14H0z"/>
-                    </svg>
+                    <img src="images/apple pay logo.png" alt="Apple Pay" />
                 </div>
             </div>
             
@@ -127,36 +113,22 @@
             
             <div class="payment-methods">
                 <div class="payment-icon">
-                    <svg width="26" height="15" viewBox="0 0 26 15" fill="white">
-                        <path d="M8.5 2h9v11h-9z"/>
-                        <path d="M1 2h7v11H1z"/>
-                        <path d="M18 2h7v11h-7z"/>
-                    </svg>
+                    <img src="images/mastercard logo.png" alt="Mastercard" />
                 </div>
                 <div class="payment-icon">
-                    <svg width="34" height="10" viewBox="0 0 34 10" fill="white">
-                        <path d="M0 2h34v6H0z"/>
-                    </svg>
+                    <img src="images/visa logo.png" alt="Visa" />
                 </div>
                 <div class="payment-icon">
-                    <svg width="43" height="7" viewBox="0 0 43 7" fill="white">
-                        <path d="M0 0h43v7H0z"/>
-                    </svg>
+                    <img src="images/neteller logo.png" alt="Neteller" />
                 </div>
                 <div class="payment-icon">
-                    <svg width="41" height="11" viewBox="0 0 41 11" fill="white">
-                        <path d="M0 0h41v11H0z"/>
-                    </svg>
+                    <img src="images/paypal logo.png" alt="PayPal" />
                 </div>
                 <div class="payment-icon">
-                    <svg width="35" height="12" viewBox="0 0 35 12" fill="white">
-                        <path d="M0 0h35v12H0z"/>
-                    </svg>
+                    <img src="images/skrill logo.png" alt="Skrill" />
                 </div>
                 <div class="payment-icon">
-                    <svg width="35" height="14" viewBox="0 0 35 14" fill="white">
-                        <path d="M0 0h35v14H0z"/>
-                    </svg>
+                    <img src="images/apple pay logo.png" alt="Apple Pay" />
                 </div>
             </div>
             
@@ -192,36 +164,22 @@
             
             <div class="payment-methods">
                 <div class="payment-icon">
-                    <svg width="26" height="15" viewBox="0 0 26 15" fill="white">
-                        <path d="M8.5 2h9v11h-9z"/>
-                        <path d="M1 2h7v11H1z"/>
-                        <path d="M18 2h7v11h-7z"/>
-                    </svg>
+                    <img src="images/mastercard logo.png" alt="Mastercard" />
                 </div>
                 <div class="payment-icon">
-                    <svg width="34" height="10" viewBox="0 0 34 10" fill="white">
-                        <path d="M0 2h34v6H0z"/>
-                    </svg>
+                    <img src="images/visa logo.png" alt="Visa" />
                 </div>
                 <div class="payment-icon">
-                    <svg width="43" height="7" viewBox="0 0 43 7" fill="white">
-                        <path d="M0 0h43v7H0z"/>
-                    </svg>
+                    <img src="images/neteller logo.png" alt="Neteller" />
                 </div>
                 <div class="payment-icon">
-                    <svg width="41" height="11" viewBox="0 0 41 11" fill="white">
-                        <path d="M0 0h41v11H0z"/>
-                    </svg>
+                    <img src="images/paypal logo.png" alt="PayPal" />
                 </div>
                 <div class="payment-icon">
-                    <svg width="35" height="12" viewBox="0 0 35 12" fill="white">
-                        <path d="M0 0h35v12H0z"/>
-                    </svg>
+                    <img src="images/skrill logo.png" alt="Skrill" />
                 </div>
                 <div class="payment-icon">
-                    <svg width="35" height="14" viewBox="0 0 35 14" fill="white">
-                        <path d="M0 0h35v14H0z"/>
-                    </svg>
+                    <img src="images/apple pay logo.png" alt="Apple Pay" />
                 </div>
             </div>
             

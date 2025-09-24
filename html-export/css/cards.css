@@ -1,0 +1,293 @@
+/* Betting Cards Styles */
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+
+.betting-card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-right: 28px;
+  padding-bottom: 0;
+  padding-left: 28px;
+  gap: 10px;
+  width: 100%;
+  max-width: 1112px;
+  height: 120px;
+  background: radial-gradient(30.42% 258.48% at 107.54% -92.58%, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%), 
+              radial-gradient(29.17% 247.89% at -10.59% -74.24%, rgba(12, 130, 243, 0.5) 0%, rgba(12, 130, 243, 0) 100%), 
+              linear-gradient(90deg, rgba(0, 130, 255, 0.1) 0%, rgba(255, 0, 0, 0.1) 100%), 
+              rgba(0, 0, 0, 0.55);
+  background-blend-mode: screen, screen, normal, normal;
+  backdrop-filter: blur(15px);
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.betting-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(255, 0, 0, 0.3);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  gap: 32px;
+  width: 100%;
+  max-width: 1056px;
+  height: 64.95px;
+}
+
+.card-logo {
+  width: 112.93px;
+  height: 59.69px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logo-unibet {
+  background-image: url('../images/unibet-logo.png');
+}
+
+.logo-pmu {
+  background-image: url('../images/pmu-logo.png');
+}
+
+.logo-netbet {
+  background-image: url('../images/netbet-logo.png');
+}
+
+.card-bonus {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  gap: 16px;
+  width: 260px;
+  height: 57px;
+}
+
+.bonus-amount {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  gap: 8px;
+  width: 233px;
+  height: 30px;
+}
+
+.bonus-number {
+  font-family: 'Saira Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #FF0004;
+  text-shadow: 0px 0px 20px rgba(255, 0, 4, 0.5);
+}
+
+.bonus-text {
+  font-family: 'Saira Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.bonus-description {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.card-rating {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  gap: 12px;
+  width: 197px;
+  height: 62px;
+  background-color: rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+}
+
+.rating-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  gap: 12px;
+  width: 173px;
+  height: 38px;
+}
+
+.rating-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  gap: 10px;
+  width: 100%;
+  height: 10px;
+}
+
+.rating-label {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.rating-percentage {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.rating-bar {
+  position: relative;
+  width: 173px;
+  height: 16px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.rating-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #00FF95;
+  background-blend-mode: plus-lighter, normal;
+  border-radius: 4px;
+}
+
+.payment-methods {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-start;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  gap: 4px;
+  width: 172.57px;
+  height: 64.95px;
+}
+
+.payment-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7.62px;
+  width: 54.86px;
+  height: 30.48px;
+  background-color: rgba(255, 255, 255, 0.09);
+  border-radius: 3.81px;
+}
+
+.payment-icon img {
+  max-width: 80%;
+  max-height: 80%;
+  filter: brightness(0) invert(1);
+}
+
+.card-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  gap: 20px;
+  width: 165px;
+  height: 64px;
+  background: linear-gradient(90deg, #E96500 0%, #E99F00 100%);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card-button:hover {
+  background: linear-gradient(90deg, #FF7700 0%, #FFB100 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(233, 101, 0, 0.4);
+}
+
+.card-button-text {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}

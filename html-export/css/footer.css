@@ -1,0 +1,321 @@
+/* Footer Styles */
+
+.footer-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  gap: 32px;
+  width: 100%;
+  height: 466.56px;
+  background-image: url('../images/bg-hero.png'), url('../images/bg-overlay.png');
+  background-size: cover, cover;
+  background-position: center center, center center;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.footer-bg-left {
+  position: absolute;
+  width: 493.52px;
+  height: 493.52px;
+  left: 20px;
+  top: -44.76px;
+  background-image: url('../images/footer-bg-1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: screen;
+  opacity: 0.25;
+  transform: rotate(90deg);
+  z-index: 0;
+}
+
+.footer-bg-right {
+  position: absolute;
+  width: 311px;
+  height: 311px;
+  right: 40px;
+  top: -13.5px;
+  background-image: url('../images/footer-bg-2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: screen;
+  opacity: 0.25;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  z-index: 1;
+}
+
+.footer-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  gap: 12px;
+  width: 408px;
+  height: 164px;
+}
+
+.footer-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  gap: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.footer-logo {
+  width: 75.43px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.footer-logo:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  gap: 20px;
+  width: 408px;
+  height: 52px;
+}
+
+.footer-nav-button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  gap: 10px;
+  height: 52px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer-nav-button-home {
+  width: 120px;
+  background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), 
+              radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), 
+              rgba(255, 255, 255, 0.1);
+  background-blend-mode: screen, screen, overlay;
+}
+
+.footer-nav-button-basketball {
+  width: 166px;
+  background: transparent;
+}
+
+.footer-nav-button-nba {
+  width: 82px;
+  background: transparent;
+}
+
+.footer-nav-button:hover {
+  background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.5) 0%, rgba(12, 130, 243, 0) 100%), 
+              radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.5) 0%, rgba(255, 0, 3, 0) 100%), 
+              rgba(255, 255, 255, 0.2);
+  background-blend-mode: screen, screen, overlay;
+}
+
+.footer-disclaimer {
+  position: relative;
+  z-index: 3;
+  width: 1211.7px;
+  max-width: 90%;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+}
+
+.footer-links {
+  position: relative;
+  z-index: 4;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  gap: 12px;
+  width: 100%;
+  height: 38px;
+}
+
+.footer-link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  gap: 10px;
+  height: 38px;
+  background-color: rgba(255, 255, 255, 0.3);
+  background-blend-mode: overlay;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.footer-link-text {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.legal-certifications {
+  position: relative;
+  z-index: 6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  gap: 33.66px;
+  width: 516.21px;
+  height: 69.56px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+}
+
+.age-restriction-footer {
+  width: 72.79px;
+  height: 69.56px;
+}
+
+.certification-logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.cert-logo {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.cert-logo:hover {
+  transform: scale(1.1);
+}
+
+.cert-anj {
+  width: 69.47px;
+  height: 50.6px;
+  background-image: url('../images/anj-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cert-gambleaware {
+  width: 192.57px;
+  height: 25.85px;
+  background-image: url('../images/gambleaware-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cert-sos {
+  width: 80.41px;
+  height: 50.05px;
+  background-image: url('../images/sos-joueurs-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-bottom {
+  position: relative;
+  z-index: 7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  gap: 10px;
+  width: 100%;
+  height: 32px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-bottom-text {
+  width: 100%;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #15ADFF;
+  opacity: 0.9;
+}

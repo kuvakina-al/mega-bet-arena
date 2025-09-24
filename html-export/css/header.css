@@ -20,10 +20,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  padding: 0px;
   gap: 10px;
   width: 1439px;
   height: 32px;
@@ -31,7 +28,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  z-index: 0;
+  z-index: 100;
 }
 
 .header-warning-text {
@@ -221,17 +218,14 @@
   letter-spacing: 0.02em;
 }
 
-/* Menu Buttons - Active State */
+/* Menu Buttons - States */
 .nav-button {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 10px;
-  padding-right: 20px;
-  padding-bottom: 10px;
-  padding-left: 20px;
+  padding: 10px 20px;
   gap: 10px;
   height: 52px;
   border-radius: 5px;
@@ -246,6 +240,15 @@
   color: #FFFFFF;
   flex: none;
   flex-grow: 0;
+  background: transparent;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  background-blend-mode: overlay;
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .nav-button.active {
@@ -259,15 +262,20 @@
 
 .nav-button.basketball {
   width: 166px;
-  background: rgba(255, 255, 255, 0.3);
-  background-blend-mode: overlay;
-  border: 1px solid rgba(255, 255, 255, 0.4);
   order: 1;
+}
+
+.nav-button.basketball.active {
+  width: 166px;
 }
 
 .nav-button.nba {
   width: 82px;
   order: 2;
+}
+
+.nav-button.nba.active {
+  width: 82px;
 }
 
 .nav-text {

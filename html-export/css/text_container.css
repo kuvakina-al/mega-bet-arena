@@ -1,216 +1,155 @@
-/* Text Container Styles for Legal Pages */
-
+/* Início TEXT - Main Text Container */
 .text-container {
-  max-width: 1200px;
-  margin-top: 40px;
-  margin-right: auto;
-  margin-bottom: 40px;
-  margin-left: auto;
-  padding-top: 0;
-  padding-right: 40px;
-  padding-bottom: 0;
-  padding-left: 40px;
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 10px;
-  backdrop-filter: blur(10px);
-}
-
-.text-container-inner {
-  padding-top: 40px;
-  padding-right: 0;
-  padding-bottom: 40px;
-  padding-left: 0;
-}
-
-.text-container h1 {
-  font-family: 'Saira Condensed';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 120%;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 30px;
-  margin-left: 0;
-  text-align: center;
-}
-
-.text-container h2 {
-  font-family: 'Saira Condensed';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 120%;
-  text-transform: uppercase;
-  color: #FF0004;
-  margin-top: 40px;
-  margin-right: 0;
-  margin-bottom: 20px;
-  margin-left: 0;
-  text-shadow: 0px 0px 20px rgba(255, 0, 4, 0.5);
-}
-
-.text-container h3 {
-  font-family: 'Saira Condensed';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 120%;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin-top: 30px;
-  margin-right: 0;
-  margin-bottom: 15px;
-  margin-left: 0;
-}
-
-.text-container h4 {
-  font-family: 'Saira';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 120%;
-  text-transform: uppercase;
-  color: #15ADFF;
-  margin-top: 25px;
-  margin-right: 0;
-  margin-bottom: 12px;
-  margin-left: 0;
-}
-
-.text-container p {
-  font-family: 'Saira';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 150%;
-  color: #FFFFFF;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 20px;
-  margin-left: 0;
-  text-align: justify;
-}
-
-.text-container ul {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-}
-
-.text-container li {
-  font-family: 'Saira';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 150%;
-  color: #FFFFFF;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 10px;
-  margin-left: 0;
-}
-
-.text-container ol {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-}
-
-.text-container strong {
-  font-weight: 700;
-  color: #15ADFF;
-}
-
-.text-container em {
-  font-style: italic;
-  color: #FF0004;
-}
-
-.highlight-box {
-  background-color: rgba(255, 0, 4, 0.1);
-  border-left: 4px solid #FF0004;
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  margin-top: 30px;
-  margin-right: 0;
-  margin-bottom: 30px;
-  margin-left: 0;
-  border-radius: 5px;
-}
-
-.info-box {
-  background-color: rgba(21, 173, 255, 0.1);
-  border-left: 4px solid #15ADFF;
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  margin-top: 30px;
-  margin-right: 0;
-  margin-bottom: 30px;
-  margin-left: 0;
-  border-radius: 5px;
-}
-
-.contact-info {
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 10px;
-  padding-top: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
-  margin-top: 40px;
-  margin-right: 0;
-  margin-bottom: 40px;
-  margin-left: 0;
-  text-align: center;
-}
-
-.contact-info h3 {
-  color: #15ADFF;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 20px;
-  margin-left: 0;
-}
-
-.phone-numbers {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  margin-top: 20px;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
+  justify-content: center;
+  align-items: center;
+  padding-top: 64px;
+  padding-right: 164px;
+  padding-bottom: 64px;
+  padding-left: 164px;
+  gap: 64px;
+  width: 1440px;
+  height: 1493px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
-.phone-number {
+/* Text Box - Individual text sections */
+.text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  gap: 24px;
+  width: 1112px;
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.text-box:nth-child(1) {
+  height: 126px;
+  order: 0;
+}
+
+.text-box:nth-child(2) {
+  height: 113px;
+  order: 1;
+}
+
+.text-box:nth-child(3) {
+  height: 113px;
+  order: 2;
+}
+
+.text-box:nth-child(4) {
+  height: 113px;
+  order: 3;
+}
+
+.text-box:nth-child(5) {
+  height: 113px;
+  order: 4;
+}
+
+.text-box:nth-child(6) {
+  height: 85px;
+  order: 5;
+}
+
+.text-box:nth-child(7) {
+  height: 113px;
+  order: 6;
+}
+
+.text-box:nth-child(8) {
+  height: 141px;
+  order: 7;
+}
+
+/* Hidden Title */
+.text-title-hidden {
+  display: none;
+  width: 1168px;
+  height: 19px;
   font-family: 'Saira';
   font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 120%;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
   color: #FFFFFF;
-  text-align: center;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
-.phone-country {
-  font-size: 16px;
-  color: #15ADFF;
+/* Hidden Subtitle */
+.text-subtitle-hidden {
+  display: none;
+  width: 1168px;
+  height: 14px;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #FFFFFF;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Main Title */
+.text-title {
+  width: 1112px;
+  height: 19px;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Content Text */
+.text-content {
+  width: 1112px;
+  font-family: 'Saira';
+  font-style: normal;
   font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #4B73CF;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.text-content.first {
+  height: 126px;
+}
+
+.text-content.standard {
+  height: 70px;
+}
+
+.text-content.short {
+  height: 42px;
+}
+
+.text-content.long {
+  height: 98px;
 }

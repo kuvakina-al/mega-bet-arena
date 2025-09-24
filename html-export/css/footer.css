@@ -1,22 +1,17 @@
-/* Footer Styles */
+/* Footer Desktop */
 
 .footer-wrapper {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  padding: 0px;
   gap: 32px;
-  width: 100%;
+  isolation: isolate;
+  position: relative;
+  width: 1440px;
   height: 466.56px;
-  background-image: url('../images/bg-hero.png'), url('../images/bg-overlay.png');
-  background-size: cover, cover;
-  background-position: center center, center center;
-  background-repeat: no-repeat, no-repeat;
+  margin: 0 auto;
 }
 
 .footer-bg-left {
@@ -25,13 +20,13 @@
   height: 493.52px;
   left: 20px;
   top: -44.76px;
-  background-image: url('../images/footer-bg-1.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url('../images/footer-bg-1.png');
   background-blend-mode: screen;
   opacity: 0.25;
   transform: rotate(90deg);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
   z-index: 0;
 }
 
@@ -41,29 +36,28 @@
   height: 311px;
   right: 40px;
   top: -13.5px;
-  background-image: url('../images/footer-bg-2.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url('../images/footer-bg-2.png');
   background-blend-mode: screen;
   opacity: 0.25;
   transform: matrix(1, 0, 0, -1, 0, 0);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
   z-index: 1;
 }
 
 .footer-content {
-  position: relative;
-  z-index: 2;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  padding: 0px;
   gap: 12px;
   width: 408px;
   height: 164px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
 }
 
 .footer-logo-container {
@@ -71,19 +65,27 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  padding: 0px;
   gap: 10px;
+  isolation: isolate;
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  border-radius: 11111px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .footer-logo {
+  position: absolute;
   width: 75.43px;
   height: 80px;
+  left: calc(50% - 75.43px/2 - 0px);
+  top: 14px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
   cursor: pointer;
 }
 
@@ -96,63 +98,57 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  padding: 0px;
   gap: 20px;
   width: 408px;
   height: 52px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .footer-nav-button {
-  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 10px;
-  padding-right: 20px;
-  padding-bottom: 10px;
-  padding-left: 20px;
+  padding: 10px 20px;
   gap: 10px;
   height: 52px;
-  border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: 5px;
+  flex: none;
+  flex-grow: 0;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .footer-nav-button-home {
   width: 120px;
-  background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), 
-              radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), 
-              rgba(255, 255, 255, 0.1);
-  background-blend-mode: screen, screen, overlay;
+  order: 0;
 }
 
 .footer-nav-button-basketball {
   width: 166px;
-  background: transparent;
+  order: 1;
 }
 
 .footer-nav-button-nba {
   width: 82px;
-  background: transparent;
-}
-
-.footer-nav-button:hover {
-  background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.5) 0%, rgba(12, 130, 243, 0) 100%), 
-              radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.5) 0%, rgba(255, 0, 3, 0) 100%), 
-              rgba(255, 255, 255, 0.2);
-  background-blend-mode: screen, screen, overlay;
+  height: 48px;
+  order: 2;
 }
 
 .footer-disclaimer {
-  position: relative;
-  z-index: 3;
   width: 1211.7px;
-  max-width: 90%;
+  height: 35px;
   font-family: 'Saira';
   font-style: normal;
   font-weight: 400;
@@ -161,46 +157,42 @@
   text-align: center;
   letter-spacing: 0.02em;
   color: #FFFFFF;
-  margin-top: 20px;
-  margin-right: auto;
-  margin-bottom: 20px;
-  margin-left: auto;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  z-index: 3;
 }
 
 .footer-links {
-  position: relative;
-  z-index: 4;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  padding: 0px;
   gap: 12px;
-  width: 100%;
+  isolation: isolate;
+  width: 1440px;
   height: 38px;
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 4;
 }
 
 .footer-link {
-  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 10px;
-  padding-right: 20px;
-  padding-bottom: 10px;
-  padding-left: 20px;
+  padding: 10px 20px;
   gap: 10px;
   height: 38px;
-  background-color: rgba(255, 255, 255, 0.3);
-  background-blend-mode: overlay;
-  border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: 5px;
+  flex: none;
+  flex-grow: 0;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -219,38 +211,152 @@
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.footer-link-1 {
+  width: 248px;
+  order: 0;
+  z-index: 0;
+}
+
+.footer-link-2 {
+  width: 281px;
+  order: 1;
+  z-index: 1;
+}
+
+.footer-link-3 {
+  width: 285px;
+  order: 2;
+  z-index: 2;
+}
+
+.footer-link-4 {
+  width: 295px;
+  order: 3;
+  z-index: 3;
 }
 
 .legal-certifications {
-  position: relative;
-  z-index: 6;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  padding: 0px;
   gap: 33.66px;
   width: 516.21px;
   height: 69.56px;
-  margin-top: 20px;
-  margin-right: auto;
-  margin-bottom: 20px;
-  margin-left: auto;
+  flex: none;
+  order: 6;
+  flex-grow: 0;
+  z-index: 6;
 }
 
 .age-restriction-footer {
   width: 72.79px;
   height: 69.56px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.certification-logos {
+.age-restriction-footer .age-circle {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0%;
+  right: 4.44%;
+  top: 0%;
+  bottom: 0%;
+  border: 6.15641px solid #FF0000;
+}
+
+.age-restriction-footer .age-number {
+  position: absolute;
+  left: 22.41%;
+  right: 26.76%;
+  top: 31.19%;
+  bottom: 29.99%;
+  font-family: 'Saira SemiCondensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38.6303px;
+  line-height: 61px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.age-restriction-footer .age-plus {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 20px;
+  padding: 15.391px;
+  gap: 15.39px;
+  position: absolute;
+  left: 68.28%;
+  right: -2.11%;
+  top: 2.98%;
+  bottom: 61.62%;
+  background: #FF0000;
+  border-radius: 1709.94px;
+}
+
+.age-restriction-footer .age-plus::after {
+  content: '+';
+  width: 1px;
+  height: 14.79px;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.1061px;
+  line-height: 49px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.cert-anj {
+  width: 69.47px;
+  height: 50.6px;
+  background: url('../images/anj-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.cert-gambleaware {
+  width: 192.57px;
+  height: 25.85px;
+  background: url('../images/gambleaware-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.cert-sos {
+  width: 80.41px;
+  height: 50.05px;
+  background: url('../images/sos-joueurs-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
 }
 
 .cert-logo {
@@ -262,52 +368,25 @@
   transform: scale(1.1);
 }
 
-.cert-anj {
-  width: 69.47px;
-  height: 50.6px;
-  background-image: url('../images/anj-logo.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.cert-gambleaware {
-  width: 192.57px;
-  height: 25.85px;
-  background-image: url('../images/gambleaware-logo.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.cert-sos {
-  width: 80.41px;
-  height: 50.05px;
-  background-image: url('../images/sos-joueurs-logo.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .footer-bottom {
-  position: relative;
-  z-index: 7;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  padding: 0px;
   gap: 10px;
-  width: 100%;
+  width: 1439px;
   height: 32px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
+  flex: none;
+  order: 7;
+  flex-grow: 0;
+  z-index: 7;
 }
 
 .footer-bottom-text {
-  width: 100%;
+  width: 1439px;
+  height: 16px;
   font-family: 'Saira';
   font-style: normal;
   font-weight: 400;
@@ -318,4 +397,7 @@
   text-transform: uppercase;
   color: #15ADFF;
   opacity: 0.9;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }

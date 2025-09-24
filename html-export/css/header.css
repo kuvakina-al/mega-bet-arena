@@ -3,10 +3,6 @@
 .header-wrapper {
   position: relative;
   width: 100%;
-  background-image: url('../images/bg-hero.png'), url('../images/bg-overlay.png');
-  background-size: cover, cover;
-  background-position: center center, center center;
-  background-repeat: no-repeat, no-repeat;
   z-index: 100;
 }
 

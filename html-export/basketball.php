@@ -1,16 +1,41 @@
-<?php
-$page_title = 'Pariez sur le Basketball avec Élégance | Mega Bet 3000';
-$page_description = 'Découvrez l\'art de parier sur le basketball avec Mega Bet 3000. Conseils d\'experts, comparatifs exclusifs et paris responsables. Entrez dans le jeu.';
-include 'header.php';
-?>
-
-<!-- Hero Section -->
-<section class="hero-section">
-    <div class="hero-content">
-        <h1>Paris Basketball</h1>
-        <p>Découvrez les meilleures cotes et stratégies pour le basketball</p>
-    </div>
-</section>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pariez sur le Basketball avec Élégance | Mega Bet 3000</title>
+    <meta name="description" content="Découvrez l'art de parier sur le basketball avec Mega Bet 3000. Conseils d'experts, comparatifs exclusifs et paris responsables. Entrez dans le jeu.">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/text_container.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="site-wrapper">
+        <div class="site-content">
+            <!-- Hero Section with Header -->
+            <section class="hero-section">
+                <!-- Background Layers -->
+                <div class="hero-bg-blur"></div>
+                <div class="hero-gradient-overlay"></div>
+                <div class="hero-fg-image"></div>
+                <div class="hero-bottom-gradient"></div>
+                
+                <!-- Header in Hero -->
+                <div class="hero-header-wrapper">
+                    <?php include 'header.php'; ?>
+                </div>
+                
+                <!-- Hero Content -->
+                <h1 class="hero-title">Paris Basketball</h1>
+                <p class="hero-subtitle">Découvrez les meilleures cotes et stratégies pour le basketball</p>
+            </section>
 
 <!-- Betting Cards -->
 <section class="cards-container">
@@ -210,4 +235,16 @@ include 'header.php';
     </div>
 </section>
 
-<?php include 'footer.php'; ?>
+        <?php include 'footer.php'; ?>
+        </div>
+        
+        <!-- Age Restriction Badge -->
+        <div class="age-restriction">
+            <div class="age-circle">
+                <span class="age-number">18</span>
+                <div class="age-plus">+</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

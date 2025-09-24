@@ -1,39 +1,21 @@
-/* Mega Bet 3000 - Main Styles */
+/* Mega Bet 3000 - Main Styles - Fixed */
 
 /* Reset and Base */
 * {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: 'Saira';
-  src: url('https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap');
-}
-
-@font-face {
-  font-family: 'Saira Condensed';
-  src: url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
-}
-
-@font-face {
-  font-family: 'Saira ExtraCondensed';
-  src: url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
-}
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
   font-family: 'Saira', sans-serif;
-  background-color: #000000;
+  background-color: #010D1D;
   color: #FFFFFF;
   line-height: 1.5;
   overflow-x: hidden;
+  min-height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -59,46 +41,159 @@ img {
   background-color: #010D1D;
   display: flex;
   flex-direction: column;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 .site-content {
   position: relative;
   z-index: 1;
   flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* Frame 1000002714 - Hero Container */
+/* Hero Container */
 .hero-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0;
-  width: 1440px;
-  height: 992px;
+  width: 100%;
+  max-width: 1200px;
+  height: 800px;
   flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
   position: relative;
+  margin: 0 auto;
 }
 
-/* Frame 1000002716 - Cards Container */
+/* Background Layers */
+.hero-bg-blur {
+  position: absolute;
+  width: 100%;
+  max-width: 1200px;
+  height: 600px;
+  left: 50%;
+  top: -100px;
+  transform: translateX(-50%);
+  background: url('../images/hero-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -3;
+}
+
+.hero-gradient-overlay {
+  position: absolute;
+  width: 100%;
+  max-width: 1200px;
+  height: 400px;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  background: linear-gradient(180deg, rgba(1, 13, 29, 0) 0%, #010D1D 72.91%);
+  z-index: -2;
+}
+
+.hero-fg-image {
+  position: absolute;
+  width: 90%;
+  max-width: 1100px;
+  height: 500px;
+  left: 50%;
+  top: 120px;
+  transform: translateX(-50%);
+  background: url('../images/bg-overlay.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.hero-bottom-gradient {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(1, 13, 29, 0) 0%, #010D1D 72.91%);
+  z-index: 0;
+}
+
+/* Hero Text */
+.hero-title {
+  position: absolute;
+  width: 100%;
+  max-width: 900px;
+  left: 50%;
+  top: 100px;
+  transform: translateX(-50%);
+  font-family: 'Saira Extra Condensed';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.74) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0px 4px 4px rgba(0, 91, 147, 0.31);
+  z-index: 1;
+}
+
+.hero-subtitle {
+  position: absolute;
+  width: 100%;
+  max-width: 900px;
+  left: 50%;
+  top: 170px;
+  transform: translateX(-50%);
+  font-family: 'Saira Extra Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.74) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0px 4px 4px rgba(0, 91, 147, 0.31);
+  z-index: 1;
+}
+
+/* Cards Container */
 .cards-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 0;
   gap: 20px;
-  isolation: isolate;
-  width: 1112px;
-  height: 400px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  width: 100%;
+  max-width: 1000px;
   position: absolute;
-  bottom: 0;
+  bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 2;
+}
+
+/* Text Container */
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 32px;
+  gap: 48px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Age Restriction Badge */
@@ -106,8 +201,8 @@ img {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 67px;
-  height: 64px;
+  width: 60px;
+  height: 58px;
   z-index: 1000;
 }
 
@@ -115,7 +210,7 @@ img {
   position: relative;
   width: 100%;
   height: 100%;
-  border: 5.66px solid #FF0000;
+  border: 4px solid #FF0000;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -126,126 +221,98 @@ img {
   font-family: 'Saira Semi Condensed';
   font-style: normal;
   font-weight: 700;
-  font-size: 35.5px;
-  line-height: 56px;
+  font-size: 28px;
+  line-height: 1;
   text-align: center;
   color: #FFFFFF;
 }
 
 .age-plus {
   position: absolute;
-  right: -2.11%;
-  top: 2.98%;
-  width: 34px;
-  height: 23px;
+  right: -8px;
+  top: 2px;
+  width: 24px;
+  height: 20px;
   background-color: #FF0000;
-  border-radius: 15px;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Saira';
   font-weight: 700;
-  font-size: 28.6px;
+  font-size: 16px;
   color: #FFFFFF;
 }
 
-/* Text Container */
-.text-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 64px 164px;
-  gap: 64px;
-  width: 1440px;
-  height: 1493px;
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
+.age-plus::after {
+  content: '+';
 }
 
-/* image 54 - Background */
-.hero-bg-blur {
-  position: absolute;
-  width: 1440px;
-  height: 960px;
-  left: calc(50% - 1440px/2 - 0.38px);
-  top: -189.77px;
-  background: url('images/hero backgorund.png');
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .hero-section {
+    max-width: 90%;
+    height: 700px;
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    max-width: 90%;
+  }
+  
+  .hero-subtitle {
+    font-size: 20px;
+    max-width: 90%;
+  }
+  
+  .cards-container {
+    max-width: 90%;
+  }
+  
+  .text-container {
+    max-width: 90%;
+    padding: 48px 24px;
+  }
 }
 
-/* Rectangle 40018 - Gradient Overlay */
-.hero-gradient-overlay {
-  position: absolute;
-  width: 1440px;
-  height: 560.84px;
-  left: calc(50% - 1440px/2 + 0px);
-  bottom: 0;
-  background: linear-gradient(180deg, rgba(1, 13, 29, 0) 0%, #010D1D 72.91%);
-}
-
-/* image 55 - Foreground */
-.hero-fg-image {
-  position: absolute;
-  width: 1333.91px;
-  height: 750.32px;
-  left: calc(50% - 1333.91px/2 - 0.38px);
-  top: 182.88px;
-  background: url('../images/bg-overlay.png');
-}
-
-/* Rectangle 40019 - Bottom Gradient */
-.hero-bottom-gradient {
-  position: absolute;
-  height: 446.25px;
-  left: -0.03%;
-  right: 0.03%;
-  bottom: 0;
-  background: linear-gradient(180deg, rgba(1, 13, 29, 0) 0%, #010D1D 72.91%);
-}
-
-/* Hero Title */
-.hero-title {
-  position: absolute;
-  width: 1114.73px;
-  height: 55px;
-  left: calc(50% - 1114.73px/2);
-  top: 149.89px;
-  font-family: 'Saira ExtraCondensed';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 80px;
-  line-height: 100%;
-  text-align: center;
-  text-transform: uppercase;
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.74) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-  border: 1px solid #FFFFFF;
-  text-shadow: 0px 4px 4px rgba(0, 91, 147, 0.31);
-}
-
-/* Hero Subtitle */
-.hero-subtitle {
-  position: absolute;
-  width: 1114.73px;
-  height: 22px;
-  left: calc(50% - 1114.73px/2);
-  top: 229.09px;
-  font-family: 'Saira ExtraCondensed';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 100%;
-  text-align: center;
-  text-transform: uppercase;
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.74) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-  text-shadow: 0px 4px 4px rgba(0, 91, 147, 0.31);
+@media (max-width: 768px) {
+  .hero-section {
+    height: 600px;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    top: 80px;
+  }
+  
+  .hero-subtitle {
+    font-size: 16px;
+    top: 130px;
+  }
+  
+  .cards-container {
+    bottom: 20px;
+  }
+  
+  .text-container {
+    padding: 32px 16px;
+    gap: 32px;
+  }
+  
+  .age-restriction {
+    width: 50px;
+    height: 48px;
+    bottom: 15px;
+    right: 15px;
+  }
+  
+  .age-number {
+    font-size: 22px;
+  }
+  
+  .age-plus {
+    width: 20px;
+    height: 16px;
+    font-size: 14px;
+  }
 }

@@ -1,55 +1,47 @@
-/* Frame 1000002705 - Header Container */
+/* Header - Fixed Styles */
+
 .header-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 32px;
-  gap: 12px;
-  isolation: isolate;
+  padding: 0;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   position: absolute;
-  width: 1439px;
-  height: 124px;
-  left: 1px;
   top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 100;
 }
 
-/* Frame 1000002708 - Warning Bar */
-.header-warning {
+/* Top Warning Bar */
+.header-top-bar {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  gap: 10px;
-  width: 1439px;
-  height: 32px;
+  padding: 0;
+  width: 100vw;
+  height: 28px;
   background: rgba(0, 0, 0, 0.5);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  z-index: 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.header-warning-text {
-  width: 1439px;
-  height: 16px;
+.header-top-text {
   font-family: 'Saira';
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
-  line-height: 16px;
+  font-size: 9px;
+  line-height: 14px;
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #FFFFFF;
   opacity: 0.9;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  padding: 0 16px;
 }
 
 /* Header Main */
@@ -58,140 +50,172 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-top: 0;
-  padding-right: 20px;
-  padding-bottom: 0;
-  padding-left: 20px;
-  gap: 858px;
-  isolation: isolate;
-  width: 1375px;
-  height: 80px;
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
-  z-index: 1;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1200px;
+  height: 70px;
+  position: relative;
+  margin-top: 8px;
 }
 
 /* Logo */
 .header-logo {
-  width: 75.43px;
-  height: 80px;
-  background: url('../images/megabet logo.png');
+  width: 65px;
+  height: 70px;
+  background: url('../images/megabet-logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  z-index: 0;
+  cursor: pointer;
 }
 
-/* 18+ Badge */
+.header-logo:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Age Restriction Badge in Header */
 .header-age-restriction {
-  width: 66.97px;
-  height: 64px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  z-index: 1;
+  width: 58px;
+  height: 56px;
   position: relative;
 }
 
 .header-age-circle {
-  box-sizing: border-box;
   position: absolute;
-  left: 0%;
-  right: 4.44%;
-  top: 0%;
-  bottom: 0%;
-  border: 5.66424px solid #FF0000;
+  width: 56px;
+  height: 56px;
+  border: 4px solid #FF0000;
   border-radius: 50%;
+  left: 0;
+  top: 0;
 }
 
 .header-age-number {
   position: absolute;
-  left: 20.91%;
-  right: 28.32%;
-  top: 31.19%;
-  bottom: 31.31%;
-  font-family: 'Saira SemiCondensed';
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Saira Semi Condensed';
   font-style: normal;
   font-weight: 700;
-  font-size: 35.542px;
-  line-height: 56px;
+  font-size: 28px;
+  line-height: 1;
   text-align: center;
   color: #FFFFFF;
 }
 
 .header-age-plus {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 14.1606px;
-  padding-right: 14.1606px;
-  padding-bottom: 14.1606px;
-  padding-left: 14.1606px;
-  gap: 14.16px;
   position: absolute;
-  left: 68.28%;
-  right: -2.11%;
-  top: 2.98%;
-  bottom: 61.62%;
+  right: -6px;
+  top: 2px;
+  width: 22px;
+  height: 18px;
   background: #FF0000;
-  border-radius: 1573.24px;
-  width: 1px;
-  height: 13.61px;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Saira';
   font-style: normal;
   font-weight: 700;
-  font-size: 28.6193px;
-  line-height: 45px;
+  font-size: 14px;
   color: #FFFFFF;
-  align-items: flex-end;
-  text-align: center;
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
 }
 
-/* Frame 1000002704 - Navigation */
+.header-age-plus::after {
+  content: '+';
+}
+
+/* Navigation */
 .header-navigation {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  gap: 20px;
+  padding: 0;
+  gap: 16px;
   position: absolute;
-  width: 408px;
-  height: 52px;
-  left: calc(50% - 408px/2);
-  top: 14px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 44px;
 }
 
-/* Header Links */
+/* Navigation Buttons */
+.nav-button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  height: 44px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.nav-button.active {
+  width: 100px;
+  background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), 
+              radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), 
+              rgba(255, 255, 255, 0.1);
+  background-blend-mode: screen, screen, overlay;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  font-weight: 600;
+}
+
+.nav-button.basketball {
+  width: 140px;
+  background: rgba(255, 255, 255, 0.3);
+  background-blend-mode: overlay;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.nav-button.nba {
+  width: 70px;
+}
+
+.nav-button:hover:not(.active) {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-text {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+
+/* Header Links at Bottom */
 .header-links {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 0;
-  gap: 15px;
+  gap: 12px;
   position: absolute;
   width: 100%;
-  height: 20px;
-  top: 75px;
+  height: 16px;
+  top: 95px;
   left: 0;
-  z-index: 3;
 }
 
 .header-link {
@@ -199,7 +223,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5px 10px;
+  padding: 4px 8px;
   text-decoration: none;
   border-radius: 3px;
   transition: all 0.3s ease;
@@ -213,86 +237,240 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 8px;
+  line-height: 10px;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
   letter-spacing: 0.02em;
+  white-space: nowrap;
 }
 
-/* Menu Buttons - Active State */
-.nav-button {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding-top: 10px;
-  padding-right: 20px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  gap: 10px;
-  height: 52px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-family: 'Saira';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 31px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  flex: none;
-  flex-grow: 0;
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .header-section {
+    max-width: 95%;
+  }
+  
+  .header-main {
+    padding: 0 16px;
+    height: 60px;
+  }
+  
+  .header-logo {
+    width: 55px;
+    height: 60px;
+  }
+  
+  .header-age-restriction {
+    width: 50px;
+    height: 48px;
+  }
+  
+  .header-age-circle {
+    width: 48px;
+    height: 48px;
+    border: 3px solid #FF0000;
+  }
+  
+  .header-age-number {
+    font-size: 24px;
+  }
+  
+  .header-age-plus {
+    width: 18px;
+    height: 15px;
+    font-size: 12px;
+  }
+  
+  .header-navigation {
+    gap: 12px;
+    height: 38px;
+  }
+  
+  .nav-button {
+    padding: 6px 12px;
+    height: 38px;
+    font-size: 14px;
+  }
+  
+  .nav-button.active {
+    width: 85px;
+  }
+  
+  .nav-button.basketball {
+    width: 120px;
+  }
+  
+  .nav-button.nba {
+    width: 60px;
+  }
+  
+  .header-links {
+    top: 80px;
+    gap: 10px;
+  }
+  
+  .header-link-text {
+    font-size: 7px;
+  }
 }
 
-.nav-button.active {
-  width: 120px;
-  background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), rgba(255, 255, 255, 0.1);
-  background-blend-mode: screen, screen, overlay;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  font-weight: 600;
-  order: 0;
+@media (max-width: 768px) {
+  .header-top-text {
+    font-size: 8px;
+    line-height: 12px;
+  }
+  
+  .header-main {
+    height: 50px;
+    padding: 0 12px;
+  }
+  
+  .header-logo {
+    width: 45px;
+    height: 50px;
+  }
+  
+  .header-age-restriction {
+    width: 42px;
+    height: 40px;
+  }
+  
+  .header-age-circle {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FF0000;
+  }
+  
+  .header-age-number {
+    font-size: 20px;
+  }
+  
+  .header-age-plus {
+    width: 16px;
+    height: 13px;
+    font-size: 10px;
+    right: -4px;
+  }
+  
+  .header-navigation {
+    gap: 8px;
+    height: 32px;
+  }
+  
+  .nav-button {
+    padding: 4px 8px;
+    height: 32px;
+    font-size: 12px;
+  }
+  
+  .nav-button.active {
+    width: 70px;
+  }
+  
+  .nav-button.basketball {
+    width: 100px;
+  }
+  
+  .nav-button.nba {
+    width: 50px;
+  }
+  
+  .header-links {
+    top: 65px;
+    gap: 8px;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  
+  .header-link {
+    padding: 2px 6px;
+  }
+  
+  .header-link-text {
+    font-size: 6px;
+    line-height: 8px;
+  }
 }
 
-.nav-button.basketball {
-  width: 166px;
-  background: rgba(255, 255, 255, 0.3);
-  background-blend-mode: overlay;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  order: 1;
-}
-
-.nav-button.nba {
-  width: 82px;
-  order: 2;
-}
-
-.nav-text {
-  font-family: 'Saira';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 31px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
-
-.nav-text.active {
-  font-weight: 600;
-}
-
-.nav-text-home {
-  width: 80px;
-}
-
-.nav-text-basketball {
-  width: 126px;
-}
-
-.nav-text-nba {
-  width: 42px;
+@media (max-width: 480px) {
+  .header-top-bar {
+    height: 24px;
+  }
+  
+  .header-top-text {
+    font-size: 7px;
+    line-height: 10px;
+  }
+  
+  .header-main {
+    height: 40px;
+    padding: 0 8px;
+  }
+  
+  .header-logo {
+    width: 35px;
+    height: 40px;
+  }
+  
+  .header-age-restriction {
+    width: 35px;
+    height: 33px;
+  }
+  
+  .header-age-circle {
+    width: 33px;
+    height: 33px;
+  }
+  
+  .header-age-number {
+    font-size: 16px;
+  }
+  
+  .header-age-plus {
+    width: 13px;
+    height: 11px;
+    font-size: 8px;
+  }
+  
+  .header-navigation {
+    position: relative;
+    transform: none;
+    left: 0;
+    top: 45px;
+    width: 100%;
+    justify-content: center;
+    gap: 6px;
+    height: 28px;
+  }
+  
+  .nav-button {
+    padding: 2px 6px;
+    height: 28px;
+    font-size: 10px;
+  }
+  
+  .nav-button.active {
+    width: 60px;
+  }
+  
+  .nav-button.basketball {
+    width: 80px;
+  }
+  
+  .nav-button.nba {
+    width: 40px;
+  }
+  
+  .header-links {
+    top: 80px;
+    gap: 6px;
+    justify-content: center;
+  }
+  
+  .header-link-text {
+    font-size: 5px;
+    line-height: 7px;
+  }
 }

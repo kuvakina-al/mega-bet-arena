@@ -3,14 +3,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 32px;
+  padding: 0px 32px;
   gap: 12px;
   isolation: isolate;
   position: absolute;
   width: 1439px;
   height: 124px;
   left: 1px;
-  top: 0;
+  top: 0px;
   z-index: 100;
 }
 
@@ -28,7 +28,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  z-index: 100;
+  z-index: 0;
 }
 
 .header-warning-text {
@@ -55,10 +55,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-top: 0;
-  padding-right: 20px;
-  padding-bottom: 0;
-  padding-left: 20px;
+  padding: 0px 20px;
   gap: 858px;
   isolation: isolate;
   width: 1375px;
@@ -227,7 +224,6 @@
   align-items: center;
   padding: 10px 20px;
   gap: 10px;
-  height: 52px;
   border-radius: 5px;
   text-decoration: none;
   font-family: 'Saira';
@@ -253,6 +249,7 @@
 
 .nav-button.active {
   width: 120px;
+  height: 52px;
   background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), rgba(255, 255, 255, 0.1);
   background-blend-mode: screen, screen, overlay;
   border: 1px solid rgba(255, 255, 255, 0.4);
@@ -262,20 +259,32 @@
 
 .nav-button.basketball {
   width: 166px;
+  height: 52px;
   order: 1;
 }
 
 .nav-button.basketball.active {
   width: 166px;
+  height: 52px;
+  background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), rgba(255, 255, 255, 0.1);
+  background-blend-mode: screen, screen, overlay;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  font-weight: 600;
 }
 
 .nav-button.nba {
   width: 82px;
+  height: 52px;
   order: 2;
 }
 
 .nav-button.nba.active {
   width: 82px;
+  height: 52px;
+  background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), rgba(255, 255, 255, 0.1);
+  background-blend-mode: screen, screen, overlay;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  font-weight: 600;
 }
 
 .nav-text {

@@ -72,11 +72,10 @@ img {
 /* Background Layers */
 .hero-bg-blur {
   position: absolute;
-  width: 100%;
-  max-width: 1200px;
-  height: 600px;
+  width: 100vw;
+  height: 800px;
   left: 50%;
-  top: 200px;
+  top: 0px;
   transform: translateX(-50%);
   background: url('../images/hero background.png');
   background-size: cover;

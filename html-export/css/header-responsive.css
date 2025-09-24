@@ -1,0 +1,237 @@
+/* Header Responsive Styles */
+
+/* Tablet Styles */
+@media (max-width: 1200px) {
+  .header-section {
+    width: 100%;
+    max-width: 100vw;
+    padding: 0px 20px;
+  }
+  
+  .header-warning {
+    width: 100%;
+  }
+  
+  .header-warning-text {
+    width: 100%;
+  }
+  
+  .header-main {
+    width: 100%;
+    max-width: 100%;
+    gap: 20px;
+    padding: 0px 15px;
+  }
+  
+  .header-navigation {
+    width: 90%;
+    max-width: 400px;
+    gap: 15px;
+  }
+  
+  .nav-button {
+    font-size: 18px;
+  }
+  
+  .nav-button.active {
+    width: 100px;
+  }
+  
+  .nav-button.basketball {
+    width: 140px;
+  }
+  
+  .nav-button.basketball.active {
+    width: 140px;
+  }
+  
+  .nav-button.nba {
+    width: 70px;
+  }
+  
+  .nav-button.nba.active {
+    width: 70px;
+  }
+}
+
+/* Mobile Landscape */
+@media (max-width: 768px) {
+  .header-section {
+    height: 100px;
+    padding: 0px 15px;
+  }
+  
+  .header-warning {
+    height: 28px;
+  }
+  
+  .header-warning-text {
+    font-size: 9px;
+    line-height: 14px;
+  }
+  
+  .header-main {
+    height: 60px;
+    gap: 10px;
+    padding: 0px 10px;
+  }
+  
+  .header-logo {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .header-age-restriction {
+    width: 50px;
+    height: 48px;
+  }
+  
+  .header-age-number {
+    font-size: 28px;
+    line-height: 44px;
+  }
+  
+  .header-age-plus {
+    font-size: 22px;
+    line-height: 35px;
+  }
+  
+  .header-navigation {
+    width: 95%;
+    max-width: 350px;
+    gap: 10px;
+    top: 10px;
+  }
+  
+  .nav-button {
+    font-size: 16px;
+    padding: 8px 15px;
+    height: 44px;
+  }
+  
+  .nav-button.active {
+    width: 90px;
+  }
+  
+  .nav-button.basketball {
+    width: 120px;
+  }
+  
+  .nav-button.basketball.active {
+    width: 120px;
+    height: 44px;
+  }
+  
+  .nav-button.nba {
+    width: 60px;
+  }
+  
+  .nav-button.nba.active {
+    width: 60px;
+    height: 44px;
+  }
+  
+  .header-links {
+    top: 65px;
+    gap: 10px;
+  }
+  
+  .header-link-text {
+    font-size: 9px;
+    line-height: 10px;
+  }
+}
+
+/* Mobile Portrait */
+@media (max-width: 480px) {
+  .header-section {
+    height: 90px;
+    padding: 0px 10px;
+  }
+  
+  .header-warning {
+    height: 25px;
+  }
+  
+  .header-warning-text {
+    font-size: 8px;
+    line-height: 12px;
+  }
+  
+  .header-main {
+    height: 50px;
+    gap: 5px;
+    padding: 0px 5px;
+  }
+  
+  .header-logo {
+    width: 45px;
+    height: 50px;
+  }
+  
+  .header-age-restriction {
+    width: 40px;
+    height: 38px;
+  }
+  
+  .header-age-number {
+    font-size: 22px;
+    line-height: 35px;
+  }
+  
+  .header-age-plus {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .header-navigation {
+    width: 100%;
+    max-width: 300px;
+    gap: 8px;
+    top: 8px;
+  }
+  
+  .nav-button {
+    font-size: 14px;
+    padding: 6px 12px;
+    height: 38px;
+  }
+  
+  .nav-button.active {
+    width: 75px;
+  }
+  
+  .nav-button.basketball {
+    width: 100px;
+  }
+  
+  .nav-button.basketball.active {
+    width: 100px;
+    height: 38px;
+  }
+  
+  .nav-button.nba {
+    width: 50px;
+  }
+  
+  .nav-button.nba.active {
+    width: 50px;
+    height: 38px;
+  }
+  
+  .header-links {
+    top: 55px;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .header-link {
+    padding: 3px 6px;
+  }
+  
+  .header-link-text {
+    font-size: 8px;
+    line-height: 9px;
+  }
+}

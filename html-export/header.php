@@ -16,7 +16,7 @@
 
 <nav class="header-navigation">
     <a href="index.php" class="nav-button active">
-        <span class="nav-text nav-text-home">HOMEPAGE</span>
+        <span class="nav-text nav-text-home">ACCUEIL</span>
     </a>
     <a href="basketball.php" class="nav-button basketball">
         <span class="nav-text nav-text-basketball">BASKETBALL</span>

@@ -22,7 +22,7 @@
   height: 400px;
   left: -50px;
   top: -100px;
-  background: url('../images/basketball.png');
+  background: url('../images/bascketball.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -38,7 +38,7 @@
   height: 250px;
   right: -20px;
   top: -50px;
-  background: url('../images/basketball.png');
+  background: url('../images/bascketball.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -79,7 +79,7 @@
 .footer-logo {
   width: 60px;
   height: 64px;
-  background: url('../images/megabet-logo.png');
+  background: url('../images/megabet logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -282,7 +282,7 @@
 .cert-anj {
   width: 60px;
   height: 44px;
-  background: url('../images/anj-logo.png');
+  background: url('../images/anj logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -293,7 +293,7 @@
 .cert-gambleaware {
   width: 160px;
   height: 22px;
-  background: url('../images/gambleaware-logo.png');
+  background: url('../images/begambleaware logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -304,7 +304,7 @@
 .cert-sos {
   width: 68px;
   height: 42px;
-  background: url('../images/sos-joueurs-logo.png');
+  background: url('../images/sos_joueurs logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

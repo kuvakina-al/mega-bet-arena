@@ -432,7 +432,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 320px) {
   .cards-container {
     width: 440px;
     gap: 10px;
@@ -584,7 +584,7 @@
 }
 
 /* PMU variant mobile */
-@media (max-width: 480px) {
+@media (max-width: 320px) {
   .betting-card.pmu {
     background: radial-gradient(148.6% 103.44% at 129.03% 148.97%, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%), 
                 radial-gradient(78.68% 73.83% at -14.43% -16.04%, rgba(12, 130, 243, 0.5) 0%, rgba(12, 130, 243, 0) 100%), 

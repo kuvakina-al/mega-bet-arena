@@ -55,7 +55,7 @@
   height: 80px;
   flex: none;
   order: 0;
-  z-index: 100;
+  z-index: 300;
   position: absolute;
   top: 32px;
   left: 0;
@@ -72,7 +72,9 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  z-index: 200;
+  z-index: 400;
+  min-width: 75.43px;
+  min-height: 80px;
 }
 
 /* 18+ Logo */
@@ -96,15 +98,13 @@
   justify-content: center;
   padding: 0;
   gap: 20px;
-  position: absolute;
+  position: static;
   width: 408px;
   height: 52px;
-  left: calc(50% - 408px/2);
-  top: 46px;
   flex: none;
   order: 1;
   flex-grow: 0;
-  z-index: 100;
+  z-index: 350;
 }
 
 

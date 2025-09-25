@@ -175,8 +175,8 @@ img {
   align-items: center;
   padding: 64px 164px;
   gap: 64px;
-  width: 1440px;
-  max-width: none;
+  width: 100%;
+  max-width: 1440px;
   margin: 0 auto;
 }
 

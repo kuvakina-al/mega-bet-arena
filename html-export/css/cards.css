@@ -384,23 +384,6 @@
 }
 
 /* Responsive Design */
-@media (min-width: 321px) {
-  /* Ensure desktop layout is maintained for screens larger than mobile */
-  .betting-card {
-    flex-direction: column !important;
-    height: 120px !important;
-    width: 1112px !important;
-    padding: 0 28px !important;
-    gap: 10px !important;
-  }
-  
-  .card-content {
-    flex-direction: row !important;
-    width: 1056px !important;
-    height: 64.95px !important;
-    gap: 32px !important;
-  }
-}
 
 @media (max-width: 320px) {
   .cards-container {

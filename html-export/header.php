@@ -1,1 +1,23 @@
-<!-- This file is now empty as header content has been moved to index.php -->
+<div class="header-section">
+    <div class="header-main">
+        <div class="header-logo"></div>
+        <div class="header-mobile-menu"></div>
+        
+        <!-- Desktop elements - hidden on mobile -->
+        <div class="header-age-logo">
+            <img src="../images/18+ logo.png" alt="18+ Age Restriction" />
+        </div>
+    </div>
+<!-- Desktop navigation - hidden on mobile -->
+<nav class="header-navigation">
+    <a href="index.php" class="nav-button active">
+        <span class="nav-text nav-text-home">HOMEPAGE</span>
+    </a>
+    <a href="basketball.php" class="nav-button basketball">
+        <span class="nav-text nav-text-basketball">BASKETBALL</span>
+    </a>
+    <a href="nba.php" class="nav-button nba">
+        <span class="nav-text nav-text-nba">NBA</span>
+    </a>
+</nav>
+</div>

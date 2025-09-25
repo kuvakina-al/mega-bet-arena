@@ -29,34 +29,13 @@
                             Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
                         </div>
                     </div>
-                    
-                    <!-- Header Main -->
-                    <div class="header-main">
-                        <div class="header-logo"></div>
-                        <div class="header-mobile-menu"></div>
-                        
-                        <!-- Desktop elements - hidden on mobile -->
-                        <div class="header-age-logo">
-                            <img src="../images/18+ logo.png" alt="18+ Age Restriction" />
-                        </div>
-                    </div>
                 </div>
                 <div class="hero-gradient-overlay"></div>
                 <div class="hero-fg-image"></div>
                 <div class="hero-bottom-gradient"></div>
                 
-                <!-- Navigation -->
-                <nav class="header-navigation">
-                    <a href="index.php" class="nav-button active">
-                        <span class="nav-text nav-text-home">HOMEPAGE</span>
-                    </a>
-                    <a href="basketball.php" class="nav-button basketball">
-                        <span class="nav-text nav-text-basketball">BASKETBALL</span>
-                    </a>
-                    <a href="nba.php" class="nav-button nba">
-                        <span class="nav-text nav-text-nba">NBA</span>
-                    </a>
-                </nav>
+                <!-- Header in Hero -->
+                <?php include 'header.php'; ?>
                 
                 <!-- Hero Content -->
                 <h1 class="hero-title">Bienvenue sur Mega Bet 3000</h1>

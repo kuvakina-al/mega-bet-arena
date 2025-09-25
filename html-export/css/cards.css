@@ -432,15 +432,18 @@
   }
 }
 
-@media (max-width: 480px) {
+/* Mobile cards - only for very small screens */
+@media (max-width: 400px) {
   .cards-container {
-    width: 440px;
+    width: 100%;
+    max-width: 400px;
     gap: 10px;
-    padding: 0;
+    padding: 0 10px;
   }
   
   .betting-card {
-    width: 400px;
+    width: 100%;
+    max-width: 380px;
     height: auto;
     min-height: 447px;
     padding: 20px;
@@ -460,7 +463,8 @@
     flex-direction: column;
     gap: 32px;
     align-items: center;
-    width: 360px;
+    width: 100%;
+    max-width: 340px;
     height: auto;
     padding: 0;
   }
@@ -584,7 +588,7 @@
 }
 
 /* PMU variant mobile */
-@media (max-width: 480px) {
+@media (max-width: 400px) {
   .betting-card.pmu {
     background: radial-gradient(148.6% 103.44% at 129.03% 148.97%, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%), 
                 radial-gradient(78.68% 73.83% at -14.43% -16.04%, rgba(12, 130, 243, 0.5) 0%, rgba(12, 130, 243, 0) 100%), 

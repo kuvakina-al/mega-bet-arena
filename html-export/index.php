@@ -47,8 +47,7 @@
                             </a>
                         </nav>
                         
-                        <div class="header-mobile-menu"></div>
-                        
+                        <div class="header-mobile-menu" onclick="toggleMobileMenu()">☰</div>                        
                         <!-- Desktop elements - hidden on mobile -->
                         <div class="header-age-logo">
                             <img src="images/18+ logo.png" alt="18+ Age Restriction" />

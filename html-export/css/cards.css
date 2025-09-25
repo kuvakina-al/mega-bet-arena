@@ -260,10 +260,10 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 16px 20px;
-  gap: 16px;
-  width: 140px;
-  height: 50px;
+  padding: 20px 24px;
+  gap: 20px;
+  width: 165px;
+  height: 64px;
   background: linear-gradient(90deg, #E96500 0%, #E99F00 100%);
   border-radius: 5px;
   text-decoration: none;
@@ -272,20 +272,36 @@
 }
 
 .card-button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(233, 101, 0, 0.3);
+  background: #FFFFFF;
+  transform: none;
+  box-shadow: none;
 }
 
 .card-button-text {
+  width: 117px;
+  height: 34px;
   font-family: 'Saira';
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 20px;
+  line-height: 20px;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
   white-space: nowrap;
+  display: flex;
+  align-items: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.card-button:hover .card-button-text {
+  background: linear-gradient(90deg, #E96500 0%, #E99F00 100%), #FFFFFF;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
 /* Responsive Design */

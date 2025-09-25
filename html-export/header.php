@@ -1,20 +1,11 @@
-<!-- Header Top Bar - moved outside header-section -->
-<div class="header-top-bar">
-    <div class="header-top-text">
-        Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
-    </div>
-</div>
-
 <div class="header-section">
     <div class="header-main">
         <div class="header-logo"></div>
         <div class="header-mobile-menu"></div>
         
         <!-- Desktop elements - hidden on mobile -->
-        <div class="header-age-restriction">
-            <div class="header-age-circle"></div>
-            <div class="header-age-number">18</div>
-            <div class="header-age-plus">+</div>
+        <div class="header-age-logo">
+            <img src="../images/18+ logo.png" alt="18+ Age Restriction" />
         </div>
     </div>
 <!-- Desktop navigation - hidden on mobile -->
@@ -29,19 +20,4 @@
         <span class="nav-text nav-text-nba">NBA</span>
     </a>
 </nav>
-
-<div class="header-links">
-    <a href="mentions-legales-conditions.php" class="header-link">
-        <span class="header-link-text">Mentions Légales</span>
-    </a>
-    <a href="politique-protection-donnees.php" class="header-link">
-        <span class="header-link-text">Protection des Données</span>
-    </a>
-    <a href="jeu-responsable-informations.php" class="header-link">
-        <span class="header-link-text">Jeu Responsable</span>
-    </a>
-    <a href="regulation-francaise-jeux-en-ligne.php" class="header-link">
-        <span class="header-link-text">Régulation Française</span>
-    </a>
-</div>
 </div>

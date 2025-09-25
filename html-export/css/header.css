@@ -72,68 +72,17 @@
   z-index: 10;
 }
 
-/* 18+ Badge */
-.header-age-restriction {
-  width: 66.97px;
-  height: 64px;
+/* 18+ Logo */
+.header-age-logo {
   flex: none;
   order: 1;
   flex-grow: 0;
   z-index: 10;
-  position: relative;
 }
 
-.header-age-circle {
-  box-sizing: border-box;
-  position: absolute;
-  left: 0%;
-  right: 4.44%;
-  top: 0%;
-  bottom: 0%;
-  border: 5.66424px solid #FF0000;
-  border-radius: 50%;
-  width: 64px;
+.header-age-logo img {
   height: 64px;
-}
-
-.header-age-number {
-  position: absolute;
-  left: 20.91%;
-  right: 28.32%;
-  top: 31.19%;
-  bottom: 31.31%;
-  font-family: 'Saira SemiCondensed';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 35.542px;
-  line-height: 56px;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.header-age-plus {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  left: 68.28%;
-  right: -2.11%;
-  top: 2.98%;
-  bottom: 61.62%;
-  background: #FF0000;
-  border-radius: 50%;
-  width: 22px;
-  height: 22px;
-  font-family: 'Saira';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 18px;
-  color: #FFFFFF;
-  text-align: center;
-  flex: none;
-  order: 0;
+  width: auto;
 }
 
 /* Frame 1000002704 - Navigation */
@@ -155,48 +104,6 @@
   z-index: 10;
 }
 
-/* Header Links */
-.header-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  gap: 15px;
-  position: absolute;
-  width: 100%;
-  height: 20px;
-  top: 75px;
-  left: 0;
-  z-index: 3;
-}
-
-.header-link {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 5px 10px;
-  text-decoration: none;
-  border-radius: 3px;
-  transition: all 0.3s ease;
-}
-
-.header-link:hover {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.header-link-text {
-  font-family: 'Saira';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  letter-spacing: 0.02em;
-}
 
 /* Menu Buttons - Active State */
 .nav-button {
@@ -290,25 +197,8 @@
     height: 60px;
   }
   
-  .header-age-restriction {
-    width: 50px;
+  .header-age-logo img {
     height: 48px;
-  }
-  
-  .header-age-circle {
-    width: 48px;
-    height: 48px;
-    border: 3px solid #FF0000;
-  }
-  
-  .header-age-number {
-    font-size: 24px;
-  }
-  
-  .header-age-plus {
-    width: 18px;
-    height: 15px;
-    font-size: 12px;
   }
   
   .header-navigation {
@@ -333,15 +223,6 @@
   .nav-button.nba {
     width: 60px;
   }
-  
-  .header-links {
-    top: 80px;
-    gap: 10px;
-  }
-  
-  .header-link-text {
-    font-size: 7px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -360,26 +241,8 @@
     height: 50px;
   }
   
-  .header-age-restriction {
-    width: 42px;
+  .header-age-logo img {
     height: 40px;
-  }
-  
-  .header-age-circle {
-    width: 40px;
-    height: 40px;
-    border: 2px solid #FF0000;
-  }
-  
-  .header-age-number {
-    font-size: 20px;
-  }
-  
-  .header-age-plus {
-    width: 16px;
-    height: 13px;
-    font-size: 10px;
-    right: -4px;
   }
   
   .header-navigation {
@@ -403,22 +266,6 @@
   
   .nav-button.nba {
     width: 50px;
-  }
-  
-  .header-links {
-    top: 65px;
-    gap: 8px;
-    flex-wrap: wrap;
-    height: auto;
-  }
-  
-  .header-link {
-    padding: 2px 6px;
-  }
-  
-  .header-link-text {
-    font-size: 6px;
-    line-height: 8px;
   }
 }
 
@@ -542,8 +389,7 @@
   
   /* Hide desktop navigation on mobile */
   .header-navigation,
-  .header-links,
-  .header-age-restriction {
+  .header-age-logo {
     display: none;
   }
 }

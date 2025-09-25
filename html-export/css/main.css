@@ -65,7 +65,7 @@ img {
   height: 800px;
   flex: none;
   position: relative;
-  margin-top: 124px;
+  margin-top: 0;
 }
 
 /* Background Layers */
@@ -74,7 +74,7 @@ img {
   width: 100vw;
   height: 600px;
   left: 50%;
-  top: -124px;
+  top: 0;
   transform: translateX(-50%);
   background: url('../images/hero background.png');
   background-size: cover;
@@ -112,7 +112,7 @@ img {
   width: 100%;
   max-width: 900px;
   left: 50%;
-  top: 150px;
+  top: 124px;
   transform: translateX(-50%);
   font-family: 'Saira Extra Condensed';
   font-style: normal;
@@ -134,7 +134,7 @@ img {
   width: 100%;
   max-width: 900px;
   left: 50%;
-  top: 250px;
+  top: 211px;
   transform: translateX(-50%);
   font-family: 'Saira Extra Condensed';
   font-style: normal;

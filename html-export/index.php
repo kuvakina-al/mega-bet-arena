@@ -22,7 +22,14 @@
             <!-- Hero Section with Header, Background and Cards -->
             <section class="hero-section">
                 <!-- Background Layers -->
-                <div class="hero-bg-blur"></div>
+                <div class="hero-bg-blur">
+                    <!-- Header Top Bar -->
+                    <div class="header-top-bar">
+                        <div class="header-top-text">
+                            Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
+                        </div>
+                    </div>
+                </div>
                 <div class="hero-gradient-overlay"></div>
                 <div class="hero-fg-image"></div>
                 <div class="hero-bottom-gradient"></div>

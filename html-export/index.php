@@ -51,7 +51,7 @@
                         
                         <!-- Desktop elements - hidden on mobile -->
                         <div class="header-age-logo">
-                            <img src="../images/18+ logo.png" alt="18+ Age Restriction" />
+                            <img src="images/18+ logo.png" alt="18+ Age Restriction" />
                         </div>
                     </div>
                 </div>

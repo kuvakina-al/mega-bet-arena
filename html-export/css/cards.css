@@ -1,28 +1,28 @@
 /* Betting Cards - Fixed Styles */
 
+/* Desktop Cards Container */
 .cards-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 0;
   gap: 15px;
-  width: 100%;
-  max-width: 1000px;
+  width: 1112px;
   margin: 0 auto;
 }
 
-/* Base Card Style */
+/* Base Card Style - Desktop */
 .betting-card {
   box-sizing: border-box;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 24px;
+  padding: 0 28px;
   gap: 8px;
-  width: 100%;
-  max-width: 1000px;
-  height: 100px;
+  width: 1112px;
+  height: 120px;
   background: radial-gradient(30.42% 258.48% at 107.54% -92.58%, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%), 
               radial-gradient(29.17% 247.89% at -10.59% -74.24%, rgba(12, 130, 243, 0.5) 0%, rgba(12, 130, 243, 0) 100%), 
               linear-gradient(90deg, rgba(0, 130, 255, 0.1) 0%, rgba(255, 0, 0, 0.1) 100%), 
@@ -30,9 +30,12 @@
   background-blend-mode: screen, screen, normal, normal;
   backdrop-filter: blur(15px);
   border-radius: 5px;
-  transition: all 0.3s ease;
   border: 1px solid transparent;
+  transition: all 0.3s ease;
   cursor: pointer;
+  opacity: 1;
+  transform: rotate(0deg);
+  margin: 0 auto;
 }
 
 /* Hover Effect - Only on hover */
@@ -47,7 +50,7 @@
   transform: translateY(-2px);
 }
 
-/* Card Content */
+/* Card Content - Desktop */
 .card-content {
   display: flex;
   flex-direction: row;
@@ -56,9 +59,7 @@
   padding: 0;
   gap: 24px;
   width: 100%;
-  max-width: 950px;
   height: 100%;
-  margin: 0 auto;
 }
 
 /* Logo */

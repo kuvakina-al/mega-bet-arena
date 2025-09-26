@@ -1,17 +1,52 @@
-/* Frame 1000002705 - Header Container */
-.header-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 32px;
-  gap: 12px;
-  isolation: isolate;
+/* Hero section styles */
+.homepage-desktop .hero-wrapper {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 592px;
+}
+
+.homepage-desktop .hero {
   position: absolute;
-  width: 1439px;
-  height: 124px;
-  left: 1px;
   top: 0;
-  z-index: 100;
+  left: 0;
+  width: 1440px;
+  height: 828px;
+}
+
+.homepage-desktop .div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage-desktop .vector {
+  position: absolute;
+  top: calc(50.00% + 23px);
+  left: calc(50.00% + 378px);
+  width: 44px;
+  height: 52px;
+}
+
+/* Ensure images are responsive within their containers */
+.hero,
+.vector {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Maintain fixed dimensions where specified in original design */
+.hero {
+  width: 1440px;
+  height: 828px;
+}
+
+.vector {
+  width: 44px;
+  height: 52px;
 }
 
 /* Frame 1000002708 - Warning Bar */

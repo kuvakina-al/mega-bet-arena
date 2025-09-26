@@ -1,37 +1,43 @@
-/* Mega Bet 3000 - Main Styles - Fixed */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 
-/* Reset and Base */
 * {
-  margin: 0;
-  padding: 0;
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+html,
 body {
-  font-family: 'Saira', sans-serif;
-  background-color: #010D1D;
-  color: #FFFFFF;
-  line-height: 1.5;
-  overflow-x: hidden;
-  min-height: 100vh;
+  margin: 0px;
+  height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Saira Condensed', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
 }
 
 a {
   text-decoration: none;
-  color: inherit;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+.homepage-desktop {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  align-items: center;
+  position: relative;
+  background-color: #010d1d;
+}
+
+.homepage-desktop .frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
 }
 
 /* Site Wrapper */
@@ -168,69 +174,105 @@ img {
   z-index: 2;
 }
 
-/* Text Container */
-.text-container {
+/* Text content styles */
+.homepage-desktop .incio-TEXT {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 64px 32px;
-  gap: 48px;
+  justify-content: center;
+  gap: 64px;
+  padding: 64px 164px;
+  position: relative;
+  align-self: stretch;
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  flex: 0 0 auto;
 }
 
-/* Age Restriction Badge */
+.homepage-desktop .text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.homepage-desktop .sur-karmabetting {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Saira-Regular", Helvetica;
+  font-weight: 400;
+  color: #4b73cf;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.homepage-desktop .comprendre-les-paris {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Saira-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.homepage-desktop .p {
+  position: relative;
+  align-self: stretch;
+  font-family: "Saira-Regular", Helvetica;
+  font-weight: 400;
+  color: #4b73cf;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+/* Age restriction badge */
 .age-restriction {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 60px;
-  height: 58px;
   z-index: 1000;
 }
 
 .age-circle {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  border: 4px solid #FF0000;
-  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #ff0004;
+  border-radius: 50%;
+  color: white;
+  font-family: "Saira-Bold", Helvetica;
+  font-weight: 700;
 }
 
 .age-number {
-  font-family: 'Saira Semi Condensed';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 1;
-  text-align: center;
-  color: #FFFFFF;
+  font-size: 24px;
 }
 
 .age-plus {
-  position: absolute;
-  right: -8px;
-  top: 2px;
-  width: 24px;
-  height: 20px;
-  background-color: #FF0000;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Saira';
-  font-weight: 700;
   font-size: 16px;
-  color: #FFFFFF;
+  margin-left: 2px;
 }
 
-.age-plus::after {
-  content: '+';
+/* Ensure semantic headings maintain visual consistency */
+h2.comprendre-les-paris {
+  margin: 0;
+}
+
+/* Improve focus states for better accessibility */
+.homepage-desktop *:focus {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
 }
 
 /* Responsive Design */

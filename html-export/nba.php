@@ -38,13 +38,8 @@
             </section>
 
 <?php include 'cards.php'; ?>
-            
-            <?php 
-            include 'text_container.php';
-            render_nba_content();
-            ?>
 
-            <?php include 'footer.php'; ?>
+        <?php include 'footer.php'; ?>
         </div>
         
         <!-- Age Restriction Badge -->

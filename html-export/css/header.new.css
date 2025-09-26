@@ -1,0 +1,299 @@
+/* Header Styles */
+.header-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: absolute;
+  top: 62px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+/* Top Warning Bar */
+.header-top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  gap: 10px;
+  width: 439px;
+  height: 55px;
+  background: rgba(0, 0, 0, 0.5);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header-warning {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.age-restriction {
+  width: 33.49px;
+  height: 32px;
+  position: relative;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.age-circle {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0%;
+  right: 4.44%;
+  top: 0%;
+  bottom: 0%;
+  border: 2.83212px solid #FF0000;
+  border-radius: 50%;
+}
+
+.age-number {
+  position: absolute;
+  left: 22.41%;
+  right: 26.83%;
+  top: 31.19%;
+  bottom: 31.31%;
+  font-family: 'Saira SemiCondensed';
+  font-weight: 700;
+  font-size: 17.771px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.header-top-text {
+  width: 355.51px;
+  height: 48px;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.9;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+/* Header Main */
+.header-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  gap: 858px;
+  width: 399px;
+  height: 80px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Logo */
+.header-logo {
+  width: 75.43px;
+  height: 80px;
+  background-image: url('../images/megabet logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Mobile Menu Button */
+.header-menu-button {
+  width: 25px;
+  height: 23px;
+  font-family: 'Font Awesome 6 Sharp';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Desktop Styles */
+@media (min-width: 769px) {
+  .header-top-bar {
+    width: 100vw;
+    height: 32px;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+
+  .header-main {
+    width: 100%;
+    max-width: 1200px;
+    height: 70px;
+    padding: 0 20px;
+    gap: 32px;
+    margin-top: 8px;
+  }
+
+  .header-logo {
+    width: 65px;
+  }
+
+  .header-menu-button {
+    display: none;
+  }
+
+  .header-warning {
+    justify-content: center;
+  }
+
+  .header-top-text {
+    font-size: 9px;
+    line-height: 14px;
+    padding: 0 16px;
+    width: auto;
+    height: auto;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .header-section {
+    top: 0;
+    position: fixed;
+    width: 439px;
+    height: 147px;
+    left: 1px;
+    z-index: 1000;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .age-restriction {
+    display: flex;
+    margin-right: 10px;
+  }
+}
+
+/* Hero Section Mobile */
+@media (max-width: 768px) {
+  .hero-section {
+    width: 440px;
+    height: 423px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: relative;
+  }
+
+  .hero-background {
+    position: absolute;
+    width: 925.5px;
+    height: 617px;
+    left: calc(50% - 925.5px/2 - 0.38px);
+    top: 0;
+    background: url('../images/hero background.png');
+    filter: blur(3.5px);
+  }
+
+  .hero-gradient {
+    position: absolute;
+    width: 439.77px;
+    height: 411.27px;
+    left: calc(50% - 439.77px/2);
+    top: 205.73px;
+    background: linear-gradient(180deg, rgba(1, 13, 29, 0) 0%, #010D1D 72.91%);
+  }
+
+  .hero-image {
+    position: absolute;
+    width: 756.78px;
+    height: 425.69px;
+    left: calc(50% - 756.78px/2 - 0.38px);
+    top: 236.53px;
+    background: url('../images/bascketball.png');
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 18px;
+    position: absolute;
+    width: 400px;
+    height: 65px;
+    left: 20px;
+    top: 170.28px;
+  }
+
+  .hero-title {
+    width: 400px;
+    height: 33px;
+    font-family: 'Saira ExtraCondensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.74) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    border: 1px solid #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 91, 147, 0.31);
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .hero-subtitle {
+    width: 400px;
+    height: 14px;
+    font-family: 'Saira ExtraCondensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.74) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0px 4px 4px rgba(0, 91, 147, 0.31);
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+}

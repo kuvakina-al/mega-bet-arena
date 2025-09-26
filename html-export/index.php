@@ -120,13 +120,7 @@
             <?php include 'footer.php'; ?>
         </div>
         
-        <!-- Age Restriction Badge -->
-        <div class="age-restriction">
-            <div class="age-circle">
-                <span class="age-number">18</span>
-                <div class="age-plus">+</div>
-            </div>
-        </div>
+    
     </div>
 </body>
 </html>

@@ -9,7 +9,7 @@
   max-width: 1200px;
   margin: 0 auto;
   position: absolute;
-  top: 62px; /* Position 30px below the fixed top bar */
+  top: 32px; /* Position below the fixed top bar */
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
@@ -66,12 +66,11 @@
 .header-logo {
   width: 65px;
   height: 70px;
-  background-image: url('../images/megabet logo.png');
+  background: url('../images/megabet-logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
-  display: block;
 }
 
 .header-logo:hover {
@@ -172,13 +171,11 @@
 
 .nav-button.active {
   width: 100px;
-  border: 1px solid #FFFFFF66;
-  background: #FFFFFF1A;
-  background-blend-mode: overlay;
-  background: radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%);
-  background-blend-mode: screen;
-  background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%);
-  background-blend-mode: screen;
+  background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), 
+              radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), 
+              rgba(255, 255, 255, 0.1);
+  background-blend-mode: screen, screen, overlay;
+  border: 1px solid rgba(255, 255, 255, 0.4);
   font-weight: 600;
 }
 

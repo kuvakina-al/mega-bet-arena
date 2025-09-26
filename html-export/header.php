@@ -6,14 +6,14 @@
     </div>
 
     <div class="header-main">
-        <div class="header-logo"></div>
+        <div class="header-logo">
+            <img src="images/megabet logo.png" alt="Megabet Logo" />
+        </div>
         <div class="header-mobile-menu"></div>
         
         <!-- Desktop elements - hidden on mobile -->
         <div class="header-age-restriction">
-            <div class="header-age-circle"></div>
-            <div class="header-age-number">18</div>
-            <div class="header-age-plus">+</div>
+            <img src="images/18+ logo.png" alt="18+ Age Restriction" />
         </div>
     </div>
 <!-- Desktop navigation - hidden on mobile -->

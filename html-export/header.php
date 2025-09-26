@@ -1,9 +1,3 @@
-<div class="header-top-bar">
-    <div class="header-top-text">
-        Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
-    </div>
-</div>
-
 <div class="header-section">
     <div class="header-main">
         <div class="header-logo">

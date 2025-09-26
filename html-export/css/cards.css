@@ -1,94 +1,14 @@
-/* Card wrapper styles */
-.homepage-desktop .frame-wrapper {
+/* Betting Cards - Fixed Styles */
+
+.cards-container {
   display: flex;
   flex-direction: column;
-  width: 1112px;
-  height: 120px;
   align-items: center;
-  justify-content: space-around;
-  gap: 10px;
-  padding: 0px 28px;
-  position: relative;
-  border-radius: 5px;
-  border: none;
-  backdrop-filter: blur(15px) brightness(100%);
-  -webkit-backdrop-filter: blur(15px) brightness(100%);
-  background: radial-gradient(
-      50% 50% at 128% 80%,
-      rgba(255, 0, 0, 0.5) 0%,
-      rgba(255, 0, 0, 0) 100%
-    ),
-    radial-gradient(
-      50% 50% at 138% 18%,
-      rgba(12, 130, 243, 0.5) 0%,
-      rgba(12, 130, 243, 0) 100%
-    ),
-    linear-gradient(90deg, rgba(0, 130, 255, 0.1) 0%, rgba(255, 0, 0, 0.1) 100%),
-    linear-gradient(0deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.55) 100%);
-}
-
-.homepage-desktop .frame-wrapper::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  padding: 1px;
-  border-radius: 5px;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 130, 255, 1) 0%,
-    rgba(255, 0, 0, 1) 100%
-  );
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  z-index: 1;
-  pointer-events: none;
-}
-
-.homepage-desktop .div-wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 1112px;
-  height: 120px;
-  align-items: center;
-  justify-content: space-around;
-  gap: 10px;
-  padding: 0px 28px;
-  position: relative;
-  border-radius: 5px;
-  border: none;
-  backdrop-filter: blur(15px) brightness(100%);
-  -webkit-backdrop-filter: blur(15px) brightness(100%);
-  background: radial-gradient(
-      50% 50% at 128% 80%,
-      rgba(255, 0, 0, 1) 0%,
-      rgba(255, 0, 0, 0) 100%
-    ),
-    radial-gradient(
-      50% 50% at 138% 18%,
-      rgba(12, 130, 243, 1) 0%,
-      rgba(12, 130, 243, 0) 100%
-    ),
-    linear-gradient(90deg, rgba(0, 130, 255, 0.4) 0%, rgba(255, 0, 0, 0.4) 100%),
-    linear-gradient(0deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.55) 100%);
-}
-
-.homepage-desktop .div-wrapper::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  padding: 1px;
-  border-radius: 5px;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 130, 255, 1) 0%,
-    rgba(255, 0, 0, 1) 100%
-  );
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  z-index: 1;
-  pointer-events: none;
+  padding: 0;
+  gap: 15px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 /* Base Card Style */

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paris Sportifs en Ligne | Comparatifs, Pronostics &amp; Bonus | Mega Bet 3000</title>
+    <title>Paris Sportifs en Ligne | Comparatifs, Pronostics & Bonus | Mega Bet 3000</title>
     <meta name="description" content="Explorez le meilleur des paris sportifs avec Mega Bet 3000: comparatifs, pronostics détaillés, conseils d'experts et engagement pour un jeu responsable.">
     <meta name="robots" content="noindex, nofollow">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,110 +17,43 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <div class="site-wrapper">        
+    <div class="site-wrapper">
         <div class="site-content">
-            <!-- Hero Section with Header, Background and Cards -->
+            <!-- Hero Section with Header -->
             <section class="hero-section">
                 <!-- Background Layers -->
-                <div class="hero-bg-blur">
-                    <!-- Header Top Bar -->
-                    <div class="header-top-bar">
-                        <div class="header-top-text">
-                            Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
-                        </div>
-                    </div>
-                    
-                    <!-- Header Main -->
-                    <div class="header-main">
-                        <div class="header-logo"></div>
-                        
-                        <!-- Navigation -->
-                        <nav class="header-navigation">
-                            <a href="index.php" class="nav-button active">
-                                <span class="nav-text nav-text-home">HOMEPAGE</span>
-                            </a>
-                            <a href="basketball.php" class="nav-button basketball">
-                                <span class="nav-text nav-text-basketball">BASKETBALL</span>
-                            </a>
-                            <a href="nba.php" class="nav-button nba">
-                                <span class="nav-text nav-text-nba">NBA</span>
-                            </a>
-                        </nav>
-                        
-                        <div class="header-mobile-menu" onclick="toggleMobileMenu()">☰</div>                        
-                        <!-- Desktop elements - hidden on mobile -->
-                        <div class="header-age-logo">
-                            <img src="images/18+ logo.png" alt="18+ Age Restriction" />
-                        </div>
-                    </div>
-                </div>
+                <div class="hero-bg-blur"></div>
                 <div class="hero-gradient-overlay"></div>
                 <div class="hero-fg-image"></div>
                 <div class="hero-bottom-gradient"></div>
                 
+                <!-- Header in Hero -->
+                <div class="hero-header-wrapper">
+                    <?php include 'header.php'; ?>
+                </div>
+                
                 <!-- Hero Content -->
                 <h1 class="hero-title">Bienvenue sur Mega Bet 3000</h1>
                 <p class="hero-subtitle">Votre Guide Ultime des Paris Sportifs Légaux en France</p>
-                
-                <?php include 'cards.php'; ?>
             </section>
+
+            <?php include 'cards.php'; ?>
             
-            <!-- Text Container Section -->
-            <section class="text-container">
-                    <div class="text-box">
-                        <h2 class="text-title-hidden">Comprendre les Paris Sportifs en France</h2>
-                        <h3 class="text-subtitle-hidden">Analyse Comparative des Différents Bookmakers</h3>
-                        <p class="text-content first">Sur Mega Bet 3000, nous vous aidons à comparer objectivement les offres des divers bookmakers licenciés en France. Chaque critère, tel que les cotes, les bonus de bienvenue, et les options de paris, est scruté minutieusement pour vous guider vers le meilleur choix selon vos préférences et stratégies de pari.</p>
-                    </div>
-                    
-                    <div class="text-box">
-                        <h2 class="text-title">Les Avantages de Parier Légalement</h2>
-                        <h3 class="text-subtitle-hidden">Analyse Comparative des Différents Bookmakers</h3>
-                        <p class="text-content standard">Opter pour des sites de paris sportifs légaux en France vous garantit sécurité, transparence et protection. Découvrez pourquoi il est essentiel de choisir des plateformes autorisées par l'ANJ.</p>
-                    </div>
-                    
-                    <div class="text-box">
-                        <h2 class="text-title">Stratégies de Paris Gagnantes</h2>
-                        <h3 class="text-subtitle-hidden">Analyse Comparative des Différents Bookmakers</h3>
-                        <p class="text-content standard">Maximisez vos gains avec nos conseils d'experts. Apprenez les techniques avancées de gestion de bankroll et d'analyse statistique pour développer votre approche de pari.</p>
-                    </div>
-                    
-                    <div class="text-box">
-                        <h2 class="text-title">Bonus et Promotions Exclusives</h2>
-                        <h3 class="text-subtitle-hidden">Analyse Comparative des Différents Bookmakers</h3>
-                        <p class="text-content standard">Découvrez les meilleures offres de bienvenue et promotions continues des bookmakers. Notre équipe analyse chaque bonus pour vous révéler leur véritable valeur.</p>
-                    </div>
-                    
-                    <div class="text-box">
-                        <h2 class="text-title">Sports et Marchés Disponibles</h2>
-                        <h3 class="text-subtitle-hidden">Analyse Comparative des Différents Bookmakers</h3>
-                        <p class="text-content standard">Explorez la diversité des sports et des marchés de paris disponibles. Du football à l'esport, en passant par le tennis et le basketball, trouvez votre passion.</p>
-                    </div>
-                    
-                    <div class="text-box">
-                        <h2 class="text-title">Jeu Responsable</h2>
-                        <h3 class="text-subtitle-hidden">Analyse Comparative des Différents Bookmakers</h3>
-                        <p class="text-content short">Nous promouvons un environnement de jeu sain et responsable. Découvrez nos outils et ressources pour maintenir le contrôle.</p>
-                    </div>
-                    
-                    <div class="text-box">
-                        <h2 class="text-title">Méthodes de Paiement Sécurisées</h2>
-                        <h3 class="text-subtitle-hidden">Analyse Comparative des Différents Bookmakers</h3>
-                        <p class="text-content standard">Choisissez parmi une large gamme de méthodes de paiement sécurisées. Cartes bancaires, virements, portefeuilles électroniques - toutes vos transactions sont protégées.</p>
-                    </div>
-                    
-                    <div class="text-box">
-                        <h2 class="text-title">Support Client et Assistance</h2>
-                        <h3 class="text-subtitle-hidden">Analyse Comparative des Différents Bookmakers</h3>
-                        <p class="text-content long">Notre équipe d'experts est disponible pour vous accompagner dans votre expérience de paris sportifs. Service client réactif, guides détaillés et assistance personnalisée pour optimiser vos sessions de jeu et répondre à toutes vos questions concernant les plateformes recommandées.</p>
-                    </div>
-                </section>
-            </div>
-            
+            <?php 
+            include 'text_container.php';
+            render_homepage_content();
+            ?>
+
             <?php include 'footer.php'; ?>
         </div>
         
-    
+        <!-- Age Restriction Badge -->
+        <div class="age-restriction">
+            <div class="age-circle">
+                <span class="age-number">18</span>
+                <div class="age-plus">+</div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

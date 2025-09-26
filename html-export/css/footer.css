@@ -220,8 +220,61 @@
   width: 100%;
   max-width: 440px;
   height: 60px;
+  position: relative;
   z-index: 6;
   position: relative;
+}
+
+.certification-logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 28px;
+  z-index: 2;
+  position: relative;
+}
+
+.cert-logo {
+  display: block;
+  height: 60px;
+  transition: opacity 0.3s ease;
+}
+
+.cert-logo:hover {
+  opacity: 0.8;
+}
+
+.cert-logo img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+.cert-age img {
+  height: 60px;
+  width: auto;
+}
+
+/* Basketball decorations */
+.basketball-decoration {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.basketball-left {
+  left: -60px;
+  top: 50%;
+  transform: translateY(-50%) rotate(-15deg);
+}
+
+.basketball-right {
+  right: -60px;
+  top: 50%;
+  transform: translateY(-50%) rotate(15deg);
+}
 }
 
 /* Age Restriction in Footer */

@@ -42,10 +42,23 @@
                 </div>
                 
                 <div class="legal-certifications">
+                    <!-- Basketball decorations -->
+                    <img src="images/bascketball.png" alt="" class="basketball-decoration basketball-left">
+                    <img src="images/bascketball.png" alt="" class="basketball-decoration basketball-right">
+                    
                     <div class="certification-logos">
-                        <a href="https://anj.fr" target="_blank" rel="noopener noreferrer" class="cert-logo cert-anj"></a>
-                        <a href="https://www.gambleaware.org" target="_blank" rel="noopener noreferrer" class="cert-logo cert-gambleaware"></a>
-                        <a href="https://www.sosjoueurs.org" target="_blank" rel="noopener noreferrer" class="cert-logo cert-sos"></a>
+                        <div class="age-restriction-footer">
+                            <img src="images/18+ logo.png" alt="18+ Age Restriction" class="cert-logo cert-age">
+                        </div>
+                        <a href="https://anj.fr" target="_blank" rel="noopener noreferrer" class="cert-logo cert-anj">
+                            <img src="images/anj logo.png" alt="ANJ - Autorité Nationale des Jeux">
+                        </a>
+                        <a href="https://www.gambleaware.org" target="_blank" rel="noopener noreferrer" class="cert-logo cert-gambleaware">
+                            <img src="images/begambleaware logo.png" alt="GambleAware">
+                        </a>
+                        <a href="https://www.sosjoueurs.org" target="_blank" rel="noopener noreferrer" class="cert-logo cert-sos">
+                            <img src="images/sos_joueurs logo.png" alt="SOS Joueurs">
+                        </a>
                     </div>
                 </div>
                 

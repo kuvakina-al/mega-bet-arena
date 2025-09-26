@@ -15,6 +15,11 @@
   z-index: 100;
 }
 
+/* Hide mobile top bar on desktop */
+.header-top-bar-mobile {
+  display: none;
+}
+
 /* Top Warning Bar */
 .header-top-bar {
   display: flex;
@@ -396,98 +401,79 @@
 
 @media (max-width: 480px) {
   .header-section {
-    width: 439px;
-    height: 147px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 0 20px;
     gap: 12px;
+    position: absolute;
+    width: 439px;
+    height: 147px;
     left: 1px;
     top: 0;
-    transform: none;
   }
   
-  .header-top-bar {
+  /* Show mobile top bar only on mobile */
+  .header-top-bar-mobile {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    gap: 10px;
     width: 439px;
     height: 55px;
-    padding: 0 20px;
     background: rgba(0, 0, 0, 0.5);
-    position: relative;
-    left: 0;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
   
-  .header-top-text {
+  .header-top-text-mobile {
     width: 355.51px;
     height: 48px;
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 400;
     font-size: 10px;
     line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.9;
+    flex: none;
+    order: 1;
     flex-grow: 1;
   }
   
-  /* Mobile 18+ badge in top bar */
-  .header-top-age {
+  /* Mobile 18+ logo */
+  .header-top-age-mobile {
     width: 33.49px;
     height: 32px;
-    position: relative;
-    flex-shrink: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
   
-  .header-top-age-circle {
-    position: absolute;
-    left: 0%;
-    right: 4.44%;
-    top: 0%;
-    bottom: 0%;
-    border: 2.83212px solid #FF0000;
-    border-radius: 50%;
-  }
-  
-  .header-top-age-number {
-    position: absolute;
-    left: 22.41%;
-    right: 26.83%;
-    top: 31.19%;
-    bottom: 31.31%;
-    font-family: 'Saira Semi Condensed';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17.771px;
-    line-height: 28px;
-    text-align: center;
-    color: #FFFFFF;
-  }
-  
-  .header-top-age-plus {
-    position: absolute;
-    left: 68.28%;
-    right: -2.11%;
-    top: 2.98%;
-    bottom: 61.62%;
-    background: #FF0000;
-    border-radius: 786.622px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 7.0803px;
-    gap: 7.08px;
-  }
-  
-  .header-top-age-plus::after {
-    content: '+';
-    font-family: 'Saira';
-    font-weight: 700;
-    font-size: 14.3097px;
-    color: #FFFFFF;
+  .header-top-age-mobile img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
   
   .header-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    gap: 858px;
     width: 399px;
     height: 80px;
-    padding: 0;
-    gap: 0;
-    justify-content: space-between;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
   }
   
   .header-logo {
@@ -525,11 +511,16 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.95);
+    background: #010D1D;
     z-index: 1000;
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 10px;
   }
   
   .mobile-menu-overlay.active {
@@ -540,23 +531,35 @@
   .mobile-navigation {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 100%;
-    gap: 20px;
-    padding: 40px 20px;
+    align-items: center;
+    padding: 12px;
+    gap: 24px;
+    isolation: isolate;
+    width: 400px;
+    height: 224px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
   }
   
   .mobile-nav-button {
+    box-sizing: border-box;
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
-    width: 320px;
-    height: 60px;
-    border-radius: 8px;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    width: 376px;
+    height: 52px;
+    border-radius: 5px;
     text-decoration: none;
     transition: all 0.3s ease;
-    position: relative;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
   }
   
   .mobile-nav-button:hover {
@@ -566,24 +569,29 @@
   }
   
   .mobile-nav-button.active {
-    background-blend-mode: overlay;
-    background: #FFFFFF1A;
-    background-blend-mode: screen;
-    background: radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%);
-    background-blend-mode: screen;
-    background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%);
-    border: 1px solid #FFFFFF66;
+    background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), 
+                radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), 
+                rgba(255, 255, 255, 0.1);
+    background-blend-mode: screen, screen, overlay;
+    border: 1px solid rgba(255, 255, 255, 0.4);
   }
   
   .mobile-nav-text {
-    font-family: 'Saira Extra Condensed';
+    font-family: 'Saira';
     font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 38px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .mobile-nav-button.active .mobile-nav-text {
+    font-weight: 600;
   }
   
   /* Hide desktop navigation on mobile */

@@ -1,4 +1,14 @@
 <div class="header-section">
+    <!-- Mobile top bar with 18+ logo and warning text -->
+    <div class="header-top-bar-mobile">
+        <div class="header-top-text-mobile">
+            Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
+        </div>
+        <div class="header-top-age-mobile">
+            <img src="images/18+ logo.png" alt="18+ Age Restriction" />
+        </div>
+    </div>
+    
     <div class="header-main">
         <div class="header-logo">
             <img src="images/megabet logo.png" alt="Megabet Logo" />

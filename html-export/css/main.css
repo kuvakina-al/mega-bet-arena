@@ -115,7 +115,7 @@ img {
   .hero-subtitle {
     font-size: 20px;
     max-width: 600px;
-    top: 180px;
+    top: 103px;
   }
   
   .cards-container {
@@ -189,7 +189,7 @@ img {
   width: 100%;
   max-width: 900px;
   left: 50%;
-  top: 210px;
+  top: 187px;
   transform: translateX(-50%);
   font-family: 'Saira Extra Condensed';
   font-style: normal;
@@ -356,7 +356,7 @@ img {
     width: 400px;
     height: 14px;
     left: 20px;
-    top: 269.28px;
+    top: 193.28px;
     transform: none;
     font-size: 20px;
     line-height: 100%;

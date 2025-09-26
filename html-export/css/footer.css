@@ -18,10 +18,10 @@
 /* Background Basketball Images */
 .footer-bg-left {
   position: absolute;
-  width: 400px;
-  height: 400px;
-  left: -50px;
-  top: -100px;
+  width: 493.52px;
+  height: 493.52px;
+  left: 20px;
+  top: -44.76px;
   background: url('../images/basketball.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -34,9 +34,9 @@
 
 .footer-bg-right {
   position: absolute;
-  width: 250px;
-  height: 250px;
-  right: -20px;
+  width: 311px;
+  height: 311px;
+  right: 20px;
   top: -50px;
   background: url('../images/basketball.png');
   background-size: contain;
@@ -44,7 +44,7 @@
   background-position: center;
   background-blend-mode: screen;
   opacity: 0.25;
-  transform: matrix(1, 0, 0, -1, 0, 0);
+  transform: none;
   z-index: 1;
 }
 
@@ -628,10 +628,11 @@
   }
   
   .footer-bg-left {
-    width: 300px;
-    height: 300px;
+    width: 493.52px;
+    height: 493.52px;
     left: -100px;
     top: -50px;
+    transform: rotate(-90deg);
   }
   
   .footer-bg-right {

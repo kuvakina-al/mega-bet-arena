@@ -22,41 +22,13 @@
             <!-- Hero Section with Header, Background and Cards -->
             <section class="hero-section">
                 <!-- Background Layers -->
-                <div class="hero-bg-blur">
-                    <!-- Header Top Bar -->
-                    <div class="header-top-bar">
-                        <div class="header-top-text">
-                            Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
-                        </div>
-                    </div>
-                    
-                    <!-- Header Main -->
-                    <div class="header-main">
-                        <div class="header-logo"></div>
-                        
-                        <!-- Navigation -->
-                        <nav class="header-navigation">
-                            <a href="index.php" class="nav-button active">
-                                <span class="nav-text nav-text-home">HOMEPAGE</span>
-                            </a>
-                            <a href="basketball.php" class="nav-button basketball">
-                                <span class="nav-text nav-text-basketball">BASKETBALL</span>
-                            </a>
-                            <a href="nba.php" class="nav-button nba">
-                                <span class="nav-text nav-text-nba">NBA</span>
-                            </a>
-                        </nav>
-                        
-                        <div class="header-mobile-menu" onclick="toggleMobileMenu()">☰</div>                        
-                        <!-- Desktop elements - hidden on mobile -->
-                        <div class="header-age-logo">
-                            <img src="images/18+ logo.png" alt="18+ Age Restriction" />
-                        </div>
-                    </div>
-                </div>
+                <div class="hero-bg-blur"></div>
                 <div class="hero-gradient-overlay"></div>
                 <div class="hero-fg-image"></div>
                 <div class="hero-bottom-gradient"></div>
+                
+                <!-- Header in Hero -->
+                <?php include 'header.php'; ?>
                 
                 <!-- Hero Content -->
                 <h1 class="hero-title">Bienvenue sur Mega Bet 3000</h1>
@@ -120,7 +92,13 @@
             <?php include 'footer.php'; ?>
         </div>
         
-    
+        <!-- Age Restriction Badge -->
+        <div class="age-restriction">
+            <div class="age-circle">
+                <span class="age-number">18</span>
+                <div class="age-plus">+</div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

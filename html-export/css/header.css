@@ -1,51 +1,58 @@
-/* Header - Fixed Styles */
-
+/* Frame 1000002705 - Header Container */
 .header-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  padding: 0 32px;
+  gap: 12px;
+  isolation: isolate;
   position: absolute;
-  top: 62px; /* Position 30px below the fixed top bar */
-  left: 50%;
-  transform: translateX(-50%);
+  width: 1439px;
+  height: 124px;
+  left: 1px;
+  top: 0;
   z-index: 100;
 }
 
-/* Top Warning Bar */
-.header-top-bar {
+/* Frame 1000002708 - Warning Bar */
+.header-warning {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
   gap: 10px;
-  width: 100vw;
+  width: 1439px;
   height: 32px;
-  background: #00000080;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  opacity: 1;
+  background: #00000080 url('../images/hero background.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
 }
 
-.header-top-text {
+.header-warning-text {
+  width: 1439px;
+  height: 16px;
   font-family: 'Saira';
   font-style: normal;
   font-weight: 400;
-  font-size: 9px;
-  line-height: 14px;
+  font-size: 10px;
+  line-height: 16px;
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #FFFFFF;
   opacity: 0.9;
-  padding: 0 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 /* Header Main */
@@ -54,175 +61,135 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
-  width: 100%;
-  max-width: 1200px;
-  height: 70px;
-  position: relative;
-  margin-top: 8px;
+  padding-top: 0;
+  padding-right: 20px;
+  padding-bottom: 0;
+  padding-left: 20px;
+  gap: 858px;
+  isolation: isolate;
+  width: 1375px;
+  height: 80px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 1;
 }
 
 /* Logo */
 .header-logo {
-  width: 65px;
-  height: 70px;
-  background-image: url('../images/megabet logo.png');
+  width: 75.43px;
+  height: 80px;
+  background: url('../images/megabet logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  cursor: pointer;
-  display: block;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 10;
 }
 
-.header-logo:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
-}
-
-/* Age Restriction Badge in Header */
+/* 18+ Badge */
 .header-age-restriction {
-  width: 58px;
-  height: 56px;
+  width: 66.97px;
+  height: 64px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 10;
   position: relative;
 }
 
 .header-age-circle {
+  box-sizing: border-box;
   position: absolute;
-  width: 56px;
-  height: 56px;
-  border: 4px solid #FF0000;
+  left: 0%;
+  right: 4.44%;
+  top: 0%;
+  bottom: 0%;
+  border: 5.66424px solid #FF0000;
   border-radius: 50%;
-  left: 0;
-  top: 0;
 }
 
 .header-age-number {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Saira Semi Condensed';
+  left: 20.91%;
+  right: 28.32%;
+  top: 31.19%;
+  bottom: 31.31%;
+  font-family: 'Saira SemiCondensed';
   font-style: normal;
   font-weight: 700;
-  font-size: 28px;
-  line-height: 1;
+  font-size: 35.542px;
+  line-height: 56px;
   text-align: center;
   color: #FFFFFF;
 }
 
 .header-age-plus {
-  position: absolute;
-  right: -6px;
-  top: 2px;
-  width: 22px;
-  height: 18px;
-  background: #FF0000;
-  border-radius: 11px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding: 8px;
+  position: absolute;
+  left: 68.28%;
+  right: -2.11%;
+  top: 2.98%;
+  bottom: 61.62%;
+  background: #FF0000;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
   font-family: 'Saira';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
+  line-height: 1;
   color: #FFFFFF;
+  text-align: center;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
-.header-age-plus::after {
-  content: '+';
-}
-
-/* Navigation */
+/* Frame 1000002704 - Navigation */
 .header-navigation {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0;
-  gap: 16px;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  gap: 20px;
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  height: 44px;
+  width: 408px;
+  height: 52px;
+  left: calc(50% - 408px/2);
+  top: 14px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
 }
 
-/* Navigation Buttons */
-.nav-button {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 16px;
-  gap: 8px;
-  height: 44px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-family: 'Saira';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  transition: all 0.3s ease;
-  border: 1px solid transparent;
-}
-
-.nav-button.active {
-  width: 100px;
-  border: 1px solid #FFFFFF66;
-  background: #FFFFFF1A;
-  background-blend-mode: overlay;
-  background: radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%);
-  background-blend-mode: screen;
-  background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%);
-  background-blend-mode: screen;
-  font-weight: 600;
-}
-
-.nav-button.basketball {
-  width: 140px;
-  background: rgba(255, 255, 255, 0.3);
-  background-blend-mode: overlay;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-}
-
-.nav-button.nba {
-  width: 70px;
-}
-
-.nav-button:hover:not(.active) {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.nav-text {
-  font-family: 'Saira';
-  font-style: normal;
-  font-weight: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  white-space: nowrap;
-}
-
-/* Header Links at Bottom */
+/* Header Links */
 .header-links {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 0;
-  gap: 12px;
+  gap: 15px;
   position: absolute;
   width: 100%;
-  height: 16px;
-  top: 95px;
+  height: 20px;
+  top: 75px;
   left: 0;
+  z-index: 3;
 }
 
 .header-link {
@@ -230,7 +197,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 4px 8px;
+  padding: 5px 10px;
   text-decoration: none;
   border-radius: 3px;
   transition: all 0.3s ease;
@@ -244,13 +211,88 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 400;
-  font-size: 8px;
-  line-height: 10px;
+  font-size: 10px;
+  line-height: 12px;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
   letter-spacing: 0.02em;
-  white-space: nowrap;
+}
+
+/* Menu Buttons - Active State */
+.nav-button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  gap: 10px;
+  height: 52px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  flex: none;
+  flex-grow: 0;
+}
+
+.nav-button.active {
+  width: 120px;
+  background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), rgba(255, 255, 255, 0.1);
+  background-blend-mode: screen, screen, overlay;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  font-weight: 600;
+  order: 0;
+}
+
+.nav-button.basketball {
+  width: 166px;
+  background: rgba(255, 255, 255, 0.3);
+  background-blend-mode: overlay;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  order: 1;
+}
+
+.nav-button.nba {
+  width: 82px;
+  order: 2;
+}
+
+.nav-text {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.nav-text.active {
+  font-weight: 600;
+}
+
+.nav-text-home {
+  width: 80px;
+}
+
+.nav-text-basketball {
+  width: 126px;
+}
+
+.nav-text-nba {
+  width: 42px;
 }
 
 /* Responsive Design */

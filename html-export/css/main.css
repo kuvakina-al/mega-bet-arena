@@ -62,19 +62,20 @@ img {
   align-items: center;
   padding: 0;
   width: 100%;
+  max-width: 1440px;
   height: 800px;
   flex: none;
   position: relative;
-  margin-top: 0;
+  margin: 156px auto 0 auto; /* Start after header (124px) + gap (32px) */
 }
 
 /* Background Layers */
 .hero-bg-blur {
   position: absolute;
-  width: 100vw;
-  height: 600px;
+  width: 1440px;
+  height: 592px;
   left: 50%;
-  top: 0;
+  top: -50px;
   transform: translateX(-50%);
   background: url('../images/hero background.png');
   background-size: cover;
@@ -85,7 +86,7 @@ img {
 
 .hero-gradient-overlay {
   position: absolute;
-  width: 100vw;
+  width: 1440px;
   height: 400px;
   left: 50%;
   bottom: 0;
@@ -112,7 +113,7 @@ img {
   width: 100%;
   max-width: 900px;
   left: 50%;
-  top: 180px;
+  top: 100px;
   transform: translateX(-50%);
   font-family: 'Saira Extra Condensed';
   font-style: normal;
@@ -134,7 +135,7 @@ img {
   width: 100%;
   max-width: 900px;
   left: 50%;
-  top: 244px;
+  top: 210px;
   transform: translateX(-50%);
   font-family: 'Saira Extra Condensed';
   font-style: normal;
@@ -173,10 +174,10 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 64px 164px;
-  gap: 64px;
+  padding: 64px 32px;
+  gap: 48px;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 

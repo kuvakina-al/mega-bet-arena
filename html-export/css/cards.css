@@ -238,7 +238,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 8px;
+  padding: 2px 6px;
   width: 44px;
   height: 24px;
   background: rgba(255, 255, 255, 0.09);
@@ -247,10 +247,11 @@
 }
 
 .payment-icon img {
-  max-width: 28px;
-  max-height: 16px;
+  max-width: 32px;
+  max-height: 18px;
   width: auto;
   height: auto;
+  object-fit: contain;
   filter: brightness(0) invert(1);
 }
 
@@ -418,26 +419,38 @@
 
 @media (max-width: 480px) {
   .cards-container {
-    width: 440px;
-    gap: 10px;
-    padding: 0;
-  }
-  
-  .betting-card {
-    width: 400px;
-    height: auto;
-    min-height: 447px;
-    padding: 20px;
-    gap: 32px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px;
+    gap: 10px;
+    isolation: isolate;
+    width: 440px;
+    height: auto;
+  }
+  
+  .betting-card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 32px;
+    width: 400px;
+    height: 447.69px;
     background: radial-gradient(148.6% 103.44% at 129.03% 148.97%, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%), 
                 radial-gradient(78.68% 73.83% at -14.43% -16.04%, rgba(12, 130, 243, 0.5) 0%, rgba(12, 130, 243, 0) 100%), 
                 linear-gradient(90deg, rgba(0, 130, 255, 0.1) 0%, rgba(255, 0, 0, 0.1) 100%), 
                 rgba(0, 0, 0, 0.55);
     background-blend-mode: screen, screen, normal, normal;
     backdrop-filter: blur(15px);
+    border-radius: 5px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
   }
   
   .card-content {
@@ -453,50 +466,261 @@
     order: 0;
     width: 112.93px;
     height: 59.69px;
+    flex: none;
+    flex-grow: 0;
   }
   
   .card-bonus {
     order: 1;
-    width: 358px;
-    height: 78px;
-    text-align: center;
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 358px;
+    height: 78px;
+    flex: none;
+    flex-grow: 0;
   }
   
   .bonus-amount {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 0px;
+    gap: 8px;
     width: 335px;
     height: 44px;
-    gap: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
   
   .bonus-number {
-    font-size: 64px;
-    line-height: 120%;
     width: 99px;
     height: 44px;
+    font-family: 'Saira Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FF0004;
+    text-shadow: 0px 0px 20px rgba(255, 0, 4, 0.5);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
   
   .bonus-text {
-    font-size: 64px;
-    line-height: 120%;
     width: 228px;
     height: 44px;
+    font-family: 'Saira Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
   }
   
   .bonus-description {
+    width: 358px;
+    height: 14px;
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 600;
     font-size: 20px;
     line-height: 120%;
-    height: 14px;
-    text-align: center;
-    width: 358px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
   }
   
   .card-rating {
     order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 12px;
+    width: 360px;
+    height: 62px;
+    background: rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .rating-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    width: 336px;
+    height: 38px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .rating-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 336px;
+    height: 10px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .rating-label {
+    width: 86px;
+    height: 10px;
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .rating-percentage {
+    width: 30px;
+    height: 10px;
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .rating-bar {
+    width: 336px;
+    height: 16px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+  }
+  
+  .rating-fill {
+    position: absolute;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #00FF95;
+    background-blend-mode: plus-lighter, normal;
+    border-radius: 4px;
+  }
+  
+  .payment-methods {
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4.18px;
+    width: 360px;
+    height: 40px;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .payment-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 14.4762px;
+    gap: 7.62px;
+    width: 56.52px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 3.80952px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+  }
+  
+  .payment-icon img {
+    background: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    max-width: 44px;
+    max-height: 24px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+  }
+  
+  .card-button {
+    order: 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 24px;
+    gap: 20px;
+    width: 360px;
+    height: 64px;
+    background: linear-gradient(90deg, #E96500 0%, #E99F00 100%);
+    border-radius: 5px;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .card-button-text {
+    width: 218px;
+    height: 14px;
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
     width: 360px;
     height: 62px;
     align-self: stretch;
@@ -570,28 +794,46 @@
 /* PMU variant mobile */
 @media (max-width: 480px) {
   .betting-card.pmu {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 32px;
+    width: 400px;
+    height: 448.44px;
     background: radial-gradient(148.6% 103.44% at 129.03% 148.97%, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%), 
                 radial-gradient(78.68% 73.83% at -14.43% -16.04%, rgba(12, 130, 243, 0.5) 0%, rgba(12, 130, 243, 0) 100%), 
                 linear-gradient(90deg, rgba(0, 130, 255, 0.4) 0%, rgba(255, 0, 0, 0.4) 100%), 
                 rgba(0, 0, 0, 0.55);
     background-blend-mode: screen, screen, normal, normal;
-    height: 448.44px;
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
   }
   
   .betting-card.pmu .card-bonus {
     width: 346px;
+    height: 78px;
   }
   
   .betting-card.pmu .bonus-amount {
     width: 346px;
+    height: 44px;
   }
   
   .betting-card.pmu .bonus-number {
     width: 110px;
+    height: 44px;
   }
   
   .betting-card.pmu .bonus-description {
     width: 300px;
+    height: 14px;
   }
   
   .betting-card.pmu .card-rating {
@@ -610,12 +852,76 @@
     background: #FFFFFF;
   }
   
-  .betting-card.pmu .card-button-text {
-    background: linear-gradient(90deg, #E96500 0%, #E99F00 100%), #FFFFFF;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    width: 117px;
-    height: 34px;
+/* Third card variant (Netbet) mobile */
+  .betting-card:nth-child(3) {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 32px;
+    width: 400px;
+    height: 448.69px;
+    background: radial-gradient(148.6% 103.44% at 129.03% 148.97%, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%), 
+                radial-gradient(78.68% 73.83% at -14.43% -16.04%, rgba(12, 130, 243, 0.5) 0%, rgba(12, 130, 243, 0) 100%), 
+                linear-gradient(90deg, rgba(0, 130, 255, 0.1) 0%, rgba(255, 0, 0, 0.1) 100%), 
+                rgba(0, 0, 0, 0.55);
+    background-blend-mode: screen, screen, normal, normal;
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+  }
+  
+  .betting-card:nth-child(3) .card-bonus {
+    width: 352px;
+    height: 78px;
+  }
+  
+  .betting-card:nth-child(3) .bonus-amount {
+    width: 346px;
+    height: 44px;
+  }
+  
+  .betting-card:nth-child(3) .bonus-number {
+    width: 110px;
+    height: 44px;
+  }
+  
+  .betting-card:nth-child(3) .bonus-description {
+    width: 352px;
+    height: 14px;
+  }
+  
+  .betting-card:nth-child(3) .card-rating {
+    height: 63px;
+  }
+  
+  .betting-card:nth-child(3) .rating-content {
+    height: 39px;
+  }
+  
+  .betting-card:nth-child(3) .rating-bar {
+    height: 17px;
+  }
+  
+  /* Basketball decorations */
+  .cards-container::before {
+    content: '';
+    position: absolute;
+    width: 41.54px;
+    height: 50.29px;
+    left: calc(50% - 41.54px/2 + 149.27px);
+    top: calc(50% - 50.29px/2 + 191.11px);
+    background: url('../images/bascketball.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    z-index: 3;
   }
 }

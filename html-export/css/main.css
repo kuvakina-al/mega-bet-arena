@@ -68,6 +68,61 @@ img {
   position: relative;
 }
 
+/* Responsive Hero Section */
+@media (max-width: 1024px) {
+  .hero-section {
+    height: 700px;
+  }
+  
+  .hero-bg-blur {
+    width: 1200px;
+  }
+  
+  .hero-gradient-overlay {
+    width: 1200px;
+  }
+  
+  .hero-title {
+    font-size: 56px;
+    max-width: 800px;
+  }
+  
+  .hero-subtitle {
+    font-size: 22px;
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    height: 600px;
+  }
+  
+  .hero-bg-blur {
+    width: 1000px;
+  }
+  
+  .hero-gradient-overlay {
+    width: 1000px;
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    max-width: 600px;
+    top: 80px;
+  }
+  
+  .hero-subtitle {
+    font-size: 20px;
+    max-width: 600px;
+    top: 180px;
+  }
+  
+  .cards-container {
+    bottom: 20px;
+  }
+}
+
 /* Background Layers */
 .hero-bg-blur {
   position: absolute;

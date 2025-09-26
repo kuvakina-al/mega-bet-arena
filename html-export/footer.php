@@ -10,14 +10,14 @@
                     </div>
                     
                     <nav class="footer-nav">
-                        <a href="index.php" class="footer-nav-button footer-nav-button-home">
-                            <span class="nav-text nav-text-home">Accueil</span>
+                        <a href="index.php" class="footer-nav-button footer-nav-button-home <?php echo ($current_page == 'index') ? 'active' : ''; ?>">
+                            <span class="nav-text">ACCUEIL</span>
                         </a>
-                        <a href="basketball.php" class="footer-nav-button footer-nav-button-basketball">
-                            <span class="nav-text nav-text-basketball">Basketball</span>
+                        <a href="basketball.php" class="footer-nav-button footer-nav-button-basketball <?php echo ($current_page == 'basketball') ? 'active' : ''; ?>">
+                            <span class="nav-text">BASKETBALL</span>
                         </a>
-                        <a href="nba.php" class="footer-nav-button footer-nav-button-nba">
-                            <span class="nav-text nav-text-nba">NBA</span>
+                        <a href="nba.php" class="footer-nav-button footer-nav-button-nba <?php echo ($current_page == 'nba') ? 'active' : ''; ?>">
+                            <span class="nav-text">NBA</span>
                         </a>
                     </nav>
                 </div>

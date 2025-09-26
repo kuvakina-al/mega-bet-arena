@@ -27,23 +27,25 @@
             </div>
             
             <div class="payment-methods">
-                <div class="payment-icon">
-                    <img src="images/visa logo.png" alt="Visa">
-                </div>
-                <div class="payment-icon">
-                    <img src="images/mastercard logo.png" alt="Mastercard">
-                </div>
-                <div class="payment-icon">
-                    <img src="images/paypal logo.png" alt="PayPal">
-                </div>
-                <div class="payment-icon">
-                    <img src="images/skrill logo.png" alt="Skrill">
-                </div>
-                <div class="payment-icon">
-                    <img src="images/neteller logo.png" alt="Neteller">
-                </div>
-                <div class="payment-icon">
-                    <img src="images/apple pay logo.png" alt="Apple Pay">
+                <div>
+                    <div class="payment-icon">
+                        <img src="images/visa logo.png" alt="Visa">
+                    </div>
+                    <div class="payment-icon">
+                        <img src="images/mastercard logo.png" alt="Mastercard">
+                    </div>
+                    <div class="payment-icon">
+                        <img src="images/paypal logo.png" alt="PayPal">
+                    </div>
+                    <div class="payment-icon">
+                        <img src="images/skrill logo.png" alt="Skrill">
+                    </div>
+                    <div class="payment-icon">
+                        <img src="images/neteller logo.png" alt="Neteller">
+                    </div>
+                    <div class="payment-icon">
+                        <img src="images/apple pay logo.png" alt="Apple Pay">
+                    </div>
                 </div>
             </div>
             
@@ -80,23 +82,25 @@
             </div>
             
             <div class="payment-methods">
-                <div class="payment-icon">
-                    <img src="images/visa logo.png" alt="Visa">
-                </div>
-                <div class="payment-icon">
-                    <img src="images/mastercard logo.png" alt="Mastercard">
-                </div>
-                <div class="payment-icon">
-                    <img src="images/paypal logo.png" alt="PayPal">
-                </div>
-                <div class="payment-icon">
-                    <img src="images/skrill logo.png" alt="Skrill">
-                </div>
-                <div class="payment-icon">
-                    <img src="images/neteller logo.png" alt="Neteller">
-                </div>
-                <div class="payment-icon">
-                    <img src="images/apple pay logo.png" alt="Apple Pay">
+                <div>
+                    <div class="payment-icon">
+                        <img src="images/visa logo.png" alt="Visa">
+                    </div>
+                    <div class="payment-icon">
+                        <img src="images/mastercard logo.png" alt="Mastercard">
+                    </div>
+                    <div class="payment-icon">
+                        <img src="images/paypal logo.png" alt="PayPal">
+                    </div>
+                    <div class="payment-icon">
+                        <img src="images/skrill logo.png" alt="Skrill">
+                    </div>
+                    <div class="payment-icon">
+                        <img src="images/neteller logo.png" alt="Neteller">
+                    </div>
+                    <div class="payment-icon">
+                        <img src="images/apple pay logo.png" alt="Apple Pay">
+                    </div>
                 </div>
             </div>
             
@@ -133,23 +137,25 @@
             </div>
             
             <div class="payment-methods">
-                <div class="payment-icon">
-                    <img src="images/visa logo.png" alt="Visa">
-                </div>
-                <div class="payment-icon">
-                    <img src="images/mastercard logo.png" alt="Mastercard">
-                </div>
-                <div class="payment-icon">
-                    <img src="images/paypal logo.png" alt="PayPal">
-                </div>
-                <div class="payment-icon">
-                    <img src="images/skrill logo.png" alt="Skrill">
-                </div>
-                <div class="payment-icon">
-                    <img src="images/neteller logo.png" alt="Neteller">
-                </div>
-                <div class="payment-icon">
-                    <img src="images/apple pay logo.png" alt="Apple Pay">
+                <div>
+                    <div class="payment-icon">
+                        <img src="images/visa logo.png" alt="Visa">
+                    </div>
+                    <div class="payment-icon">
+                        <img src="images/mastercard logo.png" alt="Mastercard">
+                    </div>
+                    <div class="payment-icon">
+                        <img src="images/paypal logo.png" alt="PayPal">
+                    </div>
+                    <div class="payment-icon">
+                        <img src="images/skrill logo.png" alt="Skrill">
+                    </div>
+                    <div class="payment-icon">
+                        <img src="images/neteller logo.png" alt="Neteller">
+                    </div>
+                    <div class="payment-icon">
+                        <img src="images/apple pay logo.png" alt="Apple Pay">
+                    </div>
                 </div>
             </div>
             

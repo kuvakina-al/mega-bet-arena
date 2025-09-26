@@ -378,3 +378,356 @@
   background-blend-mode: screen, screen, screen, normal;
   transform: translateY(-2px);
 }
+
+/* Mobile Responsive Design */
+@media (max-width: 480px) {
+  /* Cards Container - Mobile */
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+    width: 440px;
+    height: 1364.83px;
+    margin: 0 auto;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Individual Betting Card - Mobile */
+  .betting-card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 32px;
+    width: 400px;
+    height: 447.69px;
+    background: radial-gradient(148.6% 103.44% at 129.03% 148.97%, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%), 
+                radial-gradient(78.68% 73.83% at -14.43% -16.04%, rgba(12, 130, 243, 0.5) 0%, rgba(12, 130, 243, 0) 100%), 
+                linear-gradient(90deg, rgba(0, 130, 255, 0.1) 0%, rgba(255, 0, 0, 0.1) 100%), 
+                rgba(0, 0, 0, 0.55);
+    background-blend-mode: screen, screen, normal, normal;
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    cursor: pointer;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  /* Card Content - Mobile Vertical */
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 32px;
+    width: 100%;
+    height: auto;
+  }
+
+  /* Logo - Mobile */
+  .card-logo {
+    width: 112.93px;
+    height: 59.69px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  /* Bonus Section - Mobile */
+  .card-bonus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 20px;
+    width: 358px;
+    height: 78px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .bonus-amount {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+    width: 335px;
+    height: 44px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .bonus-number {
+    width: 99px;
+    height: 44px;
+    font-family: 'Saira Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FF0004;
+    text-shadow: 0px 0px 20px rgba(255, 0, 4, 0.5);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .bonus-text {
+    width: 228px;
+    height: 44px;
+    font-family: 'Saira Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .bonus-description {
+    width: 358px;
+    height: 14px;
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  /* Trust Section - Mobile */
+  .card-trust {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 12px;
+    width: 360px;
+    height: 62px;
+    background: rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .trust-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 12px;
+    width: 336px;
+    height: 38px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .trust-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+    width: 336px;
+    height: 10px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .trust-label {
+    margin: 0 auto;
+    width: 86px;
+    height: 10px;
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .trust-percentage {
+    margin: 0 auto;
+    width: 30px;
+    height: 10px;
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .trust-progress {
+    width: 336px;
+    height: 16px;
+    position: relative;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .progress-bg {
+    position: absolute;
+    width: 336px;
+    height: 16px;
+    left: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+  }
+
+  .progress-fill {
+    position: absolute;
+    height: 16px;
+    left: 0;
+    top: 0;
+    background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #00FF95;
+    background-blend-mode: plus-lighter, normal;
+    border-radius: 4px;
+  }
+
+  /* Payment Methods - Mobile */
+  .payment-methods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+    width: 360px;
+    height: 112px;
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .payment-methods > div:first-child {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 4.18px;
+    width: 360px;
+    height: 40px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .payment-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 14.4762px;
+    gap: 7.62px;
+    width: 56.52px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 3.80952px;
+    flex: none;
+    flex-grow: 1;
+  }
+
+  .payment-icon img {
+    width: 27.56px;
+    height: 16.08px;
+    background: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Card Button - Mobile */
+  .card-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 24px;
+    gap: 20px;
+    width: 360px;
+    height: 64px;
+    background: linear-gradient(90deg, #E96500 0%, #E99F00 100%);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .card-button-text {
+    width: 218px;
+    height: 14px;
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}

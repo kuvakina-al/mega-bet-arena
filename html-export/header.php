@@ -3,11 +3,6 @@
         <div class="header-top-text">
             Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
         </div>
-        <div class="header-top-age">
-            <div class="header-top-age-circle"></div>
-            <div class="header-top-age-number">18</div>
-            <div class="header-top-age-plus"></div>
-        </div>
     </div>
 
     <div class="header-main">
@@ -34,18 +29,4 @@
     </a>
 </nav>
 
-<div class="header-links">
-    <a href="mentions-legales-conditions.php" class="header-link">
-        <span class="header-link-text">Mentions Légales</span>
-    </a>
-    <a href="politique-protection-donnees.php" class="header-link">
-        <span class="header-link-text">Protection des Données</span>
-    </a>
-    <a href="jeu-responsable-informations.php" class="header-link">
-        <span class="header-link-text">Jeu Responsable</span>
-    </a>
-    <a href="regulation-francaise-jeux-en-ligne.php" class="header-link">
-        <span class="header-link-text">Régulation Française</span>
-    </a>
-</div>
 </div>

@@ -137,11 +137,13 @@
   font-weight: 700;
   font-size: 28px;
   line-height: 32px;
+  letter-spacing: 0%;
   color: #FFFFFF;
   flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
+  margin-bottom: 24px;
 }
 
 /* Content Text */
@@ -152,11 +154,20 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
+  letter-spacing: 0%;
   color: #4B73CF;
   flex: none;
   order: 2;
   align-self: stretch;
   flex-grow: 0;
+}
+
+/* Content Text Strong Elements */
+.text-content strong {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #4B73CF;
 }
 
 .text-content.first {

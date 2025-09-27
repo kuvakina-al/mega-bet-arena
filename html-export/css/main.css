@@ -328,6 +328,8 @@ img {
     flex: none;
     order: 0;
     flex-grow: 0;
+    display: flex;
+    flex-direction: column;
   }
   
   .hero-bg-blur {
@@ -441,12 +443,13 @@ img {
     transform: none;
     left: auto;
     bottom: auto;
-    margin: 80px 0 0 0;
-    padding: 40px 0;
+    margin: 20px 0;
+    padding: 20px 0;
     order: 1;
     align-self: stretch;
     flex-grow: 0;
-    z-index: 2;
+    z-index: 1;
+    margin-top: auto;
   }
   
   /* Text container mobile layout */
@@ -455,10 +458,10 @@ img {
     height: auto;
     padding: 64px 20px;
     gap: 64px;
-    order: 2;
-    align-self: stretch;
-    flex-grow: 0;
-    margin-top: 40px;
+    position: relative;
+    z-index: 1;
+    background: #010D1D;
+    order: 1;
   }
   
   /* Hide age restriction badge on mobile as it's in header */

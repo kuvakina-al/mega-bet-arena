@@ -18,11 +18,11 @@
 /* Background Basketball Images */
 .footer-bg-left {
   position: absolute;
-  width: 493.523px;
-  height: 493.523px;
+  width: 20px;
+  height: 20px;
   left: 20px;
-  top: -44.76px;
-  aspect-ratio: 493.52/493.52;
+  top: 20px;
+  aspect-ratio: 1/1;
   background: url('../images/basketball_big.png') no-repeat;
   background-size: cover;
   background-position: center;
@@ -33,10 +33,10 @@
 
 .footer-bg-right {
   position: absolute;
-  width: 311px;
-  height: 311px;
-  right: -20px;
-  top: -50px;
+  width: 15px;
+  height: 15px;
+  right: 20px;
+  top: 20px;
   aspect-ratio: 1/1;
   background: url('../images/basketball_small.png') no-repeat;
   background-size: cover;
@@ -396,17 +396,17 @@
   }
   
   .footer-bg-left {
-    width: 350px;
-    height: 350px;
-    left: -40px;
-    top: -80px;
+    width: 18px;
+    height: 18px;
+    left: 15px;
+    top: 15px;
   }
   
   .footer-bg-right {
-    width: 220px;
-    height: 220px;
-    right: -15px;
-    top: -40px;
+    width: 14px;
+    height: 14px;
+    right: 15px;
+    top: 15px;
   }
   
   .footer-content {
@@ -505,17 +505,17 @@
   }
   
   .footer-bg-left {
-    width: 280px;
-    height: 280px;
-    left: -30px;
-    top: -60px;
+    width: 16px;
+    height: 16px;
+    left: 15px;
+    top: 15px;
   }
   
   .footer-bg-right {
-    width: 180px;
-    height: 180px;
-    right: -10px;
-    top: -30px;
+    width: 12px;
+    height: 12px;
+    right: 15px;
+    top: 15px;
   }
   
   .footer-content {
@@ -626,11 +626,11 @@
   }
   
   .footer-bg-left {
-    width: 493.523px;
-    height: 493.523px;
-    left: -146.761px;
-    top: 68.238px;
-    aspect-ratio: 493.52/493.52;
+    width: 20px;
+    height: 20px;
+    left: 15px;
+    top: 15px;
+    aspect-ratio: 1/1;
     background: url('../images/basketball_big.png') no-repeat;
     background-size: cover;
     background-position: center;

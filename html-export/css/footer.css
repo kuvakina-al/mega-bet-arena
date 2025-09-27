@@ -23,7 +23,7 @@
   left: 20px;
   top: -44.76px;
   aspect-ratio: 493.52/493.52;
-  background: url('../images/bascketball.png') lightgray 50% / cover no-repeat;
+  background: url('../images/basketball.png') lightgray 50% / cover no-repeat;
   background-blend-mode: screen;
   opacity: 0.25;
   transform: rotate(90deg);
@@ -37,7 +37,7 @@
   right: -20px;
   top: -50px;
   aspect-ratio: 1/1;
-  background: url('../images/bascketball.png') lightgray 50% / cover no-repeat;
+  background: url('../images/basketball_small.png') lightgray 50% / cover no-repeat;
   background-blend-mode: screen;
   opacity: 0.25;
   z-index: 1;
@@ -628,7 +628,7 @@
     left: -146.761px;
     top: 68.238px;
     aspect-ratio: 493.52/493.52;
-    background: url('../images/bascketball.png') lightgray 50% / cover no-repeat;
+    background: url('../images/bascketball_big.png') lightgray 50% / cover no-repeat;
     background-blend-mode: screen;
     opacity: 0.25;
     transform: rotate(90deg);

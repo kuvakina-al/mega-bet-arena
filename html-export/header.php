@@ -27,9 +27,7 @@
         
         <!-- Desktop elements - hidden on mobile -->
         <div class="header-age-restriction">
-            <div class="header-age-circle"></div>
-            <div class="header-age-number">18</div>
-            <div class="header-age-plus"></div>
+            <img src="images/18+ logo.png" alt="18+ Age Restriction" />
         </div>
     </div>
 

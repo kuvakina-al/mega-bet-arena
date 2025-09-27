@@ -23,17 +23,17 @@
         </div>
         
         <!-- Desktop navigation - centered in main header -->
-        <nav class="header-navigation">
-            <a href="index.php" class="nav-button">
-                <span class="nav-text nav-text-home">ACCUEIL</span>
-            </a>
-            <a href="basketball.php" class="nav-button">
-                <span class="nav-text nav-text-basketball">BASKETBALL</span>
-            </a>
-            <a href="nba.php" class="nav-button">
-                <span class="nav-text nav-text-nba">NBA</span>
-            </a>
-        </nav>
+        <nav class="footer-nav">
+                    <a href="index.php" class="footer-nav-button footer-nav-button-home <?php echo ($current_page == 'index') ? 'active' : ''; ?>">
+                        <span class="nav-text">ACCUEIL</span>
+                    </a>
+                    <a href="basketball.php" class="footer-nav-button footer-nav-button-basketball <?php echo ($current_page == 'basketball') ? 'active' : ''; ?>">
+                        <span class="nav-text">BASKETBALL</span>
+                    </a>
+                    <a href="nba.php" class="footer-nav-button footer-nav-button-nba <?php echo ($current_page == 'nba') ? 'active' : ''; ?>">
+                        <span class="nav-text">NBA</span>
+                    </a>
+                </nav
         
         <!-- CSS-only mobile menu toggle -->
         <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-checkbox">

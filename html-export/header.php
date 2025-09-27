@@ -1,11 +1,7 @@
 <div class="header-section">
     <!-- Mobile top bar with 18+ logo and warning text -->
     <div class="header-top-bar-mobile">
-        <div class="header-top-age-mobile">
-            <div class="header-top-age-circle"></div>
-            <div class="header-top-age-number">18</div>
-            <div class="header-top-age-plus"></div>
-        </div>
+        
         <div class="header-top-text-mobile">
             Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
         </div>

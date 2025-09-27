@@ -26,7 +26,6 @@
   background: url('../images/basketball_big.png') lightgray 50% / cover no-repeat;
   background-blend-mode: screen;
   opacity: 0.25;
-  transform: rotate(90deg);
   z-index: 0;
 }
 
@@ -631,7 +630,6 @@
     background: url('../images/basketball_big.png') lightgray 50% / cover no-repeat;
     background-blend-mode: screen;
     opacity: 0.25;
-    transform: rotate(90deg);
   }
   
   .footer-bg-right {

@@ -20,8 +20,8 @@
   position: absolute;
   width: 450.523px;
   height: 450.523px;
-  left: 20px;
-  top: -44.76px;
+  left: 0px;
+  top: auto;
   aspect-ratio: 493.52/493.52;
   background: url('../images/basketball_big.png') no-repeat;
   background-size: cover;
@@ -35,8 +35,8 @@
   position: absolute;
   width: 280px;
   height: 280px;
-  right: -20px;
-  top: -50px;
+  right: -10px;
+  top: -8px;
   aspect-ratio: 1/1;
   background: url('../images/basketball_small.png') no-repeat;
   background-size: cover;

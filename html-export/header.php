@@ -1,7 +1,15 @@
 <div class="header-section">
+    <!-- Desktop warning bar -->
+    <div class="header-warning">
+        <div class="header-warning-text">
+            Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
+        </div>
+    </div>
+    
     <!-- Mobile top bar with 18+ logo and warning text -->
     <div class="header-top-bar-mobile">
-        
+        <div class="header-top-logo-mobile">
+            <img src="../images/18+ logo.png" alt="18+ Age Restriction" />
         <div class="header-top-text-mobile">
             Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
         </div>

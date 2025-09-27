@@ -22,6 +22,19 @@
             <img src="images/megabet logo.png" alt="Megabet Logo" />
         </div>
         
+        <!-- Desktop navigation - centered in main header -->
+        <nav class="header-navigation">
+            <a href="index.php" class="nav-button">
+                <span class="nav-text nav-text-home">ACCUEIL</span>
+            </a>
+            <a href="basketball.php" class="nav-button">
+                <span class="nav-text nav-text-basketball">BASKETBALL</span>
+            </a>
+            <a href="nba.php" class="nav-button">
+                <span class="nav-text nav-text-nba">NBA</span>
+            </a>
+        </nav>
+        
         <!-- CSS-only mobile menu toggle -->
         <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-checkbox">
         <label for="mobile-menu-toggle" class="header-mobile-menu">
@@ -35,19 +48,6 @@
             <img src="images/18+ logo.png" alt="18+ Age Restriction" />
         </div>
     </div>
-
-    <!-- Desktop navigation - hidden on mobile -->
-    <nav class="header-navigation">
-        <a href="index.php" class="nav-button active">
-            <span class="nav-text nav-text-home">ACCUEIL</span>
-        </a>
-        <a href="basketball.php" class="nav-button basketball">
-            <span class="nav-text nav-text-basketball">BASKETBALL</span>
-        </a>
-        <a href="nba.php" class="nav-button nba">
-            <span class="nav-text nav-text-nba">NBA</span>
-        </a>
-    </nav>
 
     <!-- Mobile Navigation Menu -->
     <div class="mobile-menu-overlay">

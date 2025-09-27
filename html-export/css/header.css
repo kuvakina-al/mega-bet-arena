@@ -62,7 +62,7 @@
   padding-right: 20px;
   padding-bottom: 0;
   padding-left: 20px;
-  gap: 858px;
+  gap: 20px;
   isolation: isolate;
   width: 1375px;
   height: 80px;
@@ -81,6 +81,7 @@
   order: 0;
   flex-grow: 0;
   z-index: 10;
+  margin-right: 50px;
 }
 
 .header-logo img {
@@ -90,6 +91,10 @@
 }
 
 /* 18+ Badge */
+.header-age-restriction {
+  margin-left: 50px;
+}
+
 .header-age-restriction img {
   width: 66.97px;
   height: 64px;
@@ -116,13 +121,10 @@
   padding-bottom: 0;
   padding-left: 0;
   gap: 20px;
-  position: absolute;
   width: 408px;
   height: 52px;
-  left: calc(50% - 408px/2);
-  top: 14px;
   flex: none;
-  order: 2;
+  order: 1;
   flex-grow: 0;
   z-index: 2;
 }
@@ -170,7 +172,7 @@
   letter-spacing: 0.02em;
 }
 
-/* Menu Buttons - Active State */
+/* Menu Buttons - Default State */
 .nav-button {
   box-sizing: border-box;
   display: flex;
@@ -195,26 +197,40 @@
   color: #FFFFFF;
   flex: none;
   flex-grow: 0;
+  background: transparent;
+  border: none;
+  transition: all 0.3s ease;
 }
 
+/* Hover state for all nav buttons */
+.nav-button:hover {
+  border: 1px solid #FFFFFF66;
+  background: #FFFFFF4D;
+  background-blend-mode: overlay;
+}
+
+/* Active state - only applies when on specific page */
 .nav-button.active {
   width: 120px;
-  background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), rgba(255, 255, 255, 0.1);
+  background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), #FFFFFF1A;
   background-blend-mode: screen, screen, overlay;
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  border: 1px solid #FFFFFF66;
   font-weight: 600;
   order: 0;
 }
 
-.nav-button.basketball {
+/* Specific widths for buttons */
+.nav-button:nth-child(1) {
+  width: 120px;
+  order: 0;
+}
+
+.nav-button:nth-child(2) {
   width: 166px;
-  background: rgba(255, 255, 255, 0.3);
-  background-blend-mode: overlay;
-  border: 1px solid rgba(255, 255, 255, 0.4);
   order: 1;
 }
 
-.nav-button.nba {
+.nav-button:nth-child(3) {
   width: 82px;
   order: 2;
 }

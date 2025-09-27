@@ -33,10 +33,11 @@
                 <!-- Hero Content Text -->
                 <h1 class="hero-title">Bienvenue sur Mega Bet 3000</h1>
                 <p class="hero-subtitle">Votre Guide Ultime des Paris Sportifs Légaux en France</p>
-                
-                
+
             </section>
+            
             <?php include 'cards.php'; ?>
+
             <!-- Text Container Section comes after hero/cards -->
             <section class="text-container">
                 <div class="text-box">

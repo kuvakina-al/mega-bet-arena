@@ -7,7 +7,7 @@
   gap: 15px;
   width: 100%;
   max-width: 1000px;
-  margin: -350px auto 0;
+  margin: 0 auto;
 }
 
 /* Desktop Card Styles (Default) */
@@ -315,15 +315,14 @@
 }
 
 .payment-icon img {
-  width: auto;
-  height: auto;
-  max-width: 25.9px;
-  max-height: 15.11px;
+  width: 25.9px;
+  height: 15.11px;
+  background: #FFFFFF;
   flex: none;
   order: 0;
-  align-self: center;
+  align-self: stretch;
   flex-grow: 0;
-  object-fit: contain;
+  filter: brightness(0) invert(1);
 }
 
 /* Desktop Button */
@@ -427,9 +426,6 @@
   .payment-icon img {
     max-width: 24px;
     max-height: 14px;
-    width: auto;
-    height: auto;
-    object-fit: contain;
   }
   
   .card-button {
@@ -502,9 +498,6 @@
   .payment-icon img {
     max-width: 20px;
     max-height: 12px;
-    width: auto;
-    height: auto;
-    object-fit: contain;
   }
   
   .card-button {
@@ -527,14 +520,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0;
+    padding: 20px;
     gap: 10px;
     isolation: isolate;
     width: 100%;
     max-width: 400px;
     height: auto;
     position: relative;
-    z-index: 10;
+    z-index: 20;
+    background: #010D1D;
+    margin: 0 auto;
   }
   
   /* Mobile Card Base */
@@ -564,18 +559,6 @@
   
   .betting-card:hover {
     transform: none;
-    border: 1px solid;
-    border-image-source: linear-gradient(90deg, #0082FF 0%, #FF0000 100%);
-  }
-  
-  .betting-card:active,
-  .betting-card:focus {
-    background: #0000008C;
-    background: linear-gradient(90deg, rgba(0, 130, 255, 0.4) 0%, rgba(255, 0, 0, 0.4) 100%);
-    background-blend-mode: screen;
-    background: radial-gradient(78.68% 73.83% at -14.43% -16.04%, rgba(12, 130, 243, 0.5) 0%, rgba(12, 130, 243, 0) 100%);
-    background-blend-mode: screen;
-    background: radial-gradient(148.6% 103.44% at 129.03% 148.97%, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%);
     border: 1px solid;
     border-image-source: linear-gradient(90deg, #0082FF 0%, #FF0000 100%);
   }
@@ -664,8 +647,8 @@
   
   .bonus-description {
     width: 100%;
-    max-width: 450px;
-    height: 19px;
+    max-width: 358px;
+    height: 14px;
     font-family: 'Saira';
     font-style: normal;
     font-weight: 600;
@@ -677,7 +660,6 @@
     flex: none;
     order: 1;
     flex-grow: 0;
-    white-space: nowrap;
   }
   
   /* Mobile Rating Section */
@@ -818,15 +800,15 @@
   }
   
   .payment-icon img {
+    background: #FFFFFF;
     flex: none;
     order: 0;
-    align-self: center;
+    align-self: stretch;
     flex-grow: 0;
     max-width: 35px;
     max-height: 20px;
     width: auto;
     height: auto;
-    object-fit: contain;
     object-fit: contain;
     filter: brightness(0) invert(1);
   }
@@ -850,21 +832,9 @@
     flex-grow: 0;
   }
   
-  .card-button:active,
-  .card-button:focus {
-    background: #0000008C;
-    background: linear-gradient(90deg, rgba(0, 130, 255, 0.4) 0%, rgba(255, 0, 0, 0.4) 100%);
-    background-blend-mode: screen;
-    background: radial-gradient(78.68% 73.83% at -14.43% -16.04%, rgba(12, 130, 243, 0.5) 0%, rgba(12, 130, 243, 0) 100%);
-    background-blend-mode: screen;
-    background: radial-gradient(148.6% 103.44% at 129.03% 148.97%, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%);
-    border: 1px solid;
-    border-image-source: linear-gradient(90deg, #0082FF 0%, #FF0000 100%);
-  }
-  
   .card-button-text {
     width: auto;
-    height: auto;
+    height: 14px;
     font-family: 'Saira';
     font-style: normal;
     font-weight: 700;

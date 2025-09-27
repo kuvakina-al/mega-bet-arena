@@ -568,6 +568,18 @@
     border-image-source: linear-gradient(90deg, #0082FF 0%, #FF0000 100%);
   }
   
+  .betting-card:active,
+  .betting-card:focus {
+    background: #0000008C;
+    background: linear-gradient(90deg, rgba(0, 130, 255, 0.4) 0%, rgba(255, 0, 0, 0.4) 100%);
+    background-blend-mode: screen;
+    background: radial-gradient(78.68% 73.83% at -14.43% -16.04%, rgba(12, 130, 243, 0.5) 0%, rgba(12, 130, 243, 0) 100%);
+    background-blend-mode: screen;
+    background: radial-gradient(148.6% 103.44% at 129.03% 148.97%, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%);
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg, #0082FF 0%, #FF0000 100%);
+  }
+  
   /* Mobile Card Content */
   .card-content {
     flex-direction: column;
@@ -652,8 +664,8 @@
   
   .bonus-description {
     width: 100%;
-    max-width: 358px;
-    height: 14px;
+    max-width: 450px;
+    height: 19px;
     font-family: 'Saira';
     font-style: normal;
     font-weight: 600;
@@ -665,6 +677,7 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+    white-space: nowrap;
   }
   
   /* Mobile Rating Section */
@@ -835,6 +848,18 @@
     flex: none;
     align-self: stretch;
     flex-grow: 0;
+  }
+  
+  .card-button:active,
+  .card-button:focus {
+    background: #0000008C;
+    background: linear-gradient(90deg, rgba(0, 130, 255, 0.4) 0%, rgba(255, 0, 0, 0.4) 100%);
+    background-blend-mode: screen;
+    background: radial-gradient(78.68% 73.83% at -14.43% -16.04%, rgba(12, 130, 243, 0.5) 0%, rgba(12, 130, 243, 0) 100%);
+    background-blend-mode: screen;
+    background: radial-gradient(148.6% 103.44% at 129.03% 148.97%, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%);
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg, #0082FF 0%, #FF0000 100%);
   }
   
   .card-button-text {

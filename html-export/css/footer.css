@@ -626,16 +626,17 @@
   }
   
   .footer-bg-left {
-    width: 20px;
-    height: 20px;
-    left: 15px;
-    top: 15px;
+    width: 40px;
+    height: 40px;
+    left: 20px;
+    top: 30px;
     aspect-ratio: 1/1;
     background: url('../images/basketball_big.png') no-repeat;
     background-size: cover;
     background-position: center;
     background-blend-mode: screen;
-    opacity: 0.25;
+    opacity: 0.4;
+    z-index: 0;
   }
   
   .footer-bg-right {

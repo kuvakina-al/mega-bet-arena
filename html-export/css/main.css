@@ -149,7 +149,19 @@ img {
   z-index: -2;
 }
 
-
+.hero-fg-image {
+  position: absolute;
+  width: 1440px;
+  height: 400px;
+  left: 50%;
+  top: 200px;
+  transform: translateX(-50%);
+  background: url('../images/bg_removal [Background removed].png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
 
 .hero-bottom-gradient {
   position: absolute;
@@ -287,55 +299,82 @@ img {
   content: '+';
 }
 
-/* Responsive Design */
-
-
 /* Mobile specific hero adjustments */
 @media (max-width: 480px) {
   .site-wrapper {
-    max-width: 440px;
     width: 100%;
+    max-width: 440px;
     margin: 0 auto;
+    position: relative;
+  }
+  
+  .site-content {
+    width: 100%;
+    max-width: 440px;
+    align-items: stretch;
   }
   
   .hero-section {
     width: 440px;
     height: 423px;
     max-width: none;
-    margin: 0 auto;
+    margin: 0;
+    position: relative;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
   
   .hero-bg-blur {
+    position: absolute;
     width: 925.5px;
     height: 617px;
     left: calc(50% - 925.5px/2 - 0.38px);
     top: 0px;
     transform: none;
+    background: url('../images/hero background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     filter: blur(3.5px);
+    z-index: -3;
   }
   
   .hero-gradient-overlay {
+    position: absolute;
     width: 439.77px;
     height: 411.27px;
     left: calc(50% - 439.77px/2);
     top: 205.73px;
     transform: none;
+    background: linear-gradient(180deg, rgba(1, 13, 29, 0) 0%, #010D1D 72.91%);
+    z-index: -2;
   }
   
   .hero-fg-image {
+    position: absolute;
     width: 756.78px;
     height: 425.69px;
     left: calc(50% - 756.78px/2 - 0.38px);
     top: 236.53px;
     transform: none;
+    background: url('../images/bg_removal [Background removed].png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
   }
   
   .hero-bottom-gradient {
+    position: absolute;
     height: 283.29px;
     left: -0.03%;
     right: 0.03%;
     top: 333.53px;
+    width: auto;
     transform: none;
+    background: linear-gradient(180deg, rgba(1, 13, 29, 0) 0%, #010D1D 72.91%);
+    z-index: 0;
   }
   
   .hero-title {
@@ -345,10 +384,24 @@ img {
     left: 20px;
     top: 170.28px;
     transform: none;
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 600;
     font-size: 48px;
     line-height: 100%;
     text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.74) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0px 4px 4px rgba(0, 91, 147, 0.31);
     border: 1px solid #FFFFFF;
+    z-index: 1;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
   }
   
   .hero-subtitle {
@@ -356,34 +409,56 @@ img {
     width: 400px;
     height: 14px;
     left: 20px;
-    top: 185.28px;
+    top: 269.28px;
     transform: none;
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 400;
     font-size: 20px;
     line-height: 100%;
     text-align: center;
-  }
-  
-  .cards-container {
-    position: static;
-    width: 440px;
-    height: auto;
-    transform: none;
-    left: auto;
-    bottom: auto;
-    margin: 20px 0;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.74) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0px 4px 4px rgba(0, 91, 147, 0.31);
+    z-index: 1;
+    flex: none;
     order: 1;
     align-self: stretch;
     flex-grow: 0;
   }
   
+  .cards-container {
+    position: relative;
+    width: 440px;
+    height: auto;
+    transform: none;
+    left: auto;
+    bottom: auto;
+    margin: 0;
+    padding: 20px 0;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 10;
+  }
+  
   /* Text container mobile layout */
   .text-container {
     width: 440px;
-    height: 2977px;
+    height: auto;
     padding: 64px 20px;
     gap: 64px;
     order: 2;
     align-self: stretch;
     flex-grow: 0;
+    margin-top: 40px;
+  }
+  
+  /* Hide age restriction badge on mobile as it's in header */
+  .age-restriction {
+    display: none;
   }
 }

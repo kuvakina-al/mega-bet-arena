@@ -284,16 +284,16 @@
 
 /* Desktop Payment Methods */
 .payment-methods {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   align-items: center;
-  align-content: flex-start;
+  justify-items: center;
   padding: 0;
   gap: 4px;
   margin: 0 auto;
-  width: 172.57px;
-  height: 64.95px;
+  width: 172px;
+  height: 65px;
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -304,19 +304,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px 14.4762px;
-  gap: 7.62px;
-  width: 54.86px;
-  height: 30.48px;
+  padding: 0px 8px;
+  gap: 4px;
+  width: 54px;
+  height: 30px;
   background: rgba(255, 255, 255, 0.09);
-  border-radius: 3.80952px;
+  border-radius: 4px;
   flex: none;
   flex-grow: 0;
 }
 
 .payment-icon img {
-  width: 25.9px;
-  height: 15.11px;
+  width: auto;
+  height: 15px;
+  max-width: 38px;
   background: #FFFFFF;
   flex: none;
   order: 0;

@@ -47,7 +47,7 @@
             </div>
             
             <a href="https://www.unibet.fr/?utm=k3j8m9n2p5" target="_blank" rel="noopener noreferrer" class="card-button">
-                <span class="card-button-text">Débloquez le bonus</span>
+                <span class="card-button-text">Débloquez<br>le bonus</span>
             </a>
         </div>
     </div>
@@ -99,7 +99,7 @@
             </div>
             
             <a href="https://www.pmu.fr/?utm=r7x2v9k8n4" target="_blank" rel="noopener noreferrer" class="card-button">
-                <span class="card-button-text">Débloquez le bonus</span>
+                <span class="card-button-text">Débloquez<br>le bonus</span>
             </a>
         </div>
     </div>
@@ -151,7 +151,7 @@
             </div>
             
             <a href="https://www.netbetsport.fr/?utm=q8w5e3r9t2" target="_blank" rel="noopener noreferrer" class="card-button">
-                <span class="card-button-text">Débloquez le bonus</span>
+                <span class="card-button-text">Débloquez<br>le bonus</span>
             </a>
         </div>
     </div>

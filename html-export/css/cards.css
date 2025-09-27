@@ -49,10 +49,10 @@
 .card-content {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 0 16px;
-  gap: 20px;
+  gap: 30px;
   margin: 0 auto;
   width: 100%;
   max-width: 950px;
@@ -92,12 +92,12 @@
 .card-bonus {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 0;
-  gap: 16px;
+  gap: 8px;
   margin: 0 auto;
-  width: 260px;
-  height: 60px;
+  width: 350px;
+  height: 70px;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -106,12 +106,12 @@
 .bonus-amount {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   padding: 0;
-  gap: 6px;
-  width: 200px;
-  height: 24px;
+  gap: 8px;
+  width: 350px;
+  height: 36px;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -119,11 +119,11 @@
 
 .bonus-number {
   width: auto;
-  height: 24px;
+  height: 36px;
   font-family: 'Saira Condensed';
   font-style: normal;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 42px;
   line-height: 120%;
   leading-trim: both;
   text-edge: cap;
@@ -137,11 +137,11 @@
 
 .bonus-text {
   width: auto;
-  height: 24px;
+  height: 36px;
   font-family: 'Saira Condensed';
   font-style: normal;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 42px;
   line-height: 120%;
   leading-trim: both;
   text-edge: cap;
@@ -153,17 +153,21 @@
 }
 
 .bonus-description {
-  width: 200px;
-  height: 9px;
+  width: 350px;
+  height: 16px;
   font-family: 'Saira';
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 120%;
   leading-trim: both;
   text-edge: cap;
   text-transform: uppercase;
+  text-align: center;
   color: #FFFFFF;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -560,7 +564,7 @@
   /* Mobile Card Content */
   .card-content {
     flex-direction: column;
-    gap: 32px;
+    gap: 24px;
     align-items: center;
     width: 360px;
     max-width: calc(100% - 40px);
@@ -614,7 +618,7 @@
     font-family: 'Saira Condensed';
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 56px;
     line-height: 120%;
     text-transform: uppercase;
     color: #FF0004;
@@ -623,14 +627,14 @@
     order: 0;
     flex-grow: 0;
   }
-  
+
   .bonus-text {
     width: auto;
     height: 44px;
     font-family: 'Saira Condensed';
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 56px;
     line-height: 120%;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -638,7 +642,7 @@
     order: 1;
     flex-grow: 0;
   }
-  
+
   .bonus-description {
     width: 100%;
     max-width: 358px;
@@ -646,11 +650,14 @@
     font-family: 'Saira';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 120%;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     flex: none;
     order: 1;
     flex-grow: 0;

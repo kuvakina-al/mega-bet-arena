@@ -18,14 +18,12 @@
 /* Background Basketball Images */
 .footer-bg-left {
   position: absolute;
-  width: 400px;
-  height: 400px;
-  left: -50px;
-  top: -100px;
-  background: url('../images/basketball.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  width: 493.523px;
+  height: 493.523px;
+  left: 20px;
+  top: -44.76px;
+  aspect-ratio: 493.52/493.52;
+  background: url('../images/basketball.png') lightgray 50% / cover no-repeat;
   background-blend-mode: screen;
   opacity: 0.25;
   transform: rotate(90deg);
@@ -34,17 +32,14 @@
 
 .footer-bg-right {
   position: absolute;
-  width: 250px;
-  height: 250px;
+  width: 311px;
+  height: 311px;
   right: -20px;
   top: -50px;
-  background: url('../images/basketball.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  aspect-ratio: 1/1;
+  background: url('../images/basketball.png') lightgray 50% / cover no-repeat;
   background-blend-mode: screen;
   opacity: 0.25;
-  transform: matrix(1, 0, 0, -1, 0, 0);
   z-index: 1;
 }
 
@@ -628,10 +623,15 @@
   }
   
   .footer-bg-left {
-    width: 300px;
-    height: 300px;
-    left: -100px;
-    top: -50px;
+    width: 493.523px;
+    height: 493.523px;
+    left: -146.761px;
+    top: 68.238px;
+    aspect-ratio: 493.52/493.52;
+    background: url('../images/basketball.png') lightgray 50% / cover no-repeat;
+    background-blend-mode: screen;
+    opacity: 0.25;
+    transform: rotate(90deg);
   }
   
   .footer-bg-right {

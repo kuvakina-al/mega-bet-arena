@@ -1,23 +1,75 @@
-<div class="frame-2">
-    <div class="jouer-comporte-des-wrapper">
-        <p class="jouer-comporte-des">
-            JOUER COMPORTE DES RISQUES: ENDETTEMENT, ISOLEMENT, DÉPENDANCE. POUR ÊTRE AIDÉ, APPELEZ LE
-            09-74-75-13-13 (APPEL NON SURTAXÉ)
-        </p>
+<div class="header-section">
+    <!-- Desktop warning bar -->
+    <div class="header-warning">
+        <div class="header-warning-text">
+            Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
+        </div>
     </div>
-    <header class="header">
-        <div class="logo"><img class="group" src="images/megabet logo.png" /></div>
-        <div class="element">
-            <div class="ellipse"></div>
-            <div class="text-wrapper">18</div>
-            <div class="div-wrapper"><div class="text-wrapper-2">+</div></div>
+    
+    <!-- Mobile top bar with 18+ logo and warning text -->
+    <div class="header-top-bar-mobile">
+        <div class="header-top-logo-mobile">
+            <img src="../images/18+ logo.png" alt="18+ Age Restriction" />
+        <div class="header-top-text-mobile">
+            Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
         </div>
-        <div class="frame-3">
-            <a href="index.php" class="menu-buttons"><div class="basketball">ACCUEIL</div></a>
-            <a href="basketball.php" class="basketball-wrapper"><div class="basketball-2">BASKETBALL</div></a>
-            <a href="nba.php" class="menu-buttons-2"><div class="basketball-3">NBA</div></a>
+    </div>
+    
+    <!-- Header Main -->
+    <div class="header-main">
+        <div class="header-logo">
+            <img src="images/megabet logo.png" alt="Megabet Logo" />
         </div>
-    </header>
+        
+        <!-- CSS-only mobile menu toggle -->
+        <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-checkbox">
+        <label for="mobile-menu-toggle" class="header-mobile-menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </label>
+        
+        <!-- Desktop elements - hidden on mobile -->
+        <div class="header-age-restriction">
+            <img src="images/18+ logo.png" alt="18+ Age Restriction" />
+        </div>
+    </div>
+
+    <!-- Desktop navigation - hidden on mobile -->
+    <nav class="header-navigation">
+        <a href="index.php" class="nav-button active">
+            <span class="nav-text nav-text-home">HOMEPAGE</span>
+        </a>
+        <a href="basketball.php" class="nav-button basketball">
+            <span class="nav-text nav-text-basketball">BASKETBALL</span>
+        </a>
+        <a href="nba.php" class="nav-button nba">
+            <span class="nav-text nav-text-nba">NBA</span>
+        </a>
+    </nav>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-menu-overlay">
+        <!-- Mobile header replica in menu -->
+        <div class="mobile-menu-header">
+            <div class="header-logo">
+                <img src="images/megabet logo.png" alt="Megabet Logo" />
+            </div>
+            <label for="mobile-menu-toggle" class="mobile-menu-close">✕</label>
+        </div>
+        
+        <nav class="mobile-navigation">
+            <a href="index.php" class="mobile-nav-button">
+                <span class="mobile-nav-text">ACCUEIL</span>
+            </a>
+            <a href="basketball.php" class="mobile-nav-button">
+                <span class="mobile-nav-text">BASKETBALL</span>
+            </a>
+            <a href="nba.php" class="mobile-nav-button">
+                <span class="mobile-nav-text">NBA</span>
+            </a>
+        </nav>
+    </div>
 </div>
 
 <style>

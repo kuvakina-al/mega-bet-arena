@@ -156,4 +156,3 @@
         </div>
     </div>
 </section>
-<img class="frame-4" src="images/basketball_small.png" />

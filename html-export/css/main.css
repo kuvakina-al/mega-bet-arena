@@ -36,27 +36,37 @@ img {
 
 /* Site Wrapper */
 .site-wrapper {
+  position: relative;
+  min-height: 100vh;
+  background-color: #010D1D;
   display: flex;
   flex-direction: column;
-  width: 1440px;
-  align-items: center;
-  position: relative;
-  background-color: #010D1D;
-  margin: 0 auto;
-  min-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 .site-content {
+  position: relative;
+  z-index: 1;
   flex: 1;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
 }
 
-/* Remove old hero section styles - using new hero structure from hero.css */
+/* Hero Container */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+  max-width: 1440px;
+  height: 800px;
+  flex: none;
+  position: relative;
+}
 
 /* Responsive Hero Section */
 @media (max-width: 1024px) {
@@ -208,7 +218,7 @@ img {
   z-index: 1;
 }
 
-/* Cards Container - positioned after hero */
+/* Cards Container */
 .cards-container {
   display: flex;
   flex-direction: column;
@@ -218,8 +228,8 @@ img {
   width: 100%;
   max-width: 1000px;
   position: relative;
-  margin: -50px auto 0;
-  z-index: 10;
+  margin: 0 auto;
+  z-index: 2;
 }
 
 /* Text Container */

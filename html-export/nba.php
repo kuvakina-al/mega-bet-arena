@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/text_container.css">
@@ -20,26 +19,36 @@
 <body>
     <div class="site-wrapper">
         <div class="site-content">
-            <div class="frame">
-                <div class="hero-wrapper">
-                    <div class="hero">
-                        <img class="image" src="images/hero background.png" />
-                        <div class="rectangle"></div>
-                        <img class="img" src="images/basketball_big.png" />
-                        <div class="div"></div>
-                        <?php include 'header.php'; ?>
-                        <p class="bienvenue-sur-mega">L'EXCELLENCE DES PARIS NBA</p>
-                        <div class="votre-guide-ultime">AVEC MEGA BET 3000</div>
-                    </div>
+            <!-- Hero Section with Header -->
+            <section class="hero-section">
+                <!-- Background Layers -->
+                <div class="hero-bg-blur"></div>
+                <div class="hero-gradient-overlay"></div>
+                <div class="hero-fg-image"></div>
+                <div class="hero-bottom-gradient"></div>
+                
+                <!-- Header in Hero -->
+                <div class="hero-header-wrapper">
+                    <?php include 'header.php'; ?>
                 </div>
-                <?php include 'cards.php'; ?>
-            </div>
-            
-            <!-- Text Container Section -->
-            <?php include 'text_container.php'; ?>
+                
+                <!-- Hero Content -->
+                <h1 class="hero-title">Paris NBA</h1>
+                <p class="hero-subtitle">L'excellence des paris sur la NBA avec les meilleures cotes</p>
+            </section>
+
+<?php include 'cards.php'; ?>
+
+        <?php include 'footer.php'; ?>
         </div>
         
-        <?php include 'footer.php'; ?>
+        <!-- Age Restriction Badge -->
+        <div class="age-restriction">
+            <div class="age-circle">
+                <span class="age-number">18</span>
+                <div class="age-plus">+</div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

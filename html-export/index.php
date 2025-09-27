@@ -11,30 +11,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/text_container.css">
-    <link rel="stylesheet" href="css/frame-4.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <div class="site-wrapper">        
         <div class="site-content">
-            <div class="frame">
-                <div class="hero-wrapper">
-                    <div class="hero">
-                        <img class="image" src="images/hero background.png" />
-                        <div class="rectangle"></div>
-                        <img class="img" src="images/basketball_big.png" />
-                        <div class="div"></div>
-                        <?php include 'header.php'; ?>
-                        <p class="bienvenue-sur-mega">BIENVENUE SUR MEGA BET 3000</p>
-                        <div class="votre-guide-ultime">VOTRE GUIDE ULTIME DES PARIS SPORTIFS LÉGAUX EN FRANCE</div>
-                    </div>
-                </div>
-                <?php include 'cards.php'; ?>
-            </div>
+            <!-- Hero Section with Header, Background and Cards -->
+            <section class="hero-section">
+                <!-- Background Layers -->
+                <div class="hero-bg-blur"></div>
+                <div class="hero-gradient-overlay"></div>
+                <div class="hero-fg-image"></div>
+                <div class="hero-bottom-gradient"></div>
+                
+                <!-- Header in Hero -->
+                <?php include 'header.php'; ?>
+                
+                <!-- Hero Content Text -->
+                <h1 class="hero-title">Bienvenue sur Mega Bet 3000</h1>
+                <p class="hero-subtitle">Votre Guide Ultime des Paris Sportifs Légaux en France</p>
+                
+                
+            </section>
+            <?php include 'cards.php'; ?>
             <!-- Text Container Section comes after hero/cards -->
             <section class="text-container">
                 <div class="text-box">

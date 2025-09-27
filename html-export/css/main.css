@@ -223,14 +223,12 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0;
+  padding: 40px 0;
   gap: 20px;
   width: 100%;
   max-width: 1000px;
-  position: absolute;
-  bottom: 40px;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
+  margin: 0 auto;
   z-index: 2;
 }
 

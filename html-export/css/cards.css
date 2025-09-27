@@ -315,14 +315,15 @@
 }
 
 .payment-icon img {
-  width: 25.9px;
-  height: 15.11px;
-  background: #FFFFFF;
+  width: auto;
+  height: auto;
+  max-width: 25.9px;
+  max-height: 15.11px;
   flex: none;
   order: 0;
-  align-self: stretch;
+  align-self: center;
   flex-grow: 0;
-  filter: brightness(0) invert(1);
+  object-fit: contain;
 }
 
 /* Desktop Button */
@@ -426,6 +427,9 @@
   .payment-icon img {
     max-width: 24px;
     max-height: 14px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
   }
   
   .card-button {
@@ -498,6 +502,9 @@
   .payment-icon img {
     max-width: 20px;
     max-height: 12px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
   }
   
   .card-button {
@@ -798,15 +805,15 @@
   }
   
   .payment-icon img {
-    background: #FFFFFF;
     flex: none;
     order: 0;
-    align-self: stretch;
+    align-self: center;
     flex-grow: 0;
     max-width: 35px;
     max-height: 20px;
     width: auto;
     height: auto;
+    object-fit: contain;
     object-fit: contain;
     filter: brightness(0) invert(1);
   }

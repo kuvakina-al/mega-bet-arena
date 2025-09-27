@@ -303,6 +303,14 @@
   width: 42px;
 }
 
+/* Mobile elements hidden on desktop by default */
+.header-top-bar-mobile,
+.header-mobile-menu,
+.mobile-menu-overlay,
+.mobile-navigation {
+  display: none;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
   .header-section {
@@ -452,6 +460,14 @@
 }
 
 @media (max-width: 480px) {
+  /* Show mobile elements on mobile */
+  .header-top-bar-mobile,
+  .header-mobile-menu,
+  .mobile-menu-overlay,
+  .mobile-navigation {
+    display: flex;
+  }
+  
   .header-section {
     width: 439px;
     height: 147px;

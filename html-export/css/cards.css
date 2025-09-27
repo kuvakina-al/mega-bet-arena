@@ -96,10 +96,10 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  gap: 8px;
-  margin: 0;
-  width: 200px;
-  height: 45px;
+  gap: 16px;
+  margin: 0 auto;
+  width: 260px;
+  height: 57px;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -177,11 +177,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 8px;
-  gap: 8px;
-  margin: 0;
-  width: 140px;
-  height: 45px;
+  padding: 12px;
+  gap: 12px;
+  margin: 0 auto;
+  width: 197px;
+  height: 62px;
   background: rgba(0, 0, 0, 0.12);
   border-radius: 5px;
   flex: none;
@@ -194,9 +194,9 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  gap: 6px;
-  width: 124px;
-  height: 29px;
+  gap: 12px;
+  width: 173px;
+  height: 38px;
   flex: none;
   order: 0;
   align-self: stretch;
@@ -209,9 +209,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 0;
-  gap: 8px;
-  width: 124px;
-  height: 8px;
+  gap: 10px;
+  width: 173px;
+  height: 10px;
   flex: none;
   order: 0;
   align-self: stretch;
@@ -219,13 +219,13 @@
 }
 
 .rating-label {
-  margin: 0;
-  width: 70px;
-  height: 8px;
+  margin: 0 auto;
+  width: 86px;
+  height: 10px;
   font-family: 'Saira';
   font-style: normal;
   font-weight: 600;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 120%;
   leading-trim: both;
   text-edge: cap;
@@ -240,13 +240,13 @@
 }
 
 .rating-percentage {
-  margin: 0;
-  width: 24px;
-  height: 8px;
+  margin: 0 auto;
+  width: 30px;
+  height: 10px;
   font-family: 'Saira';
   font-style: normal;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 120%;
   leading-trim: both;
   text-edge: cap;
@@ -261,8 +261,8 @@
 }
 
 .rating-bar {
-  width: 124px;
-  height: 12px;
+  width: 173px;
+  height: 16px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
   position: relative;
@@ -275,8 +275,8 @@
 
 .rating-fill {
   position: absolute;
-  width: 118px;
-  height: 12px;
+  width: 163.36px;
+  height: 16px;
   left: 0px;
   top: 0px;
   background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #00FF95;
@@ -286,15 +286,16 @@
 
 /* Payment Methods */
 .payment-methods {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
+  align-content: flex-start;
   padding: 0;
-  gap: 3px;
-  margin: 0;
-  width: 120px;
-  height: 50px;
+  gap: 4px;
+  margin: 0 auto;
+  width: 172.57px;
+  height: 64.95px;
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -305,20 +306,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px 8px;
-  gap: 4px;
-  width: 36px;
-  height: 22px;
+  padding: 0px 14.4762px;
+  gap: 7.62px;
+  width: 54.86px;
+  height: 30.48px;
   background: rgba(255, 255, 255, 0.09);
-  border-radius: 3px;
+  border-radius: 3.80952px;
   flex: none;
   flex-grow: 0;
 }
 
 .payment-icon img {
-  width: auto;
-  height: 10px;
-  max-width: 28px;
+  width: 25.9px;
+  height: 15.11px;
   background: #FFFFFF;
   flex: none;
   order: 0;

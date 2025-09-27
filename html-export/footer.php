@@ -42,10 +42,6 @@
                 </div>
                 
                 <div class="legal-certifications">
-                    <!-- Basketball decorations -->
-                    <img src="images/bascketball.png" alt="" class="basketball-decoration basketball-left">
-                    <img src="images/bascketball.png" alt="" class="basketball-decoration basketball-right">
-                    
                     <div class="certification-logos">
                         <div class="age-restriction-footer">
                             <img src="images/18+ logo.png" alt="18+ Age Restriction" class="cert-logo cert-age">

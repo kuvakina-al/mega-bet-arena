@@ -908,20 +908,4 @@
     height: 17px;
   }
   
-  /* Basketball decorations */
-  .cards-container::before {
-    content: '';
-    position: absolute;
-    width: 41.54px;
-    height: 50.29px;
-    left: calc(50% - 41.54px/2 + 149.27px);
-    top: calc(50% - 50.29px/2 + 191.11px);
-    background: url('../images/bascketball.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    border: 2px solid #000000;
-    border-radius: 50%;
-    z-index: 3;
-  }
 }

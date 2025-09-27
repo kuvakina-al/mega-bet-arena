@@ -78,10 +78,10 @@
   width: 75.43px;
   height: 80px;
   flex: none;
-  order: 0;
+  order: 1;
   flex-grow: 0;
   z-index: 10;
-  margin-right: 50px;
+  margin-left: 20px;
 }
 
 .header-logo img {
@@ -92,14 +92,14 @@
 
 /* 18+ Badge */
 .header-age-restriction {
-  margin-left: 50px;
+  order: 0;
 }
 
 .header-age-restriction img {
   width: 66.97px;
   height: 64px;
   flex: none;
-  order: 1;
+  order: 0;
   flex-grow: 0;
   z-index: 10;
   position: relative;
@@ -124,7 +124,7 @@
   width: 408px;
   height: 52px;
   flex: none;
-  order: 1;
+  order: 2;
   flex-grow: 0;
   z-index: 2;
 }

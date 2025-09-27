@@ -7,9 +7,9 @@
   gap: 12px;
   isolation: isolate;
   position: absolute;
-  width: 1439px;
+  width: 1420px;
   height: 124px;
-  left: 1px;
+  left: calc(50% - 710px);
   top: 0;
   z-index: 100;
 }
@@ -25,12 +25,9 @@
   padding-bottom: 0;
   padding-left: 0;
   gap: 10px;
-  width: 1439px;
+  width: 1420px;
   height: 32px;
-  background: #00000080 url('../images/hero background.png');
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
+  background: #00000080;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -38,7 +35,7 @@
 }
 
 .header-warning-text {
-  width: 1439px;
+  width: 1420px;
   height: 16px;
   font-family: 'Saira';
   font-style: normal;

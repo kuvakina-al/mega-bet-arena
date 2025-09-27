@@ -8,8 +8,9 @@
     
     <!-- Mobile top bar with 18+ logo and warning text -->
     <div class="header-top-bar-mobile">
-        <div class="header-top-logo-mobile">
-            <img src="../images/18+ logo.png" alt="18+ Age Restriction" />
+        <div class="header-top-age-mobile">
+            <img src="images/18+ logo.png" alt="18+ Age Restriction" />
+        </div>
         <div class="header-top-text-mobile">
             Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
         </div>
@@ -38,7 +39,7 @@
     <!-- Desktop navigation - hidden on mobile -->
     <nav class="header-navigation">
         <a href="index.php" class="nav-button active">
-            <span class="nav-text nav-text-home">HOMEPAGE</span>
+            <span class="nav-text nav-text-home">ACCUEIL</span>
         </a>
         <a href="basketball.php" class="nav-button basketball">
             <span class="nav-text nav-text-basketball">BASKETBALL</span>

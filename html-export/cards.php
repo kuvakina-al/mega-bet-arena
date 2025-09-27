@@ -1,15 +1,16 @@
 <!-- Betting Cards -->
 <section class="cards-container">
+    <!-- Unibet Card -->
     <div class="betting-card">
         <div class="card-content">
             <div class="card-logo logo-unibet"></div>
             
             <div class="card-bonus">
                 <div class="bonus-amount">
-                    <span class="bonus-number">100€</span>
+                    <span class="bonus-number">110€</span>
                     <span class="bonus-text">de bonus</span>
                 </div>
-                <div class="bonus-description">Premier dépôt doublé</div>
+                <div class="bonus-description">10€ offerts + 1er pari remboursé</div>
             </div>
             
             <div class="card-rating">
@@ -51,26 +52,27 @@
         </div>
     </div>
     
+    <!-- PMU Card -->
     <div class="betting-card">
         <div class="card-content">
             <div class="card-logo logo-pmu"></div>
             
             <div class="card-bonus">
                 <div class="bonus-amount">
-                    <span class="bonus-number">200€</span>
+                    <span class="bonus-number">100€</span>
                     <span class="bonus-text">de bonus</span>
                 </div>
-                <div class="bonus-description">Premier dépôt doublé</div>
+                <div class="bonus-description">1er pari sportif remboursé</div>
             </div>
             
             <div class="card-rating">
                 <div class="rating-content">
                     <div class="rating-header">
                         <span class="rating-label">Évaluation</span>
-                        <span class="rating-percentage">92%</span>
+                        <span class="rating-percentage">87%</span>
                     </div>
                     <div class="rating-bar">
-                        <div class="rating-fill" style="width: 92%;"></div>
+                        <div class="rating-fill" style="width: 87%;"></div>
                     </div>
                 </div>
             </div>
@@ -102,26 +104,27 @@
         </div>
     </div>
     
+    <!-- NetBet Card -->
     <div class="betting-card">
         <div class="card-content">
             <div class="card-logo logo-netbet"></div>
             
             <div class="card-bonus">
                 <div class="bonus-amount">
-                    <span class="bonus-number">150€</span>
+                    <span class="bonus-number">200€</span>
                     <span class="bonus-text">de bonus</span>
                 </div>
-                <div class="bonus-description">Bonus de bienvenue</div>
+                <div class="bonus-description">Freebets offerts à l'inscription</div>
             </div>
             
             <div class="card-rating">
                 <div class="rating-content">
                     <div class="rating-header">
                         <span class="rating-label">Évaluation</span>
-                        <span class="rating-percentage">90%</span>
+                        <span class="rating-percentage">73%</span>
                     </div>
                     <div class="rating-bar">
-                        <div class="rating-fill" style="width: 90%;"></div>
+                        <div class="rating-fill" style="width: 73%;"></div>
                     </div>
                 </div>
             </div>

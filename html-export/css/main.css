@@ -314,6 +314,11 @@ img {
     align-items: stretch;
   }
   
+  .site-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
   .hero-section {
     width: 440px;
     height: 423px;
@@ -336,7 +341,6 @@ img {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    filter: blur(3.5px);
     z-index: -3;
   }
   
@@ -442,7 +446,7 @@ img {
     order: 1;
     align-self: stretch;
     flex-grow: 0;
-    z-index: 10;
+    z-index: 2;
   }
   
   /* Text container mobile layout */

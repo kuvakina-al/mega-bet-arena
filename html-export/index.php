@@ -27,24 +27,27 @@
                 <div class="hero-fg-image"></div>
                 <div class="hero-bottom-gradient"></div>
                 
-                <!-- Mobile top bar outside container -->
-                <div class="header-top-bar-mobile">
-                    <div class="header-top-age-mobile">
-                        <img src="images/18+ logo.png" alt="18+ Age Restriction" />
+                <!-- Mobile Header Container -->
+                <div class="mobile-header-container">
+                    <!-- Mobile top bar -->
+                    <div class="header-top-bar-mobile">
+                        <div class="header-top-age-mobile">
+                            <img src="images/18+ logo.png" alt="18+ Age Restriction" />
+                        </div>
+                        <div class="header-top-text-mobile">
+                            Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
+                        </div>
                     </div>
-                    <div class="header-top-text-mobile">
-                        Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
-                    </div>
+                    
+                    <!-- Header Main -->
+                    <?php include 'header.php'; ?>
                 </div>
                 
-                <!-- Container for header-main, title, subtitle with background on mobile -->
+                <!-- Container for title, subtitle with background image on mobile -->
                 <div class="hero-header-container">
-                    <!-- Header Main without mobile top bar -->
-                    <?php include 'header.php'; ?>
-                    
                     <!-- Hero Content Text -->
-                    <h1 class="hero-title">Bienvenue sur Mega Bet 3000</h1>
-                    <p class="hero-subtitle">Votre Guide Ultime des Paris Sportifs Légaux en France</p>
+                    <h1 class="hero-title">L'excellence des paris sur le basketball<br class="mobile-break"> 3000</h1>
+                    <p class="hero-subtitle">avec mega bet</p>
                 </div>
 
             </section>

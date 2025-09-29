@@ -233,14 +233,22 @@ img {
     margin: 0 auto;
   }
   
-  /* Container for header-main, title, subtitle with background */
+  /* Mobile Header Container with background color */
+  .mobile-header-container {
+    width: 440px;
+    background: #002a4a;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  /* Container for title, subtitle with background image */
   .hero-header-container {
     width: 440px;
     height: 311px;
     padding: 0;
     margin: 0 auto;
     background: url('../images/hero background.png');
-    background-size: cover;
+    background-size: 120%; /* Zoom in the background image */
     background-position: center top;
     background-repeat: no-repeat;
     position: relative;
@@ -314,7 +322,7 @@ img {
     width: 400px;
     height: 40px;
     left: 20px;
-    top: 190px; /* Positioned after title with some spacing */
+    top: 208px; /* 18px gap from title */
     transform: none;
     font-family: 'Saira Extra Condensed';
     font-style: normal;
@@ -341,5 +349,17 @@ img {
     position: relative;
     margin-top: 40px;
     z-index: 10;
+  }
+}
+
+/* Hide mobile break on desktop */
+.mobile-break {
+  display: none;
+}
+
+/* Show mobile break only on mobile */
+@media (max-width: 480px) {
+  .mobile-break {
+    display: inline;
   }
 }

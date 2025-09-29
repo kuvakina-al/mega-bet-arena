@@ -441,15 +441,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    max-width: 440px;
+    width: 440px;
     height: 80px;
     background: transparent;
     padding: 0 20px;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    margin: 0 auto;
     z-index: 50;
   }
   

@@ -260,7 +260,8 @@
 .header-top-bar-mobile,
 .header-mobile-menu,
 .mobile-menu-overlay,
-.mobile-navigation {
+.mobile-navigation,
+.mobile-menu-header {
   display: none;
 }
 
@@ -569,6 +570,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+    margin-left: 0;
   }
   
   /* Mobile menu button */
@@ -658,28 +660,25 @@
     flex-grow: 0;
   }
   
-  .mobile-nav-button:nth-child(1) {
+  .mobile-nav-button {
+    background: transparent;
+    border: none;
+  }
+  
+  .mobile-nav-button:hover {
+    border: 1px solid #FFFFFF66;
+    background: #FFFFFF4D;
+    background-blend-mode: overlay;
+  }
+  
+  .mobile-nav-button.active {
     background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), rgba(255, 255, 255, 0.1);
     background-blend-mode: screen, screen, overlay;
     border: 1px solid rgba(255, 255, 255, 0.4);
-    order: 0;
-  }
-  
-  .mobile-nav-button:nth-child(2) {
-    background: rgba(255, 255, 255, 0.3);
-    background-blend-mode: overlay;
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    order: 1;
-  }
-  
-  .mobile-nav-button:nth-child(3) {
-    background: transparent;
-    order: 2;
-    height: 48px;
   }
   
   .mobile-nav-text {
-    font-family: 'Saira';
+    font-family: 'Saira Extra Condensed';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -692,17 +691,8 @@
     flex-grow: 0;
   }
   
-  .mobile-nav-button:nth-child(1) .mobile-nav-text {
+  .mobile-nav-button.active .mobile-nav-text {
     font-weight: 600;
-    width: 80px;
-  }
-  
-  .mobile-nav-button:nth-child(2) .mobile-nav-text {
-    width: 126px;
-  }
-  
-  .mobile-nav-button:nth-child(3) .mobile-nav-text {
-    width: 42px;
   }
   
   /* Basketball decoration in mobile menu */

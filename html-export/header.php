@@ -14,9 +14,7 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
     <!-- Mobile top bar with 18+ logo and warning text -->
     <div class="header-top-bar-mobile">
         <div class="header-top-age-mobile">
-            <div class="header-top-age-circle"></div>
-            <div class="header-top-age-number">18</div>
-            <div class="header-top-age-plus"></div>
+            <img src="images/18+ logo.png" alt="18+ Age Restriction" />
         </div>
         <div class="header-top-text-mobile">
             Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
@@ -49,7 +47,7 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
         </nav>
         
         <!-- Mobile menu toggle - Only visible on mobile -->
-        <a href="<?php echo basename($_SERVER['PHP_SELF']); ?>?menu=open" class="header-mobile-menu">
+        <a href="<?php echo basename($_SERVER['PHP_SELF']); ?>?menu=<?php echo $isMenuOpen ? 'close' : 'open'; ?>" class="header-mobile-menu">
             <span class="hamburger-line"></span>
             <span class="hamburger-line"></span>
             <span class="hamburger-line"></span>
@@ -60,7 +58,7 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
     <?php
     $isMenuOpen = isset($_GET['menu']) && $_GET['menu'] == 'open';
     ?>
-    <div class="mobile-menu-overlay" <?php echo $isMenuOpen ? 'style="display: block;"' : 'style="display: none;"'; ?>>
+    <div class="mobile-menu-overlay <?php echo $isMenuOpen ? 'active' : ''; ?>" <?php echo $isMenuOpen ? 'style="display: flex;"' : 'style="display: none;"'; ?>>
         <!-- Mobile header replica in menu -->
         <div class="mobile-menu-header">
             <div class="header-logo">
@@ -70,13 +68,13 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
         </div>
         
         <nav class="mobile-navigation">
-            <a href="index.php" class="mobile-nav-button">
+            <a href="index.php" class="mobile-nav-button <?php echo ($current_page == 'index') ? 'active' : ''; ?>">
                 <span class="mobile-nav-text">ACCUEIL</span>
             </a>
-            <a href="basketball.php" class="mobile-nav-button">
+            <a href="basketball.php" class="mobile-nav-button <?php echo ($current_page == 'basketball') ? 'active' : ''; ?>">
                 <span class="mobile-nav-text">BASKETBALL</span>
             </a>
-            <a href="nba.php" class="mobile-nav-button">
+            <a href="nba.php" class="mobile-nav-button <?php echo ($current_page == 'nba') ? 'active' : ''; ?>">
                 <span class="mobile-nav-text">NBA</span>
             </a>
         </nav>

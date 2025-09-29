@@ -428,9 +428,16 @@
   }
   
   .header-section {
-    position: relative;
-    width: 440px;
-    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    gap: 12px;
+    position: absolute;
+    width: 439px;
+    height: 147px;
+    left: 1px;
+    top: 0;
     z-index: 100;
   }
   
@@ -544,7 +551,7 @@
   .header-main {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 0 20px;
     gap: 0;
@@ -556,7 +563,6 @@
     flex-grow: 0;
     z-index: 1;
     position: relative;
-    margin: 0 auto;
   }
   
   .header-logo {
@@ -565,7 +571,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0 auto;
+    margin-left: 0;
   }
   
   /* Mobile menu button */
@@ -579,8 +585,8 @@
     cursor: pointer;
     transition: opacity 0.3s ease;
     flex: none;
-    position: absolute;
-    right: 20px;
+    order: 1;
+    flex-grow: 0;
     text-decoration: none;
   }
   

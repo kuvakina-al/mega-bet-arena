@@ -48,23 +48,25 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
             </a>
         </nav>
         
-        <!-- CSS-only mobile menu toggle - Only visible on mobile -->
-        <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-checkbox">
-        <label for="mobile-menu-toggle" class="header-mobile-menu">
+        <!-- Mobile menu toggle - Only visible on mobile -->
+        <a href="<?php echo basename($_SERVER['PHP_SELF']); ?>?menu=open" class="header-mobile-menu">
             <span class="hamburger-line"></span>
             <span class="hamburger-line"></span>
             <span class="hamburger-line"></span>
-        </label>
+        </a>
     </div>
 
     <!-- Mobile Navigation Menu - Only visible on mobile -->
-    <div class="mobile-menu-overlay">
+    <?php
+    $isMenuOpen = isset($_GET['menu']) && $_GET['menu'] == 'open';
+    ?>
+    <div class="mobile-menu-overlay" <?php echo $isMenuOpen ? 'style="display: block;"' : 'style="display: none;"'; ?>>
         <!-- Mobile header replica in menu -->
         <div class="mobile-menu-header">
             <div class="header-logo">
                 <img src="images/megabet logo.png" alt="Megabet Logo" />
             </div>
-            <label for="mobile-menu-toggle" class="mobile-menu-close">✕</label>
+            <a href="<?php echo basename($_SERVER['PHP_SELF']); ?>" class="mobile-menu-close">✕</a>
         </div>
         
         <nav class="mobile-navigation">

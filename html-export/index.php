@@ -70,11 +70,11 @@
                     </div>
                 </div>
                 
-                <!-- Header Main centered after mobile top bar -->
-                <?php include 'header.php'; ?>
-                
                 <!-- Container for title, subtitle with background image on mobile -->
                 <div class="hero-header-container">
+                    <!-- Header Main at top of hero container -->
+                    <?php include 'header.php'; ?>
+                    
                     <!-- Hero Content Text -->
                     <h1 class="hero-title">L'excellence des paris sur le basketball 3000</h1>
                     <p class="hero-subtitle">avec mega bet</p>

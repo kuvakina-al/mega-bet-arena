@@ -246,7 +246,7 @@ img {
   .hero-header-container {
     width: 440px;
     height: 311px;
-    padding: 0;
+    padding: 80px 0 0 0; /* Top padding for header */
     margin: 0 auto;
     background: url('../images/hero background.png');
     background-size: 180%; /* Enhanced zoom for better effect */

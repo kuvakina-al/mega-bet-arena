@@ -216,17 +216,12 @@ img {
 /* Cards positioned outside hero */
 .cards-container {
   position: relative;
-  margin-top: -150px;
+  margin-top: -650px;
   z-index: 10;
 }
 
 /* Mobile specific hero adjustments */
 @media (max-width: 480px) {
-  /* Remove blur from hero background */
-  .hero-bg-blur {
-    filter: none;
-  }
-  
   .site-wrapper {
     width: 100%;
     max-width: 440px;
@@ -238,16 +233,14 @@ img {
     height: 311px;
     padding: 0;
     margin: 0 auto;
+    background: url('../images/hero background.png');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
   }
   
   .hero-bg-blur {
-    width: 440px;
-    height: 250px;
-    left: 0;
-    top: 147px;
-    transform: none;
-    background-size: cover;
-    background-position: center top;
+    display: none;
   }
   
   .hero-gradient-overlay {

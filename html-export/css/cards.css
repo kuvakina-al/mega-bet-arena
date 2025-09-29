@@ -520,8 +520,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    gap: 30px; /* Increased gap between cards */
+    padding: 5px;
+    gap: 10px;
     isolation: isolate;
     width: 100%;
     max-width: 400px;
@@ -773,11 +773,11 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 0; /* Increased padding for better spacing */
-    gap: 5px; /* Increased gap between payment icons */
+    padding: 0;
+    gap: 2px;
     width: 100%;
     max-width: 360px;
-    height: 50px; /* Increased height */
+    height: 35px;
     flex: none;
     align-self: stretch;
     flex-grow: 0;
@@ -791,26 +791,26 @@
     padding: 0 8px;
     gap: 4px;
     width: auto;
-    min-width: 50px; /* Increased width */
-    height: 40px; /* Increased height */
-    background: rgba(255, 255, 255, 0.15); /* More visible background */
-    border-radius: 4px;
-    border: 1px solid rgba(255, 255, 255, 0.2); /* Added border */
+    min-width: 45px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 3px;
     flex: 1;
     flex-grow: 1;
   }
   
   .payment-icon img {
+    background: #FFFFFF;
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    max-width: 38px; /* Increased size */
-    max-height: 24px; /* Increased size */
+    max-width: 35px;
+    max-height: 20px;
     width: auto;
     height: auto;
     object-fit: contain;
-    filter: brightness(1.1); /* Brighter for better visibility */
+    filter: brightness(0) invert(1);
   }
   
   /* Mobile Button */

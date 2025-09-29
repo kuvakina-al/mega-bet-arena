@@ -328,18 +328,10 @@ img {
     white-space: normal;
   }
   
-  /* Cards positioned after hero on mobile with gap */
+  /* Cards positioned after hero on mobile */
   .cards-container {
     position: relative;
-    margin-top: 100px; /* Added gap between hero and cards */
+    margin-top: 0;
     z-index: 10;
-  }
-  
-  /* Add background to header-main on mobile */
-  .header-main {
-    background: url('../images/hero background.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
   }
 }

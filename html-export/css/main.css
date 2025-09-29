@@ -213,6 +213,11 @@ img {
   margin: 0;
 }
 
+/* Hero header container - transparent on desktop */
+.hero-header-container {
+  background: none;
+}
+
 /* Cards positioned outside hero */
 .cards-container {
   position: relative;
@@ -228,7 +233,8 @@ img {
     margin: 0 auto;
   }
   
-  .hero-section {
+  /* Container for header-main, title, subtitle with background */
+  .hero-header-container {
     width: 440px;
     height: 311px;
     padding: 0;
@@ -237,6 +243,15 @@ img {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .hero-section {
+    width: 440px;
+    height: 311px;
+    padding: 0;
+    margin: 0 auto;
+    background: none;
   }
   
   .hero-bg-blur {

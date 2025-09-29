@@ -27,12 +27,15 @@
                 <div class="hero-fg-image"></div>
                 <div class="hero-bottom-gradient"></div>
                 
-                <!-- Header in Hero -->
-                <?php include 'header.php'; ?>
-                
-                <!-- Hero Content Text -->
-                <h1 class="hero-title">Bienvenue sur Mega Bet 3000</h1>
-                <p class="hero-subtitle">Votre Guide Ultime des Paris Sportifs Légaux en France</p>
+                <!-- Container for header, title, subtitle with background on mobile -->
+                <div class="hero-header-container">
+                    <!-- Header in Hero -->
+                    <?php include 'header.php'; ?>
+                    
+                    <!-- Hero Content Text -->
+                    <h1 class="hero-title">Bienvenue sur Mega Bet 3000</h1>
+                    <p class="hero-subtitle">Votre Guide Ultime des Paris Sportifs Légaux en France</p>
+                </div>
 
             </section>
             

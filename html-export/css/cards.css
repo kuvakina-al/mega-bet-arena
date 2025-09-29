@@ -526,8 +526,6 @@
     width: 100%;
     max-width: 400px;
     height: auto;
-    position: relative;
-    z-index: 20;
     background: #010D1D;
     margin: 0 auto;
   }

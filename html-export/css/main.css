@@ -156,7 +156,6 @@ img {
   left: 50%;
   top: 200px;
   transform: translateX(-50%);
-  background: url('../images/basketball_big.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

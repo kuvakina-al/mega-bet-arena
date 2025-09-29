@@ -246,14 +246,13 @@ img {
   /* Container for title, subtitle with background image */
   .hero-header-container {
     width: 440px;
-    height: 311px;
-    padding: 0;
-    margin: 0 auto;
     background: url('../images/hero background.png');
     background-size: 120%; /* Zoom in the background image */
     background-position: center top;
     background-repeat: no-repeat;
     position: relative;
+    height: 176px; /* Height for title and subtitle area */
+    margin: 0 auto;
   }
   
   .hero-section {

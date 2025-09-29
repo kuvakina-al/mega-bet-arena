@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/mobile-menu.js" defer></script>
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/text_container.css">
     <link rel="stylesheet" href="css/responsive.css">

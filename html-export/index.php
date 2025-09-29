@@ -27,9 +27,19 @@
                 <div class="hero-fg-image"></div>
                 <div class="hero-bottom-gradient"></div>
                 
-                <!-- Container for header, title, subtitle with background on mobile -->
+                <!-- Mobile top bar outside container -->
+                <div class="header-top-bar-mobile">
+                    <div class="header-top-age-mobile">
+                        <img src="images/18+ logo.png" alt="18+ Age Restriction" />
+                    </div>
+                    <div class="header-top-text-mobile">
+                        Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
+                    </div>
+                </div>
+                
+                <!-- Container for header-main, title, subtitle with background on mobile -->
                 <div class="hero-header-container">
-                    <!-- Header in Hero -->
+                    <!-- Header Main without mobile top bar -->
                     <?php include 'header.php'; ?>
                     
                     <!-- Hero Content Text -->

@@ -11,16 +11,6 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
         </div>
     </div>
     
-    <!-- Mobile top bar with 18+ logo and warning text -->
-    <div class="header-top-bar-mobile">
-        <div class="header-top-age-mobile">
-            <img src="images/18+ logo.png" alt="18+ Age Restriction" />
-        </div>
-        <div class="header-top-text-mobile">
-            Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
-        </div>
-    </div>
-    
     <!-- Header Main -->
     <div class="header-main">
         <!-- 18+ Badge - Left Position -->

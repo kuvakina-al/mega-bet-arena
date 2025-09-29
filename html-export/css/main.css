@@ -295,7 +295,7 @@ img {
     width: 400px;
     height: 90px;
     left: 20px;
-    top: 100px; /* 20px after header-main (height 80px) */
+    top: 20px; /* Closer to mobile-header-container */
     transform: none;
     font-family: 'Saira Extra Condensed';
     font-style: normal;
@@ -322,7 +322,7 @@ img {
     width: 400px;
     height: 40px;
     left: 20px;
-    top: 208px; /* 18px gap from title */
+    top: 128px; /* 18px gap from title (90px + 20px + 18px) */
     transform: none;
     font-family: 'Saira Extra Condensed';
     font-style: normal;

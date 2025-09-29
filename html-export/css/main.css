@@ -345,10 +345,10 @@ img {
     white-space: normal;
   }
   
-  /* Cards positioned after hero on mobile with gap */
+  /* Cards positioned after hero on mobile with more gap */
   .cards-container {
     position: relative;
-    margin-top: 40px;
+    margin-top: 80px;
     z-index: 10;
   }
 }

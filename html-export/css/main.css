@@ -287,11 +287,11 @@ img {
     width: 400px;
     height: 90px;
     left: 20px;
-    top: 220px;
+    top: 100px; /* 20px after header-main (height 80px) */
     transform: none;
     font-family: 'Saira Extra Condensed';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600; /* SemiBold */
     font-size: 40px;
     line-height: 100%;
     text-align: center;
@@ -314,7 +314,7 @@ img {
     width: 400px;
     height: 40px;
     left: 20px;
-    top: 269px;
+    top: 190px; /* Positioned after title with some spacing */
     transform: none;
     font-family: 'Saira Extra Condensed';
     font-style: normal;

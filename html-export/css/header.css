@@ -439,13 +439,15 @@
   
   .header-main {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
+    max-width: 440px;
     height: 80px;
-    background: none;
+    background: #002a4a;
     padding: 0 20px;
     position: relative;
+    margin: 0 auto;
   }
   
   /* Mobile Top Bar with 18+ and Warning */
@@ -554,24 +556,9 @@
     align-items: flex-end;
   }
   
-  /* Mobile Main Header */
-  .header-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    gap: 0;
-    width: 440px;
-    height: 80px;
-    background: #002a4a;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    z-index: 1;
-    position: relative;
-  }
+  /* Remove duplicate mobile header-main styles - handled above */
   
+  /* Logo positioning in mobile */
   .header-logo {
     width: 75.43px;
     height: 80px;
@@ -579,6 +566,16 @@
     order: 0;
     flex-grow: 0;
     margin-left: 0;
+  }
+  
+  /* Hide navigation on mobile */
+  .header-navigation {
+    display: none;
+  }
+  
+  /* Hide 18+ badge on mobile */
+  .header-age-restriction {
+    display: none;
   }
   
   /* Mobile menu button */

@@ -441,13 +441,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    max-width: 440px;
+    width: 440px;
     height: 80px;
     background: #002a4a;
     padding: 0 20px;
     position: relative;
     margin: 0 auto;
+    z-index: 50;
   }
   
   /* Mobile Top Bar with 18+ and Warning */
@@ -566,6 +566,13 @@
     order: 0;
     flex-grow: 0;
     margin-left: 0;
+    z-index: 51;
+  }
+  
+  .header-logo img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
   }
   
   /* Hide navigation on mobile */
@@ -592,6 +599,7 @@
     order: 1;
     flex-grow: 0;
     text-decoration: none;
+    z-index: 51;
   }
   
   .header-mobile-menu:hover {

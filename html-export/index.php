@@ -17,6 +17,39 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+    <script>
+        function toggleMobileMenu() {
+            const overlay = document.querySelector('.mobile-menu-overlay');
+            if (overlay) {
+                overlay.classList.toggle('active');
+                if (overlay.classList.contains('active')) {
+                    overlay.style.display = 'flex';
+                } else {
+                    overlay.style.display = 'none';
+                }
+            }
+        }
+        
+        // Add click handler when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.header-mobile-menu');
+            const menuClose = document.querySelector('.mobile-menu-close');
+            
+            if (menuToggle) {
+                menuToggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    toggleMobileMenu();
+                });
+            }
+            
+            if (menuClose) {
+                menuClose.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    toggleMobileMenu();
+                });
+            }
+        });
+    </script>
     <div class="site-wrapper">        
         <div class="site-content">
             <!-- Hero Section with Header, Background and Cards -->
@@ -27,21 +60,18 @@
                 <div class="hero-fg-image"></div>
                 <div class="hero-bottom-gradient"></div>
                 
-                <!-- Mobile Header Container -->
-                <div class="mobile-header-container">
-                    <!-- Mobile top bar -->
-                    <div class="header-top-bar-mobile">
-                        <div class="header-top-age-mobile">
-                            <img src="images/18+ logo.png" alt="18+ Age Restriction" />
-                        </div>
-                        <div class="header-top-text-mobile">
-                            Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
-                        </div>
+                <!-- Mobile top bar -->
+                <div class="header-top-bar-mobile">
+                    <div class="header-top-age-mobile">
+                        <img src="images/18+ logo.png" alt="18+ Age Restriction" />
                     </div>
-                    
-                    <!-- Header Main -->
-                    <?php include 'header.php'; ?>
+                    <div class="header-top-text-mobile">
+                        Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
+                    </div>
                 </div>
+                
+                <!-- Header Main centered after mobile top bar -->
+                <?php include 'header.php'; ?>
                 
                 <!-- Container for title, subtitle with background image on mobile -->
                 <div class="hero-header-container">

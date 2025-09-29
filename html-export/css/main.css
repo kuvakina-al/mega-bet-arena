@@ -233,14 +233,13 @@ img {
     margin: 0 auto;
   }
   
-  /* Mobile Header Container with background color */
-  .mobile-header-container {
+  /* Mobile top bar styling */
+  .header-top-bar-mobile {
     width: 440px;
     background: #002a4a;
     margin: 0 auto;
     position: relative;
-    display: flex;
-    flex-direction: column;
+    z-index: 100;
   }
   
   /* Container for title, subtitle with background image */
@@ -250,7 +249,7 @@ img {
     padding: 0;
     margin: 0 auto;
     background: url('../images/hero background.png');
-    background-size: 120%; /* Zoom in the background image */
+    background-size: 130%; /* More zoom for better centering */
     background-position: center top;
     background-repeat: no-repeat;
     position: relative;

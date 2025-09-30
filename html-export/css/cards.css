@@ -50,7 +50,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; /* Already centered - ensure this is present */
   padding: 0 16px;
   gap: 20px;
   margin: 0 auto;
@@ -62,7 +62,6 @@
   align-self: stretch;
   flex-grow: 0;
 }
-
 /* Desktop - card-bonus inside card-content */
 @media (min-width: 769px) {
   .card-bonus {
@@ -106,20 +105,21 @@
 }
 
 /* Desktop Bonus Section */
+/* Desktop Bonus Section - Ensure vertical centering */
 .card-bonus {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center; /* Add this for vertical centering */
   padding: 0;
-  gap: 16px;
+  gap: 4px;
   margin: 0 auto;
   width: 260px;
-  height: 0;
+  height: auto; /* Changed from height: 5px */
   flex: none;
   order: 1;
   flex-grow: 0;
 }
-
 .bonus-amount {
   display: flex;
   flex-direction: row;

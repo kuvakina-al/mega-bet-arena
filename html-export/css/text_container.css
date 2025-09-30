@@ -5,17 +5,16 @@
   justify-content: flex-start;
   align-items: center;
   padding: 64px 164px;
-  gap: 64px;
+  gap: 0; /* Remove gap between text boxes */
   width: 100%;
   max-width: 1200px;
-  margin: -50px auto 120px;
+  margin: 100px auto 120px; /* Increased top margin from -50px to 100px for gap with cards */
   flex: none;
   order: 1;
   align-self: stretch;
   flex-grow: 0;
   min-height: auto;
 }
-
 /* Responsive adjustments */
 @media (max-width: 1024px) {
   .text-container {
@@ -43,7 +42,7 @@
   }
 }
 
-/* Text Box - Individual text sections */
+/* Text Box - Remove margin-bottom */
 .text-box {
   display: flex;
   flex-direction: column;
@@ -55,9 +54,13 @@
   align-self: stretch;
   flex-grow: 0;
   min-height: auto;
-  margin-bottom: 48px;
+  margin-bottom: 0; /* Changed from 48px to remove gaps */
 }
-
+.text-box:not(:last-child) {
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 40px;
+}
 /* Hidden Title */
 .text-title-hidden {
   display: none;

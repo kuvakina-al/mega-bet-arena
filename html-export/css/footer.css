@@ -362,18 +362,14 @@
 .footer-bottom {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 8px 16px;
-  gap: 8px;
-  width: 100vw;
-  min-height: 40px;
-  background: rgba(0, 0, 0, 0.5);
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 40px;
-  z-index: 7;
+  padding: 24px 164px;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-bottom-text {
@@ -445,7 +441,12 @@
     gap: 12px;
     height: 38px;
   }
-  
+  .footer-bottom {
+    padding: 20px;
+    gap: 16px;
+    flex-direction: column;
+    text-align: center;
+  }
   .footer-nav-button {
     padding: 6px 12px;
     height: 38px;
@@ -640,6 +641,10 @@
     width: 48px;
     height: 30px;
   }
+  .footer-bottom {
+    padding: 16px 40px;
+    gap: 12px;
+  }
 }
 
 /* Mobile Footer Layout */
@@ -787,10 +792,10 @@
   }
   
   .footer-bottom {
-    width: 100vw;
-    height: 60px;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 20px;
+    gap: 16px;
+    flex-direction: column;
+    text-align: center;
   }
   
   .footer-bottom-text {

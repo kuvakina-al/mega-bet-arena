@@ -334,7 +334,6 @@
 .payment-icon img {
   width: 25.9px;
   height: 15.11px;
-  background: #FFFFFF;
   flex: none;
   order: 0;
   align-self: stretch;
@@ -821,7 +820,6 @@
   }
   
   .payment-icon img {
-    background: #FFFFFF;
     flex: none;
     order: 0;
     align-self: stretch;

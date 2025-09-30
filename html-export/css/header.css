@@ -94,7 +94,13 @@
   flex-grow: 0;
   z-index: 10;
   position: relative;
-  margin-left: 20px;
+}
+
+/* Desktop only - move 18+ logo to left */
+@media (min-width: 481px) {
+  .header-age-restriction {
+    margin-left: 20px;
+  }
 }
 
 .header-age-restriction img {
@@ -111,7 +117,13 @@
   order: 0;
   flex-grow: 0;
   z-index: 10;
-  margin-right: 10px;
+}
+
+/* Desktop only - move megabet logo to right */
+@media (min-width: 481px) {
+  .header-logo {
+    margin-right: 10px;
+  }
 }
 
 .header-logo img {

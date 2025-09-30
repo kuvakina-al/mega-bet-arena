@@ -392,7 +392,9 @@
   background: rgba(0, 0, 0, 0.5);
   position: relative;
   left: 50%;
-  transform: translateX(-50%);
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
   margin-top: 40px;
   z-index: 7;
   flex-wrap: wrap;

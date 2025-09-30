@@ -222,7 +222,7 @@ img {
 /* Cards positioned outside hero - Higher on desktop */
 .cards-container {
   position: relative;
-  margin-top: -970px;
+  margin-top: -1100px;
   z-index: 10;
 }
 

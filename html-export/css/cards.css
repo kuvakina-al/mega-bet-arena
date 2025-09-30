@@ -73,7 +73,7 @@
     gap: 4px;
     margin: 0;
     width: 260px;
-    height: auto;
+    height: 0;
     flex: none;
     order: 1;
     flex-grow: 0;

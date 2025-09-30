@@ -24,6 +24,9 @@
         <div class="site-content">
             <!-- Hero Section with Header, Background and Cards -->
             <section class="hero-section">
+                <!-- Desktop Header -->
+                <?php include 'header.php'; ?>
+                
                 <!-- Background Layers -->
                 <div class="hero-bg-blur"></div>
                 <div class="hero-gradient-overlay"></div>
@@ -40,9 +43,16 @@
                     </div>
                 </div>
                 
-                <!-- Blue container with logo and menu toggle -->
-                <div class="mobile-header-blue-container">
-                    <?php include 'header.php'; ?>
+                <!-- Mobile header container with logo and menu toggle -->
+                <div class="mobile-logo-toggle-container">
+                    <div class="mobile-logo">
+                        <img src="images/megabet logo.png" alt="Megabet Logo" />
+                    </div>
+                    <label for="mobile-menu-toggle" class="mobile-toggle-button">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </label>
                 </div>
                 
                 <!-- Background image container with titles -->

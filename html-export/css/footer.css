@@ -374,6 +374,14 @@
   transform: translateX(-50%);
   margin-top: 40px;
   z-index: 7;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+  .footer-bottom {
+    min-height: 50px;
+    padding: 10px 16px;
+  }
 }
 
 .footer-bottom-text {

@@ -222,8 +222,9 @@ img {
 /* Cards positioned outside hero - Higher on desktop */
 .cards-container {
   position: relative;
-  margin-top: -1100px;
+  margin-top: -200px;
   z-index: 10;
+  margin-bottom: 80px;
 }
 
 /* Mobile specific hero adjustments */

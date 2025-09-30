@@ -192,7 +192,6 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  box-shadow: 0px 4px 4px rgba(0, 91, 147, 0.31);
   z-index: 5;
   white-space: nowrap;
   margin: 0;
@@ -216,7 +215,6 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  box-shadow: 0px 4px 4px rgba(0, 91, 147, 0.31);
   z-index: 5;
   white-space: nowrap;
   margin: 0;
@@ -323,7 +321,6 @@ img {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-shadow: 0px 4px 4px rgba(0, 91, 147, 0.31);
     z-index: 1;
     flex: none;
     order: 1;
@@ -350,7 +347,6 @@ img {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-shadow: 0px 4px 4px rgba(0, 91, 147, 0.31);
     z-index: 1;
     flex: none;
     order: 1;

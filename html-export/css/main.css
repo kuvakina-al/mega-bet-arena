@@ -218,10 +218,10 @@ img {
   background: none;
 }
 
-/* Cards positioned outside hero */
+/* Cards positioned outside hero - Higher on desktop */
 .cards-container {
   position: relative;
-  margin-top: -650px;
+  margin-top: -720px;
   z-index: 10;
 }
 
@@ -354,6 +354,13 @@ img {
     position: relative;
     margin-top: 20px;
     z-index: 10;
+  }
+  
+  /* Center card content vertically on mobile */
+  .card-content {
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
   }
 }
 

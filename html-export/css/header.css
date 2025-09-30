@@ -1,3 +1,15 @@
+/* Hidden checkbox for mobile menu */
+#mobile-menu-toggle {
+  display: none;
+}
+
+/* Hide menu checkbox on desktop and responsive (only visible on mobile 480px) */
+@media (min-width: 481px) {
+  #mobile-menu-toggle {
+    display: none !important;
+  }
+}
+
 /* Frame 1000002705 - Header Container */
 .header-section {
   display: flex;
@@ -52,17 +64,17 @@
   flex-grow: 0;
 }
 
-/* Header Main */
+/* Header Main - Desktop with proper spacing */
 .header-main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding-top: 0;
-  padding-right: 20px;
+  padding-right: 40px;
   padding-bottom: 0;
-  padding-left: 20px;
-  gap: 20px;
+  padding-left: 40px;
+  gap: 32px;
   isolation: isolate;
   width: 1375px;
   height: 80px;
@@ -73,12 +85,12 @@
   z-index: 1;
 }
 
-/* 18+ Badge - Left Position */
+/* 18+ Badge - Right Position (moved from left) */
 .header-age-restriction {
   width: 66.97px;
   height: 64px;
   flex: none;
-  order: 0;
+  order: 3;
   flex-grow: 0;
   z-index: 10;
   position: relative;
@@ -90,15 +102,15 @@
   object-fit: contain;
 }
 
-/* Logo - Center Left Position */
+/* Logo - Left Position (moved from center-left) */
 .header-logo {
   width: 75.43px;
   height: 80px;
   flex: none;
-  order: 1;
+  order: 0;
   flex-grow: 0;
   z-index: 10;
-  margin-left: 40px;
+  margin-left: 0;
 }
 
 .header-logo img {
@@ -107,21 +119,22 @@
   object-fit: contain;
 }
 
-/* Frame 1000002704 - Navigation - Center Position */
+/* Frame 1000002704 - Navigation - Center Position (between logo and badge) */
 .header-navigation {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   padding-top: 0;
   padding-right: 0;
   padding-bottom: 0;
   padding-left: 0;
   gap: 20px;
-  width: 408px;
+  width: auto;
   height: 52px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
+  flex: 1;
+  order: 1;
+  flex-grow: 1;
   z-index: 2;
 }
 

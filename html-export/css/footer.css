@@ -248,19 +248,20 @@
   white-space: nowrap;
 }
 
-/* Legal Certifications */
+/* Legal Certifications - Wider container for single line */
 .legal-certifications {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 0;
-  gap: 28px;
+  gap: 32px;
   width: 100%;
-  max-width: 440px;
+  max-width: 600px;
   height: 60px;
   z-index: 6;
   position: relative;
+  flex-wrap: nowrap;
 }
 
 /* Age Restriction in Footer */

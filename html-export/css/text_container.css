@@ -128,7 +128,7 @@
   flex-grow: 0;
 }
 
-/* Main Title */
+/* Main Title - Remove text-transform uppercase */
 .text-title {
   width: 100%;
   height: auto;
@@ -139,6 +139,7 @@
   line-height: 32px;
   letter-spacing: 0%;
   color: #FFFFFF;
+  text-transform: none;
   flex: none;
   order: 0;
   align-self: stretch;

@@ -89,17 +89,10 @@
             <?php include 'cards.php'; ?>
 
             <!-- Text Container Section comes after hero/cards -->
-            <section class="text-container">
-                <div class="text-box">
-                    <h2 class="text-title">Les Meilleures Offres Basketball</h2>
-                    <p class="text-content standard">Découvrez notre sélection d'opérateurs spécialisés dans les paris basketball avec les meilleures cotes du marché.</p>
-                </div>
-                
-                <div class="text-box">
-                    <h2 class="text-title">Stratégies de Paris Basketball</h2>
-                    <p class="text-content standard">Apprenez les techniques avancées pour optimiser vos paris sur le basketball avec nos guides d'experts.</p>
-                </div>
-            </section>
+            <?php 
+            require_once 'text_container.php';
+            displayTextContainer('basketball'); 
+            ?>
         </div>
         
         <!-- Footer comes after all content -->

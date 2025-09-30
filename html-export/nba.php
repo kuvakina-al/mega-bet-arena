@@ -89,17 +89,10 @@
             <?php include 'cards.php'; ?>
 
             <!-- Text Container Section comes after hero/cards -->
-            <section class="text-container">
-                <div class="text-box">
-                    <h2 class="text-title">Excellence des Paris NBA</h2>
-                    <p class="text-content standard">Profitez des meilleures cotes NBA et découvrez nos analyses d'experts pour maximiser vos gains.</p>
-                </div>
-                
-                <div class="text-box">
-                    <h2 class="text-title">Pronostics NBA Quotidiens</h2>
-                    <p class="text-content standard">Accédez à nos pronostics quotidiens sur tous les matchs de la NBA avec des statistiques détaillées.</p>
-                </div>
-            </section>
+            <?php 
+            require_once 'text_container.php';
+            displayTextContainer('nba'); 
+            ?>
         </div>
         
         <!-- Footer comes after all content -->

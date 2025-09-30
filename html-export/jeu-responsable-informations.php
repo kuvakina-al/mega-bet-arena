@@ -87,69 +87,10 @@
             </section>
             
             <!-- Text Container Section -->
-            <section class="text-container">
-                <div class="text-box">
-                    <h2 class="text-title">Notre Engagement</h2>
-                    <p class="text-content">Chez Mega Bet 3000, nous nous engageons à promouvoir un environnement de jeu sûr et responsable. Nous croyons que les paris sportifs doivent rester un divertissement et ne jamais devenir un problème.</p>
-                    
-                    <h3 class="text-subtitle">Signes du Jeu Problématique</h3>
-                    <ul class="text-content">
-                        <li>Passer plus de temps et d'argent que prévu sur les paris</li>
-                        <li>Mentir à propos de vos habitudes de jeu</li>
-                        <li>Emprunter de l'argent pour jouer</li>
-                        <li>Négliger les responsabilités familiales ou professionnelles</li>
-                        <li>Ressentir de l'anxiété ou de la dépression liées au jeu</li>
-                    </ul>
-                    
-                    <div class="highlight-box">
-                        <h4>Assistance Immédiate</h4>
-                        <p>Si vous reconnaissez ces signes, n'hésitez pas à demander de l'aide. Le jeu responsable est notre priorité.</p>
-                    </div>
-                </div>
-                
-                <div class="text-box">
-                    <h2 class="text-title">Outils de Protection</h2>
-                    <ul class="text-content">
-                        <li><strong>Limites de dépôt :</strong> Fixez des limites quotidiennes, hebdomadaires ou mensuelles</li>
-                        <li><strong>Limites de temps :</strong> Contrôlez le temps passé sur les plateformes</li>
-                        <li><strong>Auto-exclusion :</strong> Suspendez temporairement ou définitivement votre compte</li>
-                        <li><strong>Réalité check :</strong> Recevez des rappels réguliers sur votre activité</li>
-                    </ul>
-                </div>
-                
-                <div class="text-box">
-                    <h2 class="text-title">Lignes d'Aide Nationales</h2>
-                    <div class="contact-info">
-                        <div class="phone-numbers">
-                            <div class="phone-number">
-                                <span class="phone-country">France :</span> 09 74 75 13 13
-                            </div>
-                            <div class="phone-number">
-                                <span class="phone-country">Belgique :</span> 0800 35 777
-                            </div>
-                            <div class="phone-number">
-                                <span class="phone-country">Canada :</span> 1-888-230-3505
-                            </div>
-                            <div class="phone-number">
-                                <span class="phone-country">Suisse :</span> 0800 801 391
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="text-box">
-                    <h2 class="text-title">Ressources d'Aide Professionnelle</h2>
-                    <ul class="text-content">
-                        <li><strong>SOS Joueurs :</strong> Association d'aide aux joueurs en difficulté</li>
-                        <li><strong>ANJ :</strong> Autorité Nationale des Jeux pour la régulation</li>
-                        <li><strong>GambleAware :</strong> Organisation internationale de sensibilisation</li>
-                    </ul>
-                    
-                    <div class="info-box">
-                        <p><strong>Rappel Important :</strong> Les jeux d'argent sont interdits aux mineurs. Vous devez avoir 18 ans révolus pour accéder aux sites de paris en ligne.</p>
-                    </div>
-                </div>
-            </section>
+            <?php 
+            require_once 'text_container.php';
+            displayTextContainer('jeu-responsable-informations'); 
+            ?>
         </div>
         
         <!-- Footer comes after all content -->

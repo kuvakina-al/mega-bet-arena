@@ -137,11 +137,11 @@
 
 .bonus-number {
   width: auto;
-  height: 30px;
+  height: auto;
   font-family: 'Saira Condensed';
   font-style: normal;
   font-weight: 700;
-  font-size: 44px;
+  font-size: 28px;
   line-height: 120%;
   leading-trim: both;
   text-edge: cap;
@@ -151,15 +151,16 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  white-space: nowrap;
 }
 
 .bonus-text {
   width: auto;
-  height: 30px;
+  height: auto;
   font-family: 'Saira Condensed';
   font-style: normal;
   font-weight: 700;
-  font-size: 44px;
+  font-size: 28px;
   line-height: 120%;
   leading-trim: both;
   text-edge: cap;
@@ -168,6 +169,7 @@
   flex: none;
   order: 1;
   flex-grow: 0;
+  white-space: nowrap;
 }
 
 .bonus-description {
@@ -177,7 +179,7 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 11px;
   line-height: 120%;
   leading-trim: both;
   text-edge: cap;
@@ -187,6 +189,9 @@
   flex: none;
   order: 1;
   flex-grow: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Desktop Rating Section */

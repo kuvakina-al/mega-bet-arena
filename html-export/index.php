@@ -89,55 +89,10 @@
             <?php include 'cards.php'; ?>
 
             <!-- Text Container Section comes after hero/cards -->
-            <section class="text-container">
-                <div class="text-box">
-                    <h2 class="text-title-hidden">Comprendre les Paris Sportifs en France</h2>
-                    <h3 class="text-subtitle-hidden">Analyse Comparative des Différents Bookmakers</h3>
-                    <p class="text-content first">Sur Mega Bet 3000, nous vous aidons à comparer objectivement les offres des divers bookmakers licenciés en France. Chaque critère, tel que les cotes, les bonus de bienvenue, et les options de paris, est scruté minutieusement pour vous guider vers le meilleur choix selon vos préférences et stratégies de pari.</p>
-                </div>
-                
-                <div class="text-box">
-                    <h2 class="text-title">Les Avantages de Parier Légalement</h2>
-                    <h3 class="text-subtitle-hidden">Analyse Comparative des Différents Bookmakers</h3>
-                    <p class="text-content standard">Opter pour des sites de paris sportifs légaux en France vous garantit sécurité, transparence et protection. Découvrez pourquoi il est essentiel de choisir des plateformes autorisées par l'ANJ.</p>
-                </div>
-                
-                <div class="text-box">
-                    <h2 class="text-title">Stratégies de Paris Gagnantes</h2>
-                    <h3 class="text-subtitle-hidden">Analyse Comparative des Différents Bookmakers</h3>
-                    <p class="text-content standard">Maximisez vos gains avec nos conseils d'experts. Apprenez les techniques avancées de gestion de bankroll et d'analyse statistique pour développer votre approche de pari.</p>
-                </div>
-                
-                <div class="text-box">
-                    <h2 class="text-title">Bonus et Promotions Exclusives</h2>
-                    <h3 class="text-subtitle-hidden">Analyse Comparative des Différents Bookmakers</h3>
-                    <p class="text-content standard">Découvrez les meilleures offres de bienvenue et promotions continues des bookmakers. Notre équipe analyse chaque bonus pour vous révéler leur véritable valeur.</p>
-                </div>
-                
-                <div class="text-box">
-                    <h2 class="text-title">Sports et Marchés Disponibles</h2>
-                    <h3 class="text-subtitle-hidden">Analyse Comparative des Différents Bookmakers</h3>
-                    <p class="text-content standard">Explorez la diversité des sports et des marchés de paris disponibles. Du football à l'esport, en passant par le tennis et le basketball, trouvez votre passion.</p>
-                </div>
-                
-                <div class="text-box">
-                    <h2 class="text-title">Jeu Responsable</h2>
-                    <h3 class="text-subtitle-hidden">Analyse Comparative des Différents Bookmakers</h3>
-                    <p class="text-content short">Nous promouvons un environnement de jeu sain et responsable. Découvrez nos outils et ressources pour maintenir le contrôle.</p>
-                </div>
-                
-                <div class="text-box">
-                    <h2 class="text-title">Méthodes de Paiement Sécurisées</h2>
-                    <h3 class="text-subtitle-hidden">Analyse Comparative des Différents Bookmakers</h3>
-                    <p class="text-content standard">Choisissez parmi une large gamme de méthodes de paiement sécurisées. Cartes bancaires, virements, portefeuilles électroniques - toutes vos transactions sont protégées.</p>
-                </div>
-                
-                <div class="text-box">
-                    <h2 class="text-title">Support Client et Assistance</h2>
-                    <h3 class="text-subtitle-hidden">Analyse Comparative des Différents Bookmakers</h3>
-                    <p class="text-content long">Notre équipe d'experts est disponible pour vous accompagner dans votre expérience de paris sportifs. Service client réactif, guides détaillés et assistance personnalisée pour optimiser vos sessions de jeu et répondre à toutes vos questions concernant les plateformes recommandées.</p>
-                </div>
-            </section>
+            <?php 
+            require_once 'text_container.php';
+            displayTextContainer('homepage'); 
+            ?>
         </div>
         
         <!-- Footer comes after all content -->

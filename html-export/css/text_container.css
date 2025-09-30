@@ -135,3 +135,32 @@
   line-height: 32px;
   color: #4B73CF;
 }
+
+/* List Items Styling */
+.text-content ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 16px 0;
+}
+
+.text-content ul li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 12px;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #4B73CF;
+}
+
+.text-content ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #4B73CF;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}

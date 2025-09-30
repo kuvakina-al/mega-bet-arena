@@ -27,16 +27,16 @@
                 </div>
                 
                 <div class="footer-links">
-                    <a href="mentions-legales-conditions.php" class="footer-link">
+                    <a href="mentions-legales-conditions.php" class="footer-link <?php echo ($current_page == 'mentions-legales') ? 'active' : ''; ?>">
                         <span class="footer-link-text">Mentions Légales et Conditions</span>
                     </a>
-                    <a href="politique-protection-donnees.php" class="footer-link">
+                    <a href="politique-protection-donnees.php" class="footer-link <?php echo ($current_page == 'politique-protection-donnees') ? 'active' : ''; ?>">
                         <span class="footer-link-text">Politique de Protection des Données</span>
                     </a>
-                    <a href="jeu-responsable-informations.php" class="footer-link">
+                    <a href="jeu-responsable-informations.php" class="footer-link <?php echo ($current_page == 'jeu-responsable-informations') ? 'active' : ''; ?>">
                         <span class="footer-link-text">Informations sur le Jeu Responsable</span>
                     </a>
-                    <a href="regulation-francaise-jeux-en-ligne.php" class="footer-link">
+                    <a href="regulation-francaise-jeux-en-ligne.php" class="footer-link <?php echo ($current_page == 'regulation-francaise-jeux-en-ligne') ? 'active' : ''; ?>">
                         <span class="footer-link-text">Régulation Française des Jeux en Ligne</span>
                     </a>
                 </div>

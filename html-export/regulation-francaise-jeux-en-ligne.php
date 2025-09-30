@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+    <?php $current_page = 'regulation-francaise-jeux-en-ligne'; ?>
     <!-- Hidden checkbox for mobile menu toggle -->
     <input type="checkbox" id="mobile-menu-toggle" />
     
@@ -80,8 +81,8 @@
                 <!-- Background image container with titles -->
                 <div class="hero-header-container">
                     <!-- Hero Content Text -->
-                    <h1 class="hero-title">Régulation Française</h1>
-                    <p class="hero-subtitle">Jeux en ligne sécurisés</p>
+                    <h1 class="hero-title">Régulation Française des Jeux en Ligne</h1>
+                    <p class="hero-subtitle">chez Mega Bet 3000</p>
                 </div>
 
             </section>

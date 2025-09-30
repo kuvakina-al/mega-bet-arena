@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+    <?php $current_page = 'politique-protection-donnees'; ?>
     <!-- Hidden checkbox for mobile menu toggle -->
     <input type="checkbox" id="mobile-menu-toggle" />
     
@@ -80,8 +81,8 @@
                 <!-- Background image container with titles -->
                 <div class="hero-header-container">
                     <!-- Hero Content Text -->
-                    <h1 class="hero-title">Protection des Données</h1>
-                    <p class="hero-subtitle">Votre vie privée</p>
+                    <h1 class="hero-title">Politique de Protection des Données</h1>
+                    <p class="hero-subtitle">de Mega Bet 3000</p>
                 </div>
 
             </section>

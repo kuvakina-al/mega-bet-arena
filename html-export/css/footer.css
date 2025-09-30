@@ -236,6 +236,14 @@
   transform: translateY(-2px);
 }
 
+.footer-link.active {
+  background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), 
+              radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), 
+              rgba(255, 255, 255, 0.1);
+  background-blend-mode: screen, screen, overlay;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
 .footer-link-text {
   font-family: 'Saira';
   font-style: normal;
@@ -778,6 +786,14 @@
     background: #FFFFFF4D;
     background-blend-mode: overlay;
     border: 1px solid #FFFFFF66;
+  }
+  
+  .footer-link.active {
+    background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), 
+                radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), 
+                rgba(255, 255, 255, 0.1);
+    background-blend-mode: screen, screen, overlay;
+    border: 1px solid rgba(255, 255, 255, 0.4);
   }
   
   .footer-link-text {

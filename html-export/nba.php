@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+    <?php $current_page = 'nba'; ?>
     <!-- Hidden checkbox for mobile menu toggle -->
     <input type="checkbox" id="mobile-menu-toggle" />
     
@@ -80,8 +81,8 @@
                 <!-- Background image container with titles -->
                 <div class="hero-header-container">
                     <!-- Hero Content Text -->
-                    <h1 class="hero-title">Paris NBA</h1>
-                    <p class="hero-subtitle">L'excellence des paris NBA</p>
+                    <h1 class="hero-title">Excellence des Paris NBA</h1>
+                    <p class="hero-subtitle">Mega Bet 3000</p>
                 </div>
 
             </section>

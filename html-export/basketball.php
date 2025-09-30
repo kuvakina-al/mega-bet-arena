@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+    <?php $current_page = 'basketball'; ?>
     <!-- Hidden checkbox for mobile menu toggle -->
     <input type="checkbox" id="mobile-menu-toggle" />
     
@@ -80,8 +81,8 @@
                 <!-- Background image container with titles -->
                 <div class="hero-header-container">
                     <!-- Hero Content Text -->
-                    <h1 class="hero-title">Paris Basketball</h1>
-                    <p class="hero-subtitle">Découvrez les meilleures cotes</p>
+                    <h1 class="hero-title">L'Excellence des Paris sur le Basketball</h1>
+                    <p class="hero-subtitle">avec Mega Bet 3000</p>
                 </div>
 
             </section>

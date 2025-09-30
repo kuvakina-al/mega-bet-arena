@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+    <?php $current_page = 'jeu-responsable-informations'; ?>
     <!-- Hidden checkbox for mobile menu toggle -->
     <input type="checkbox" id="mobile-menu-toggle" />
     
@@ -80,8 +81,8 @@
                 <!-- Background image container with titles -->
                 <div class="hero-header-container">
                     <!-- Hero Content Text -->
-                    <h1 class="hero-title">Jeu Responsable</h1>
-                    <p class="hero-subtitle">Jouez en toute sécurité</p>
+                    <h1 class="hero-title">Informations sur le Jeu Responsable</h1>
+                    <p class="hero-subtitle">chez Mega Bet 3000</p>
                 </div>
 
             </section>

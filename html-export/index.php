@@ -80,7 +80,7 @@
                 <!-- Background image container with titles -->
                 <div class="hero-header-container">
                     <!-- Hero Content Text -->
-                    <h1 class="hero-title">L'excellence des paris sur le basketball <br class="desktop-break">3000</h1>
+                    <h1 class="hero-title">L'excellence des paris sur le basketball 3000</h1>
                     <p class="hero-subtitle">avec mega bet</p>
                 </div>
 

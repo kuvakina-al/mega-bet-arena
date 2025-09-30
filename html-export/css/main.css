@@ -222,7 +222,7 @@ img {
 /* Cards positioned outside hero - Higher on desktop */
 .cards-container {
   position: relative;
-  margin-top: -1050px;
+  margin-top: -970px;
   z-index: 10;
 }
 
@@ -374,16 +374,5 @@ img {
 @media (max-width: 480px) {
   .mobile-break {
     display: inline;
-  }
-}
-
-/* Desktop break - hide on mobile, show on desktop */
-.desktop-break {
-  display: inline;
-}
-
-@media (max-width: 480px) {
-  .desktop-break {
-    display: none;
   }
 }

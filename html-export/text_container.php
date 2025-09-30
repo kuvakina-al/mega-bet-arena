@@ -155,242 +155,182 @@ $pageTexts = [
     ]
   ],
   'mentions-legales' => [
-    'title' => 'Mentions Légales et Conditions | Elite Parieur',
-    'subtitle' => 'Informations légales et conditions d\'utilisation',
+    'title' => 'Mentions Légales et Conditions',
+    'subtitle' => 'de Mega Bet 3000',
     'hero_title' => 'Mentions Légales et Conditions',
-    'hero_subtitle' => 'Informations légales et conditions d\'utilisation du site Mega Bet 3000',
+    'hero_subtitle' => 'de Mega Bet 3000',
     'main_content' => [
       [
-        'title' => '',
-        'content' => 'Les présentes Conditions Générales d\'Utilisation (ci-après les "CGU") régissent l\'accès et l\'utilisation du site Mega Bet 3000, accessible à l\'URL www.megabet3000.fr (ci-après le "Site"). Ce site est un site d\'affiliation de paris sportifs qui propose des liens et des informations sur des paris sportifs sans opérer directement de jeux ou de paris.'
+        'title' => 'Objet',
+        'content' => 'Les présentes Conditions Générales d\'Utilisation du site www.megabet3000.fr (ci-après le "Site") régissent l\'accès et l\'utilisation de site Mega Bet 3000, accessible à l\'URL www.megabet3000.fr (ci-après le "Site"). Ce site est un site d\'affiliation de paris sportifs qui propose des liens et des informations sur des paris sportifs sans opérer directement de jeux ou de paris.'
       ],
       [
-        'title' => '',
-        'content' => 'L\'accès et l\'utilisation du Site sont subordonnés à l\'acceptation et au respect des présentes CGU. Tout utilisateur du Site (ci-après "Utilisateur") reconnaît avoir pris connaissance des présentes CGU et les accepter sans réserve.'
+        'title' => 'Acceptation des CGU',
+        'content' => 'L\'accès et l\'utilisation du Site sont subordonnés à l\'acceptation et au respect des présentes CGU. Tout utilisateur du Site (ci-après "l\'Utilisateur") reconnaît avoir pris connaissance des présentes CGU et les accepter sans réserve.'
       ],
       [
-        'title' => '',
+        'title' => 'Services',
         'content' => 'Le Site propose des services d\'affiliation en mettant à disposition des Utilisateurs des informations et des liens vers des sites de paris sportifs tiers. Les services incluent des revues, des comparatifs et des conseils pour aider les Utilisateurs à choisir leur site de paris sportif.'
       ],
       [
-        'title' => '',
-        'content' => 'Mega Bet 3000 s\'efforce de maintenir le Site accessible 7 jours sur 7 et 24 heures sur 24, mais peut interrompre l\'accès pour des raisons de maintenance technique ou pour toute autre raison sans que cela ne donne droit à une quelconque indemnité.'
+        'title' => 'Accessibilité des Services',
+        'content' => 'Mega Bet 3000 s\'efforce de maintenir le Site accessible 7 jours sur 7 et 24 heures sur 24, mais ne peut garantir l\'accès ou le bon fonctionnement de tous les services en permanence. Des interruptions peuvent survenir pour des raisons techniques ou de maintenance.'
       ],
       [
-        'title' => '',
-        'content' => 'L\'Utilisateur est responsable de l\'utilisation qu\'il fait des informations fournies sur le Site. Il lui appartient de respecter les lois et réglementations en vigueur relatives aux jeux et paris en ligne.'
+        'title' => 'Responsabilités',
+        'content' => '<strong>Responsabilité de l\'Utilisateur</strong><br>L\'Utilisateur s\'engage à utiliser le Site de manière responsable et conforme à la loi. Il se doit d\'informer Mega Bet 3000 de toute utilisation inappropriée du Site. Il lui appartient de respecter les règles des sites de paris tiers vers lesquels le Site redirige.<br><br><strong>Responsabilité de Mega Bet 3000</strong><br>Mega Bet 3000 agit en tant qu\'intermédiaire et n\'est pas responsable des activités des sites de tiers auxquels les Utilisateurs accèdent via les liens présents sur le Site. Mega Bet 3000 ne garantit pas l\'exactitude ou la performance des informations ou services proposés par les sites de paris sportifs liés.'
       ],
       [
-        'title' => '',
-        'content' => 'Mega Bet 3000 agit en tant qu\'intermédiaire et n\'est pas responsable des activités des sites de tiers auxquels les Utilisateurs accèdent via les liens présents sur le Site. Mega Bet 3000 ne garantit pas l\'exactitude ou la pertinence des informations présentées sur ces sites tiers.'
+        'title' => 'Limitations',
+        'content' => '<strong>Limitation géographique</strong><br>Le Site est destiné à un public français et les informations fournies sont conçues pour respecter la législation et la réglementation française.<br><br><strong>Limitation d\'âge</strong><br>Le Site n\'est accessible qu\'aux personnes de plus de 18 ans. En utilisant le Site, les Utilisateurs déclarent et garantissent avoir l\'âge légal pour parier en ligne.'
       ],
       [
-        'title' => '',
-        'content' => 'Le Site est destiné à un public français et les informations fournies sont conçues pour respecter la législation et la réglementation française.'
+        'title' => 'Propriété intellectuelle',
+        'content' => 'Les contenus du Site, incluant les textes, graphiques, logos et images, sont protégés par des droits de propriété intellectuelle et sont la propriété exclusive de Mega Bet 3000 ou ses partenaires. L\'utilisation de ces contenus est soumise à l\'obtention d\'une autorisation préalable auprès de Mega Bet 3000. L\'utilisation du contenu autre que pour un usage personnel et non commercial est strictement interdite sans l\'accord préalable écrit de Mega Bet 3000.'
       ],
       [
-        'title' => '',
-        'content' => 'Le Site n\'est pas destiné aux personnes de moins de 18 ans. En utilisant le Site, les Utilisateurs déclarent et garantissent avoir 18 ans ou plus.'
+        'title' => 'RGPD et Protection des données à caractère personnel',
+        'content' => 'Conformément au RGPD et aux lois françaises, Mega Bet 3000 ne collecte aucune donnée personnelle de ses Utilisateurs puisque le Site fonctionne uniquement comme un intermédiaire d\'affiliation sans inscription ni transaction directe. Pour plus d\'informations, veuillez consulter notre Politique de confidentialité disponible sur le Site.'
       ],
       [
-        'title' => '',
-        'content' => 'Les contenus du Site, incluant les textes, graphiques, logos et images, sont protégés par le droit de la propriété intellectuelle et sont la propriété exclusive de Mega Bet 3000 ou ses partenaires. Toute reproduction, distribution, ou utilisation du contenu autre que pour un usage personnel et non commercial est strictement interdite sans l\'accord préalable écrit de Mega Bet 3000.'
+        'title' => 'Droit applicable',
+        'content' => 'Les présentes CGU sont soumises au droit français. Tout litige sera soumis à l\'œuvre des tribunaux français compétents.'
       ],
       [
-        'title' => '',
-        'content' => 'Conformément au Règlement Général sur la Protection des Données (RGPD) et aux lois françaises, Mega Bet 3000 ne collecte aucune donnée personnelle de ses Utilisateurs puisque le Site fonctionne uniquement comme un intermédiaire d\'affiliation sans inscription ni transaction directe.'
+        'title' => 'Modifications',
+        'content' => 'Mega Bet 3000 se réserve le droit de modifier à tout moment les CGU. Les modifications prennent effet immédiatement après leur publication sur le Site. Il est recommandé aux Utilisateurs de consulter régulièrement cette page pour prendre connaissance des modifications.'
       ],
       [
-        'title' => '',
-        'content' => 'Les présentes CGU sont régies par le droit français. Tout litige qui ne peut être résolu à l\'amiable sera soumis aux tribunaux compétents français.'
-      ],
-      [
-        'title' => '',
-        'content' => 'Mega Bet 3000 se réserve le droit de modifier à tout moment les CGU. Les modifications prendront effet immédiatement après leur publication sur le Site. Il est recommandé aux Utilisateurs de consulter régulièrement cette page pour prendre connaissance de toute modification.'
-      ],
-      [
-        'title' => '',
-        'content' => 'Pour toute question ou demande d\'information concernant le Site ou les CGU, veuillez contacter Mega Bet 3000 par email à contact@megabet3000.fr. Ce document, en fournissant les informations nécessaires sur l\'utilisation du site Mega Bet 3000, se veut un guide pour les utilisateurs, leur offrant une expérience transparente et sécurisée conforme à la réglementation en vigueur.'
+        'title' => 'Contact',
+        'content' => 'Pour toute question ou demande d\'information concernant le Site ou les CGU, veuillez contacter Mega Bet 3000 par email à contact@megabet3000.fr.<br><br>Ce document contient les informations nécessaires sur l\'utilisation du site Mega Bet 3000. Ce recueil-ci vous guide pour une utilisation optimale de Mega Bet 3000 en respectant nos directives.'
       ]
     ]
   ],
   'politique-protection-donnees' => [
-    'title' => 'Politique de Protection des Données | Elite Parieur',
-    'subtitle' => 'Votre vie privée est notre priorité',
+    'title' => 'Politique de Protection des Données',
+    'subtitle' => 'de Mega Bet 3000',
     'hero_title' => 'Politique de Protection des Données',
-    'hero_subtitle' => 'Protection et respect de votre vie privée',
+    'hero_subtitle' => 'de Mega Bet 3000',
     'main_content' => [
       [
-        'title' => '',
-        'content' => 'Nous, Mega Bet 3000, nous engageons à protéger et à respecter votre vie privée. Cette Politique de Confidentialité décrit nos pratiques concernant le traitement des informations que nous pouvons recueillir sur notre site web megabet3000.fr, et les manières dont ces informations sont traitées, conformément au Règlement Général sur la Protection des Données (RGPD).'
+        'title' => 'Introduction',
+        'content' => 'Notre site web, Mega Bet 3000, est un site informatif d\'affiliation qui n\'implique pas la création de comptes utilisateurs ni la collecte de données personnelles. Cette politique a pour but d\'expliquer les spécificités de notre gestion des informations, y compris l\'usage de cookies.'
       ],
       [
-        'title' => '',
-        'content' => 'Notre site web, Mega Bet 3000, est un site informatif d\'affiliation qui n\'implique pas la création de comptes utilisateurs ni la collecte de données personnelles. Cette politique a pour but d\'expliquer les spécificités de notre gestion des informations, y compris l\'usage des cookies.'
+        'title' => 'Données Collectées',
+        'content' => '<strong>Données Personnelles</strong><br>Mega Bet 3000 ne requiert aucune donnée personnelle puisque notre site ne requiert pas d\'inscription ni de création de compte utilisateur.<br><br><strong>Cookies et Suivi</strong><br>Nous utilisons uniquement des cookies analytiques anonymes qui nous permettent de comprendre comment les visiteurs interagissent avec notre site. Ces cookies sont configurés pour recueillir des informations de manière totalement anonyme et sont utilisés seulement à des fins statistiques.'
       ],
       [
-        'title' => '',
-        'content' => 'Mega Bet 3000 ne collecte aucune donnée personnelle puisque notre site ne requiert pas d\'inscription ni de création de compte utilisateur.'
-      ],
-      [
-        'title' => '',
-        'content' => 'Nous utilisons uniquement des cookies analytiques anonymes qui nous permettent de comprendre comment les visiteurs interagissent avec notre site. Ces cookies sont configurés pour recueillir des informations de manière totalement anonyme et sont utilisés seulement à des fins statistiques.'
-      ],
-      [
-        'title' => '',
+        'title' => 'Finalités du Traitement des Données',
         'content' => 'Le but principal de l\'utilisation des cookies sur Mega Bet 3000 est d\'améliorer l\'expérience utilisateur en optimisant les fonctionnalités du site et en fournissant un contenu pertinent. Les analyses nous aident également à améliorer la structure et le contenu sans compromettre la confidentialité des visiteurs.'
       ],
       [
-        'title' => '',
+        'title' => 'Durée de Conservation des Données',
         'content' => 'Les informations recueillies via les cookies sont conservées uniquement pour la durée nécessaire à réaliser l\'analyse statistique et le rapport des données. Après cela, les informations sont anonymisées ou supprimées de manière sécurisée.'
       ],
       [
-        'title' => '',
+        'title' => 'Vos Droits en vertu du RGPD',
         'content' => 'En tant qu\'utilisateur du site Mega Bet 3000, vous avez divers droits en vertu du RGPD, bien que le site ne collecte pas de données personnelles. Vous avez notamment le droit de demander l\'accès, la rectification, la limitation, l\'opposition ou la suppression de toutes données anonymes stockées.'
       ],
       [
-        'title' => '',
+        'title' => 'Sécurité des Données',
         'content' => 'Nous prenons la sécurité des informations très au sérieux. Bien que nous ne traitions pas de données personnelles, les mesures de sécurité en place sur notre site web sont conçues pour protéger contre la perte, l\'usage abusif ou l\'altération des informations que nous collectons.'
       ],
       [
-        'title' => '',
+        'title' => 'Partage des Informations avec des Tiers',
         'content' => 'Mega Bet 3000 ne partage aucune donnée puisqu\'aucune donnée personnelle n\'est collectée. Les informations anonymes générées par les cookies ne sont utilisées que pour des analyses internes.'
       ],
       [
-        'title' => '',
+        'title' => 'Transferts de Données Internationaux',
         'content' => 'Il n\'y a pas de transfert international de données puisque nous ne collectons pas de données personnelles et que les informations anonymes restent dans l\'Union européenne.'
       ],
       [
-        'title' => '',
+        'title' => 'Modifications de la Politique de Confidentialité',
         'content' => 'Nous pouvons occasionnellement mettre à jour cette Politique de Confidentialité pour refléter des changements dans nos pratiques ou pour d\'autres opérations, légales ou réglementaires.'
       ],
       [
-        'title' => '',
-        'content' => 'Pour toutes questions ou préoccupations relatives à la protection de vos informations ou à cette politique, notre Délégué à la Protection des Données est à votre disposition. Vous pouvez le contacter via email à contact@megabet3000.fr. Nous vous remercions de votre confiance et de votre intérêt pour Mega Bet 3000, et nous nous engageons à protéger votre vie privée conformément à cette politique de confidentialité et au cadre légal du RGPD.'
+        'title' => 'Contactez Notre Délégué à la Protection des Données',
+        'content' => 'Pour toutes questions ou préoccupations relatives à la protection des informations à cette politique, notre Délégué à la Protection des Données est à votre disposition. Vous pouvez le contacter via email à contact@megabet3000.fr.<br><br>Nous vous remercions de votre confiance et de votre intérêt pour Mega Bet 3000, et nous nous engageons à protéger votre vie privée conformément à cette politique de confidentialité et au cadre légal du RGPD.'
       ]
     ]
   ],
   'jeu-responsable-informations' => [
-    'title' => 'Informations sur le Jeu Responsable | Elite Parieur',
-    'subtitle' => 'Jouez en toute sécurité',
+    'title' => 'Informations sur le Jeu Responsable',
+    'subtitle' => 'chez Mega Bet 3000',
     'hero_title' => 'Informations sur le Jeu Responsable',
-    'hero_subtitle' => 'Votre sécurité et votre bien-être sont notre priorité',
+    'hero_subtitle' => 'chez Mega Bet 3000',
     'main_content' => [
       [
-        'title' => '',
+        'title' => 'Engagement pour un Jeu Responsable',
         'content' => 'Chez Mega Bet 3000, notre engagement vis-à-vis du jeu responsable est au cœur de nos valeurs. Notre objectif est de fournir une plateforme sécurisée et équitable où le divertissement reste le maître mot. Conformément à la réglementation de l\'Autorité Nationale des Jeux (ANJ), nous nous engageons à protéger nos joueurs contre les risques liés au jeu pathologique et à promouvoir des pratiques de jeu sécuritaires.'
       ],
       [
-        'title' => '',
+        'title' => 'Interdiction aux Mineurs',
         'content' => 'Il est strictement interdit aux personnes de moins de 18 ans de jouer sur Mega Bet 3000. Nous effectuons des vérifications d\'âge rigoureuses pour s\'assurer que cette règle est respectée à tout moment.'
       ],
       [
-        'title' => '',
-        'content' => 'Reconnaître les signes précurseurs d\'un jeu problématique est crucial pour intervenir tôt et éviter que les comportements ne deviennent pathologiques. Voici quelques indicateurs :'
+        'title' => 'Signes du Jeu Problématique',
+        'content' => 'Reconnaître les signes précurseurs d\'un jeu problématique est crucial pour intervenir tôt et éviter que les comportements ne deviennent pathologiques. Voici quelques indicateurs:<br><ul><li>Jouer de façon plus fréquente ou avec de plus grandes sommes d\'argent</li><li>Négliger les responsabilités professionnelles, familiales ou scolaires pour jouer</li><li>Sentir une irritation ou de l\'agitation lorsqu\'on essaie de jouer moins ou de s\'arrêter</li><li>Emprunter de l\'argent ou vendre des biens pour financer le jeu</li></ul>'
       ],
       [
-        'title' => '',
-        'content' => '• Jouer de façon plus fréquente ou avec de plus grandes sommes d\'argent.'
+        'title' => 'Outils de Prévention',
+        'content' => '<strong>Limites de Jeu Personnalisables</strong><br>Nous proposons des outils pour vous aider à gérer votre activité de jeu. Vous pouvez facilement définir des limites de dépôt, de mise et de temps passé sur notre site.<br><br><strong>Auto-évaluation</strong><br>Bénéficiez de notre questionnaire d\'auto-évaluation pour identifier vos habitudes de jeu et détecter tout signe de comportement à risque. Cela peut être un premier pas vers la demande d\'aide si nécessaire.'
       ],
       [
-        'title' => '',
-        'content' => '• Négliger les responsabilités professionnelles, familiales ou scolaires pour jouer.'
+        'title' => 'Ressources d\'Aide',
+        'content' => 'Pour ceux qui ressentent le besoin d\'une assistance, plusieurs ressources sont à votre disposition:<br><ul><li>Le numéro de téléphone de l\'ANJ: 09 74 75 13 13, pour un soutien et des conseils</li><li>Le site sos-joueurs.org, qui propose aide et écoute pour les joueurs et leurs familles</li></ul>'
       ],
       [
-        'title' => '',
-        'content' => '• Sentir une irritation ou de l\'agitation lorsqu\'on essaie de jouer moins ou de s\'arrêter.'
-      ],
-      [
-        'title' => '',
-        'content' => '• Emprunter de l\'argent ou vendre des biens pour financer le jeu.'
-      ],
-      [
-        'title' => '',
-        'content' => 'Nous proposons des outils pour vous aider à gérer votre activité de jeu. Vous pouvez facilement définir des limites de dépôt, de mise et de temps passé sur notre site.'
-      ],
-      [
-        'title' => '',
-        'content' => 'Bénéficiez de notre questionnaire d\'auto-évaluation pour identifier vos habitudes de jeu et détecter tout signe de comportement à risque. Cela peut être un premier pas vers la demande d\'aide si nécessaire.'
-      ],
-      [
-        'title' => '',
-        'content' => 'Pour ceux qui ressentent le besoin d\'une assistance, plusieurs ressources sont à votre disposition:'
-      ],
-      [
-        'title' => '',
-        'content' => '• Le numéro de téléphone de l\'ANJ: 09 74 75 13 13, pour un soutien et des conseils.'
-      ],
-      [
-        'title' => '',
-        'content' => '• Le site sos-joueurs.org, qui propose aide et écoute pour les joueurs et leurs familles.'
-      ],
-      [
-        'title' => '',
+        'title' => 'Auto-exclusion',
         'content' => 'Si vous vous sentez submergé par vos habitudes de jeu, Mega Bet 3000 offre un service d\'auto-exclusion. Ce programme vous permet de vous exclure temporairement ou définitivement de notre site pour prendre le temps nécessaire à la gestion de vos comportements de jeu.'
       ],
       [
-        'title' => '',
-        'content' => 'Mega Bet 3000 collabore avec des organismes nationaux et internationaux pour promouvoir le jeu responsable:'
+        'title' => 'Organismes de Référence',
+        'content' => 'Mega Bet 3000 collabore avec des organismes nationaux et internationaux pour promouvoir le jeu responsable:<br><ul><li>L\'Autorité Nationale des Jeux: en ligne avec nos obligations légales, nous suivons les directives et les exigences de l\'ANJ pour assurer une expérience de jeu sécuritaire</li><li>Des associations comme Addictaide et SOS Joueurs travaillent continuellement pour fournir aide et support aux joueurs en besoin</li></ul>'
       ],
       [
-        'title' => '',
-        'content' => '• L\'Autorité Nationale des Jeux: en ligne avec nos obligations légales, nous suivons les directives et les exigences de l\'ANJ pour assurer une expérience de jeu sécuritaire.'
-      ],
-      [
-        'title' => '',
-        'content' => '• Des associations comme Addictaide et SOS Joueurs travaillent continuellement pour fournir aide et support aux joueurs en besoin.'
-      ],
-      [
-        'title' => '',
-        'content' => 'Notre partenariat avec ces organismes souligne notre engagement non seulement à offrir un environnement de jeu divertissant, mais aussi sûr et responsable. Chez Mega Bet 3000, nous croyons que le vrai plaisir est dans le jeu responsable.'
-      ],
-      [
-        'title' => '',
-        'content' => 'End: Pour toute question ou besoin d\'aide, n\'hésitez pas à contacter notre service clientèle à contact@megabet3000.fr. Jouez de manière responsable et faites de votre bien-être une priorité absolue. Note: Ce contenu a été créée avec attention et engagement pour promouvoir le jeu responsable et informer nos utilisateurs des risques liés au jeu excessif.'
+        'title' => 'Engagement Actif pour le Bien-être des Joueurs',
+        'content' => 'Notre partenariat avec ces organismes souligne notre engagement non seulement à offrir un environnement de jeu divertissant, mais également sûr et responsable. Chez Mega Bet 3000, nous croyons que le vrai plaisir est dans le jeu responsable.<br><br>Pour toute question ou besoin d\'aide, n\'hésitez pas à contacter notre service clientèle à contact@megabet3000.fr. Jouez de manière responsable et faites de votre bien-être une priorité absolue.'
       ]
     ]
   ],
   'regulation-francaise-jeux-en-ligne' => [
-    'title' => 'Régulation Française des Jeux en Ligne | Elite Parieur',
-    'subtitle' => 'Cadre légal et protection des joueurs',
+    'title' => 'Régulation Française des Jeux en Ligne',
+    'subtitle' => 'chez Mega Bet 3000',
     'hero_title' => 'Régulation Française des Jeux en Ligne',
-    'hero_subtitle' => 'Comprendre le cadre légal des paris sportifs en France',
+    'hero_subtitle' => 'chez Mega Bet 3000',
     'main_content' => [
       [
-        'title' => '',
-        'content' => 'L\'Autorité Nationale des Jeux (ANJ), successeur de l\'ARJEL, joue un rôle crucial dans le cadre réglementaire des jeux d\'argent et paris sportifs en France. Sur cette page, vous trouverez des informations détaillées sur les missions de l\'ANJ, les régulations des paris sportifs, les opérateurs agréés, ainsi que les efforts en matière de protection des joueurs et de lutte contre les sites de jeux illégaux.'
+        'title' => 'L\'Autorité Nationale des Jeux (ANJ)',
+        'content' => 'L\'Autorité Nationale des Jeux (ANJ), successeur de l\'ARJEL, joue un rôle crucial dans le cadre réglementaire des jeux d\'argent et paris sportifs en France. Sur cette page, vous trouverez des informations détaillées sur les missions de l\'ANJ, les réglementations des paris sportifs, les opérateurs agréés, ainsi que les efforts en matière de protection des joueurs et de lutte contre les sites de jeux illégaux.'
       ],
       [
-        'title' => '',
-        'content' => 'L\'ANJ est chargée de réguler les jeux d\'argent en ligne en France, mission héritée de l\'ancienne autorité, l\'ARJEL, créée par la loi du 12 mai 2010. Son objectif est de superviser les paris sportifs, les paris hippiques et le poker en ligne, en s\'assurant que ces activités soient équitables, transparentes et sécurisées pour les consommateurs.'
+        'title' => 'Mission de l\'ANJ',
+        'content' => 'L\'ANJ est chargée de réguler les jeux d\'argent en ligne en France, mission héritée de l\'ancienne autorité, l\'ARJEL, créée par la loi du 12 mai 2010. Son objectif est de superviser les paris sportifs, les paris hippiques et le poker en ligne, en s\'assurant que ces activités soient loyales et équitables.'
       ],
       [
-        'title' => '',
-        'content' => 'La réglementation des paris sportifs en France s\'articule autour du cadre législatif établi par la loi du 12 mai 2010, qui a libéralisé le marché des jeux en ligne tout en instaurant un contrôle strict par l\'ANJ. Les paris sur des sports reconnus par l\'ANJ sont autorisés, à l\'exclusion des jeux de table en ligne traditionnels, qui demeurent interdits.'
+        'title' => 'Réglementation des paris sportifs en France',
+        'content' => 'La réglementation des paris sportifs en France s\'articule autour du cadre législatif établi par la loi du 12 mai 2010, qui a libéralisé le marché des jeux en ligne tout en mettant en place des règles strictes. Les paris sur des sports reconnus par l\'ANJ sont autorisés, à l\'exclusion des jeux de table en ligne traditionnels, qui demeurent interdits.'
       ],
       [
-        'title' => '',
+        'title' => 'Opérateurs agréés par l\'ANJ',
         'content' => 'Pour opérer légalement en France, les opérateurs de jeux d\'argent en ligne doivent obtenir une licence délivrée par l\'ANJ. La liste des opérateurs agréés peut être consultée sur le site officiel de l\'ANJ à l\'adresse www.anj.fr. Ceci garantit que les opérateurs respectent les normes établies en termes de sécurisation des transactions et de protection des joueurs.'
       ],
       [
-        'title' => '',
+        'title' => 'Protection des joueurs',
         'content' => 'L\'ANJ met l\'accent sur la protection des joueurs en surveillant les pratiques des opérateurs agréés et en promouvant le jeu responsable. Cela inclut la mise en œuvre de limites de dépôt, de procédures d\'auto-exclusion, et la prévention des risques de dépendance.'
       ],
       [
-        'title' => '',
+        'title' => 'Lutte contre les sites illégaux',
         'content' => 'L\'ANJ œuvre activement à identifier et à combattre les sites de jeux non autorisés opérant sur le territoire français. Elle utilise divers moyens, y compris le blocage de ces sites et la collaboration avec les forces de l\'ordre pour poursuivre les opérateurs illégaux.'
       ],
       [
-        'title' => '',
+        'title' => 'Sanctions imposées par l\'ANJ',
         'content' => 'En cas de non-respect de la réglementation, l\'ANJ peut imposer des sanctions aux opérateurs agréés. Celles-ci peuvent aller des avertissements et amendes à la révocation de la licence d\'exploitation.'
       ],
       [
-        'title' => '',
-        'content' => 'Pour plus d\'informations sur les activités et les services de l\'ANJ, les utilisateurs peuvent visiter le site officiel www.anj.fr. L\'ANJ y offre des ressources utiles, telles que des guides pratiques, des statistiques sur les jeux, et une section FAQ pour aider les consommateurs à mieux comprendre les réglementations des jeux d\'argent en France. Pour toute question relative aux activités de l\'ANJ, les utilisateurs peuvent contacter l\'Autorité via l\'adresse e-mail suivante : contact@anj.fr.'
-      ],
-      [
-        'title' => '',
-        'content' => 'L\'Autorité Nationale des Jeux (ANJ) continue de jouer un rôle essentiel dans le paysage des jeux d\'argent en France, veillant à ce que l\'industrie reste équitable, transparente et sécurisée pour tous les intervenants.'
+        'title' => 'Ressources proposées par l\'ANJ',
+        'content' => 'Pour plus d\'informations sur les activités et les services de l\'ANJ, les utilisateurs peuvent visiter le site officiel www.anj.fr. L\'ANJ offre des ressources utiles, telles que des guides pratiques, des statistiques sur les jeux, et une section FAQ pour aider les consommateurs à mieux comprendre les réglementations des jeux d\'argent en France.<br><br>Pour toute question relative aux activités de l\'ANJ, les utilisateurs peuvent contacter l\'Autorité via l\'adresse e-mail suivante : contact@anj.fr.<br><br>L\'Autorité Nationale des Jeux (ANJ) continue de jouer un rôle essentiel dans le paysage des jeux d\'argent en France, veillant à ce que l\'industrie reste équitable, transparente et sécurisée pour tous les intervenants.'
       ]
     ]
   ]

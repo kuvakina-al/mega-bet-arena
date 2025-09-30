@@ -17,38 +17,93 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+    <!-- Hidden checkbox for mobile menu toggle -->
+    <input type="checkbox" id="mobile-menu-toggle" />
+    
+    <!-- Mobile Navigation Menu Overlay -->
+    <div class="mobile-menu-overlay">
+        <div class="mobile-menu-header">
+            <div class="header-logo">
+                <img src="images/megabet logo.png" alt="Megabet Logo" />
+            </div>
+            <label for="mobile-menu-toggle" class="mobile-menu-close">✕</label>
+        </div>
+        
+        <nav class="mobile-navigation">
+            <a href="index.php" class="mobile-nav-button">
+                <span class="mobile-nav-text">ACCUEIL</span>
+            </a>
+            <a href="basketball.php" class="mobile-nav-button active">
+                <span class="mobile-nav-text">BASKETBALL</span>
+            </a>
+            <a href="nba.php" class="mobile-nav-button">
+                <span class="mobile-nav-text">NBA</span>
+            </a>
+        </nav>
+    </div>
+    
     <div class="site-wrapper">
         <div class="site-content">
-            <!-- Hero Section with Header -->
+            <!-- Hero Section with Header, Background and Cards -->
             <section class="hero-section">
+                <!-- Desktop Header -->
+                <?php include 'header.php'; ?>
+                
                 <!-- Background Layers -->
                 <div class="hero-bg-blur"></div>
                 <div class="hero-gradient-overlay"></div>
                 <div class="hero-fg-image"></div>
                 <div class="hero-bottom-gradient"></div>
                 
-                <!-- Header in Hero -->
-                <div class="hero-header-wrapper">
-                    <?php include 'header.php'; ?>
+                <!-- Mobile top bar with warning -->
+                <div class="header-top-bar-mobile">
+                    <div class="header-top-age-mobile">
+                        <img src="images/18+ logo.png" alt="18+ Age Restriction" />
+                    </div>
+                    <div class="header-top-text-mobile">
+                        Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
+                    </div>
                 </div>
                 
-                <!-- Hero Content -->
-                <h1 class="hero-title">Paris Basketball</h1>
-                <p class="hero-subtitle">Découvrez les meilleures cotes et stratégies pour le basketball</p>
+                <!-- Mobile header container with logo and menu toggle -->
+                <div class="mobile-logo-toggle-container">
+                    <div class="mobile-logo">
+                        <img src="images/megabet logo.png" alt="Megabet Logo" />
+                    </div>
+                    <label for="mobile-menu-toggle" class="mobile-toggle-button">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </label>
+                </div>
+                
+                <!-- Background image container with titles -->
+                <div class="hero-header-container">
+                    <!-- Hero Content Text -->
+                    <h1 class="hero-title">Paris Basketball</h1>
+                    <p class="hero-subtitle">Découvrez les meilleures cotes</p>
+                </div>
+
             </section>
+            
+            <?php include 'cards.php'; ?>
 
-<?php include 'cards.php'; ?>
-
-        <?php include 'footer.php'; ?>
+            <!-- Text Container Section comes after hero/cards -->
+            <section class="text-container">
+                <div class="text-box">
+                    <h2 class="text-title">Les Meilleures Offres Basketball</h2>
+                    <p class="text-content standard">Découvrez notre sélection d'opérateurs spécialisés dans les paris basketball avec les meilleures cotes du marché.</p>
+                </div>
+                
+                <div class="text-box">
+                    <h2 class="text-title">Stratégies de Paris Basketball</h2>
+                    <p class="text-content standard">Apprenez les techniques avancées pour optimiser vos paris sur le basketball avec nos guides d'experts.</p>
+                </div>
+            </section>
         </div>
         
-        <!-- Age Restriction Badge -->
-        <div class="age-restriction">
-            <div class="age-circle">
-                <span class="age-number">18</span>
-                <div class="age-plus">+</div>
-            </div>
-        </div>
+        <!-- Footer comes after all content -->
+        <?php include 'footer.php'; ?>
     </div>
 </body>
 </html>

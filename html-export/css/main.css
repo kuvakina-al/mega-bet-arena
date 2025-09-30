@@ -375,9 +375,17 @@ img {
   display: none;
 }
 
+.mobile-break-inline {
+  display: none;
+}
+
 /* Show mobile break only on mobile */
 @media (max-width: 480px) {
   .mobile-break {
+    display: inline;
+  }
+  
+  .mobile-break-inline {
     display: inline;
   }
 }

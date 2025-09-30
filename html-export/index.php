@@ -81,7 +81,7 @@
                 <!-- Background image container with titles -->
                 <div class="hero-header-container">
                     <!-- Hero Content Text -->
-                    <h1 class="hero-title">Bienvenue sur Mega Bet 3000</h1>
+                    <h1 class="hero-title">Bienvenue sur Mega Bet <span class="mobile-break-inline"><br></span>3000</h1>
                     <p class="hero-subtitle">Votre Guide Ultime des Paris Sportifs Légaux en France</p>
                 </div>
 

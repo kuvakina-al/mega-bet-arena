@@ -63,6 +63,23 @@
   flex-grow: 0;
 }
 
+/* Desktop - card-bonus inside card-content */
+@media (min-width: 769px) {
+  .card-bonus {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 4px;
+    margin: 0;
+    width: 260px;
+    height: auto;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+}
+
 /* Desktop Logo Styles */
 .card-logo {
   margin: 0;

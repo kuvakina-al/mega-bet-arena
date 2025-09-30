@@ -364,10 +364,10 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0;
+  padding: 0 16px;
   gap: 8px;
   width: 100vw;
-  height: 28px;
+  min-height: 28px;
   background: rgba(0, 0, 0, 0.5);
   position: relative;
   left: 50%;
@@ -387,6 +387,19 @@
   color: #15ADFF;
   opacity: 0.9;
   padding: 0 16px;
+  word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .footer-bottom {
+    min-height: 40px;
+    padding: 8px 16px;
+  }
+  
+  .footer-bottom-text {
+    font-size: 8px;
+    line-height: 12px;
+  }
 }
 
 /* Responsive Design */

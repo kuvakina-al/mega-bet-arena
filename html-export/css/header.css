@@ -94,7 +94,7 @@
   flex-grow: 0;
   z-index: 10;
   position: relative;
-  margin-right: -10px;
+  margin-right: 25px;
 }
 
 .header-age-restriction img {

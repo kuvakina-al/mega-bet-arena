@@ -47,18 +47,24 @@
                     <img src="images/bascketball.png" alt="" class="basketball-decoration basketball-right">
                     
                     <div class="certification-logos">
-                        <div class="age-restriction-footer">
-                            <img src="images/18+ logo.png" alt="18+ Age Restriction" class="cert-logo cert-age">
+                        <!-- First row: 18+ and ANJ -->
+                        <div class="certification-row-1">
+                            <div class="age-restriction-footer">
+                                <img src="images/18+ logo.png" alt="18+ Age Restriction" class="cert-logo cert-age">
+                            </div>
+                            <a href="https://anj.fr" target="_blank" rel="noopener noreferrer" class="cert-logo cert-anj">
+                                <img src="images/anj logo.png" alt="ANJ - Autorité Nationale des Jeux">
+                            </a>
                         </div>
-                        <a href="https://anj.fr" target="_blank" rel="noopener noreferrer" class="cert-logo cert-anj">
-                            <img src="images/anj logo.png" alt="ANJ - Autorité Nationale des Jeux">
-                        </a>
-                        <a href="https://www.gambleaware.org" target="_blank" rel="noopener noreferrer" class="cert-logo cert-gambleaware">
-                            <img src="images/begambleaware logo.png" alt="GambleAware">
-                        </a>
-                        <a href="https://www.sosjoueurs.org" target="_blank" rel="noopener noreferrer" class="cert-logo cert-sos">
-                            <img src="images/sos_joueurs logo.png" alt="SOS Joueurs">
-                        </a>
+                        <!-- Second row: GambleAware and SOS -->
+                        <div class="certification-row-2">
+                            <a href="https://www.gambleaware.org" target="_blank" rel="noopener noreferrer" class="cert-logo cert-gambleaware">
+                                <img src="images/begambleaware logo.png" alt="GambleAware">
+                            </a>
+                            <a href="https://www.sosjoueurs.org" target="_blank" rel="noopener noreferrer" class="cert-logo cert-sos">
+                                <img src="images/sos_joueurs logo.png" alt="SOS Joueurs">
+                            </a>
+                        </div>
                     </div>
                 </div>
                 

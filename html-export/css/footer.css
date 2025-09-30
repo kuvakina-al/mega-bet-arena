@@ -248,20 +248,33 @@
   white-space: nowrap;
 }
 
-/* Legal Certifications - Wider container for single line */
+/* Legal Certifications - Desktop single row with 30px gap */
 .legal-certifications {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 0;
-  gap: 32px;
+  gap: 30px;
   width: 100%;
   max-width: 600px;
   height: 60px;
   z-index: 6;
   position: relative;
   flex-wrap: nowrap;
+}
+
+.certification-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.certification-row-1,
+.certification-row-2 {
+  display: contents;
 }
 
 /* Age Restriction in Footer */
@@ -698,6 +711,8 @@
     gap: 15px;
     height: auto;
     width: 100%;
+    background: transparent;
+    border: none;
   }
   
   .footer-nav-button {
@@ -713,9 +728,11 @@
   .footer-nav-button-nba {
     width: 100%;
     height: 48px;
+    background: transparent;
+    border: 1px solid transparent;
   }
   
-  .footer-nav-button-home {
+  .footer-nav-button-home.active {
     background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), 
                 radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), 
                 rgba(255, 255, 255, 0.1);
@@ -724,10 +741,14 @@
     font-weight: 600;
   }
   
-  .footer-nav-button-basketball,
-  .footer-nav-button-nba {
-    background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+  .footer-nav-button-basketball.active,
+  .footer-nav-button-nba.active {
+    background: radial-gradient(72.41% 218.13% at 0% 4.06%, rgba(12, 130, 243, 0.3) 0%, rgba(12, 130, 243, 0) 100%), 
+                radial-gradient(70.76% 253.22% at 100% 100%, rgba(255, 0, 3, 0.3) 0%, rgba(255, 0, 3, 0) 100%), 
+                rgba(255, 255, 255, 0.1);
+    background-blend-mode: screen, screen, overlay;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    font-weight: 600;
   }
   
   .footer-disclaimer {
@@ -747,9 +768,16 @@
     width: 100%;
     max-width: 350px;
     height: 40px;
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    border: 1px solid transparent;
     border-radius: 5px;
+  }
+  
+  .footer-link:hover,
+  .footer-link:active {
+    background: #FFFFFF4D;
+    background-blend-mode: overlay;
+    border: 1px solid #FFFFFF66;
   }
   
   .footer-link-text {
@@ -765,40 +793,60 @@
   }
   
   .certification-logos {
+    display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
   }
   
+  /* First row: 18+ and ANJ */
+  .certification-row-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Second row: GambleAware and SOS */
+  .certification-row-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  
   .age-restriction-footer {
     width: 64px;
     height: 64px;
-    order: 1;
   }
   
   .cert-anj {
     width: 80px;
     height: 60px;
-    order: 2;
   }
   
   .cert-gambleaware {
     width: 200px;
     height: 40px;
-    order: 3;
   }
   
   .cert-sos {
     width: 100px;
     height: 60px;
-    order: 4;
   }
   
   .footer-bottom {
     width: 100vw;
     height: 60px;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 10px 0;
+    margin: 20px 0 0 0;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
   }
   
   .footer-bottom-text {

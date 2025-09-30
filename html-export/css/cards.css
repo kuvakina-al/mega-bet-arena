@@ -706,11 +706,11 @@
   .bonus-description {
     width: 100%;
     max-width: 358px;
-    height: 14px;
+    height: auto;
     font-family: 'Saira';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 120%;
     text-align: center;
     text-transform: uppercase;
@@ -718,6 +718,9 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   
   /* Mobile Rating Section */

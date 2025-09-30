@@ -94,7 +94,7 @@
   flex-grow: 0;
   z-index: 10;
   position: relative;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .header-age-restriction img {
@@ -284,21 +284,35 @@
 @media (max-width: 1024px) {
   .header-section {
     max-width: 95%;
+    width: 95%;
+    left: 2.5%;
+  }
+  
+  .header-warning {
+    width: 100%;
+  }
+  
+  .header-warning-text {
+    width: 100%;
   }
   
   .header-main {
     padding: 0 16px;
     height: 60px;
+    width: 100%;
+    gap: 20px;
   }
   
   .header-logo {
     width: 55px;
     height: 60px;
+    margin-left: 0;
   }
   
   .header-age-restriction {
     width: 50px;
     height: 48px;
+    margin-right: 5px;
   }
   
   .header-age-circle {
@@ -352,6 +366,10 @@
 }
 
 @media (max-width: 768px) {
+  .header-section {
+    width: 95%;
+  }
+  
   .header-top-text {
     font-size: 8px;
     line-height: 12px;
@@ -360,16 +378,19 @@
   .header-main {
     height: 50px;
     padding: 0 12px;
+    gap: 12px;
   }
   
   .header-logo {
     width: 45px;
     height: 50px;
+    margin-left: 0;
   }
   
   .header-age-restriction {
     width: 42px;
     height: 40px;
+    margin-right: 0;
   }
   
   .header-age-circle {

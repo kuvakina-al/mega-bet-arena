@@ -96,13 +96,6 @@
   position: relative;
 }
 
-/* Desktop only - move 18+ logo to left */
-@media (min-width: 481px) {
-  .header-age-restriction {
-    margin-left: 20px;
-  }
-}
-
 .header-age-restriction img {
   width: 100%;
   height: 100%;
@@ -117,13 +110,6 @@
   order: 0;
   flex-grow: 0;
   z-index: 10;
-}
-
-/* Desktop only - move megabet logo to right */
-@media (min-width: 481px) {
-  .header-logo {
-    margin-right: 10px;
-  }
 }
 
 .header-logo img {
@@ -143,11 +129,11 @@
   padding-bottom: 0;
   padding-left: 0;
   gap: 20px;
-  width: auto;
+  max-width: 400px;
   height: 52px;
-  flex: 1;
+  flex: none;
   order: 1;
-  flex-grow: 1;
+  flex-grow: 0;
   z-index: 2;
 }
 
@@ -332,6 +318,7 @@
   .header-navigation {
     gap: 12px;
     height: 38px;
+    max-width: 320px;
   }
   
   .nav-button {
@@ -403,6 +390,7 @@
   .header-navigation {
     gap: 8px;
     height: 32px;
+    max-width: 280px;
   }
   
   .nav-button {

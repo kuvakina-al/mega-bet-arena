@@ -20,7 +20,29 @@
     <!-- Hidden checkbox for mobile menu toggle -->
     <input type="checkbox" id="mobile-menu-toggle" />
     
-    <div class="site-wrapper">        
+    <!-- Mobile Navigation Menu Overlay -->
+    <div class="mobile-menu-overlay">
+        <div class="mobile-menu-header">
+            <div class="header-logo">
+                <img src="images/megabet logo.png" alt="Megabet Logo" />
+            </div>
+            <label for="mobile-menu-toggle" class="mobile-menu-close">✕</label>
+        </div>
+        
+        <nav class="mobile-navigation">
+            <a href="index.php" class="mobile-nav-button active">
+                <span class="mobile-nav-text">ACCUEIL</span>
+            </a>
+            <a href="basketball.php" class="mobile-nav-button">
+                <span class="mobile-nav-text">BASKETBALL</span>
+            </a>
+            <a href="nba.php" class="mobile-nav-button">
+                <span class="mobile-nav-text">NBA</span>
+            </a>
+        </nav>
+    </div>
+    
+    <div class="site-wrapper">
         <div class="site-content">
             <!-- Hero Section with Header, Background and Cards -->
             <section class="hero-section">

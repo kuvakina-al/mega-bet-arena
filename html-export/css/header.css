@@ -666,30 +666,24 @@
     position: fixed;
     width: 440px;
     height: 334px;
-    left: 0;
+    left: 50%;
     top: 0;
+    transform: translateX(-50%) translateY(-100%);
     background: #010D1D;
     z-index: 1000;
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
-    transform: translateY(-100%);
   }
   
   /* Show menu when checkbox is checked */
-  #mobile-menu-toggle:checked ~ .site-wrapper .mobile-menu-overlay {
+  #mobile-menu-toggle:checked ~ .mobile-menu-overlay {
     display: flex;
     opacity: 1;
     visibility: visible;
-    transform: translateY(0);
+    transform: translateX(-50%) translateY(0);
   }
   
-  /* Position checkbox at body level */
-  body > #mobile-menu-toggle {
-    position: fixed;
-    top: -9999px;
-    left: -9999px;
-  }
 
   /* Mobile menu header with logo and close */
   .mobile-menu-header {

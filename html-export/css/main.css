@@ -242,25 +242,29 @@ img {
     z-index: 100;
   }
   
-  /* Container for blue section with header and background image */
+  /* Container for background image and titles */
   .hero-header-container {
     width: 440px;
-    height: 446px; /* Extended height to accommodate mobile top bar (55px) + header (80px) + content */
+    height: 311px;
     padding: 0;
     margin: 0 auto;
-    background: linear-gradient(180deg, #002a4a 135px, transparent 135px), url('../images/hero background.png');
-    background-size: 100%, 180%; /* Blue section at top, then zoomed background image */
-    background-position: top, center center;
-    background-repeat: no-repeat, no-repeat;
+    background: url('../images/hero background.png');
+    background-size: 180%;
+    background-position: center center;
+    background-repeat: no-repeat;
     position: relative;
   }
   
   .hero-section {
     width: 440px;
-    height: 446px; /* Match container height */
+    height: auto;
     padding: 0;
     margin: 0 auto;
     background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
   }
   
   .hero-bg-blur {
@@ -296,7 +300,7 @@ img {
     width: 400px;
     height: 90px;
     left: 20px;
-    top: 145px; /* Start after blue section (55px + 80px + 10px gap) */
+    top: 10px;
     transform: none;
     font-family: 'Saira Extra Condensed';
     font-style: normal;
@@ -323,7 +327,7 @@ img {
     width: 400px;
     height: 40px;
     left: 20px;
-    top: 253px; /* 18px gap from title (145px + 90px + 18px) */
+    top: 118px;
     transform: none;
     font-family: 'Saira Extra Condensed';
     font-style: normal;
@@ -348,7 +352,7 @@ img {
   /* Cards positioned after hero on mobile with more gap */
   .cards-container {
     position: relative;
-    margin-top: 80px;
+    margin-top: 20px;
     z-index: 10;
   }
 }

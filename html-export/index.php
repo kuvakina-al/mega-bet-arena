@@ -17,39 +17,9 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <script>
-        function toggleMobileMenu() {
-            const overlay = document.querySelector('.mobile-menu-overlay');
-            if (overlay) {
-                overlay.classList.toggle('active');
-                if (overlay.classList.contains('active')) {
-                    overlay.style.display = 'flex';
-                } else {
-                    overlay.style.display = 'none';
-                }
-            }
-        }
-        
-        // Add click handler when page loads
-        document.addEventListener('DOMContentLoaded', function() {
-            const menuToggle = document.querySelector('.header-mobile-menu');
-            const menuClose = document.querySelector('.mobile-menu-close');
-            
-            if (menuToggle) {
-                menuToggle.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    toggleMobileMenu();
-                });
-            }
-            
-            if (menuClose) {
-                menuClose.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    toggleMobileMenu();
-                });
-            }
-        });
-    </script>
+    <!-- Hidden checkbox for mobile menu toggle -->
+    <input type="checkbox" id="mobile-menu-toggle" />
+    
     <div class="site-wrapper">        
         <div class="site-content">
             <!-- Hero Section with Header, Background and Cards -->
@@ -60,21 +30,23 @@
                 <div class="hero-fg-image"></div>
                 <div class="hero-bottom-gradient"></div>
                 
-                <!-- Container for blue section with header and background image on mobile -->
-                <div class="hero-header-container">
-                    <!-- Mobile top bar inside container -->
-                    <div class="header-top-bar-mobile">
-                        <div class="header-top-age-mobile">
-                            <img src="images/18+ logo.png" alt="18+ Age Restriction" />
-                        </div>
-                        <div class="header-top-text-mobile">
-                            Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
-                        </div>
+                <!-- Mobile top bar with warning -->
+                <div class="header-top-bar-mobile">
+                    <div class="header-top-age-mobile">
+                        <img src="images/18+ logo.png" alt="18+ Age Restriction" />
                     </div>
-                    
-                    <!-- Header Main inside container -->
+                    <div class="header-top-text-mobile">
+                        Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
+                    </div>
+                </div>
+                
+                <!-- Blue container with logo and menu toggle -->
+                <div class="mobile-header-blue-container">
                     <?php include 'header.php'; ?>
-                    
+                </div>
+                
+                <!-- Background image container with titles -->
+                <div class="hero-header-container">
                     <!-- Hero Content Text -->
                     <h1 class="hero-title">L'excellence des paris sur le basketball 3000</h1>
                     <p class="hero-subtitle">avec mega bet</p>

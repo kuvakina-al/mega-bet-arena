@@ -441,13 +441,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 440px;
+    width: 100%;
     height: 80px;
     background: transparent;
     padding: 0 20px;
     position: relative;
-    margin: 0 auto;
+    margin: 0;
     z-index: 50;
+  }
+  
+  /* Show blue container on mobile */
+  .mobile-header-blue-container {
+    display: flex;
   }
   
   /* Mobile Top Bar with 18+ and Warning */
@@ -460,11 +465,23 @@
     gap: 10px;
     width: 440px;
     height: 55px;
-    background: transparent; /* Remove background since parent has blue background */
+    background: #00000080;
     flex: none;
     order: 0;
     flex-grow: 0;
     z-index: 10;
+  }
+  
+  /* Blue container for mobile header */
+  .mobile-header-blue-container {
+    display: none;
+    width: 440px;
+    height: 80px;
+    background: #002a4a;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    z-index: 50;
   }
   
   .header-top-text-mobile {
@@ -585,7 +602,12 @@
     display: none;
   }
   
-  /* Mobile menu button */
+  /* Hidden checkbox for menu toggle */
+  #mobile-menu-toggle {
+    display: none;
+  }
+  
+  /* Mobile menu button - now a label */
   .header-mobile-menu {
     width: 25px;
     height: 23px;
@@ -615,7 +637,7 @@
   
   /* Mobile Menu Overlay */
   .mobile-menu-overlay {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     padding: 10px 20px;
@@ -633,10 +655,19 @@
     transform: translateY(-100%);
   }
   
-  .mobile-menu-overlay.active {
+  /* Show menu when checkbox is checked */
+  #mobile-menu-toggle:checked ~ .site-wrapper .mobile-menu-overlay {
+    display: flex;
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
+  }
+  
+  /* Position checkbox at body level */
+  body > #mobile-menu-toggle {
+    position: fixed;
+    top: -9999px;
+    left: -9999px;
   }
 
   /* Mobile menu header with logo and close */
@@ -680,6 +711,11 @@
     flex-grow: 0;
     cursor: pointer;
     text-decoration: none;
+  }
+  
+  /* Alternative menu close using label */
+  label.mobile-menu-close {
+    cursor: pointer;
   }
   
   .mobile-navigation {

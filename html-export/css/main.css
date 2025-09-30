@@ -177,7 +177,7 @@ img {
 .hero-title {
   position: absolute;
   width: 1088px;
-  height: 50px;
+  height: 70px;
   left: 50%;
   top: 150px;
   transform: translateX(-50%);
@@ -200,7 +200,7 @@ img {
 .hero-subtitle {
   position: absolute;
   width: 906px;
-  height: 20px;
+  height: 50px;
   left: 50%;
   top: 235px;
   transform: translateX(-50%);

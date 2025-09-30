@@ -12,7 +12,7 @@
   height: auto;
   margin: 0 auto;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 
 /* Background Basketball Images */
@@ -390,7 +390,7 @@
   width: 100vw;
   min-height: 40px;
   background: rgba(0, 0, 0, 0.5);
-  position: relative;
+  position: absolute;
   left: 50%;
   transform: translateX(-50%);
   margin-top: 40px;

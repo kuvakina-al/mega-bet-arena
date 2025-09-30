@@ -9,35 +9,35 @@ $pageTexts = [
     'bonus_text' => 'Découvrez la plus grande sélection des meilleures offres de bonus',
     'main_content' => [
       [
-        'title' => '',
+        'title' => 'Découvrez le monde des paris sportifs en France',
         'content' => 'Découvrez le monde des paris sportifs en France avec Mega Bet 3000, votre comparateur de référence qui vous oriente vers les meilleures offres tout en assurant la conformité et la sécurité. Chez Mega Bet 3000, nous privilégions l\'expertise et la précision pour vous fournir des analyses détaillées et fiables des plateformes agréées par l\'Autorité Nationale des Jeux (ANJ). Plongez avec nous dans les arcanes des paris sportifs en ligne, tout en respectant un cadre légal strict et en promouvant le jeu responsable.'
       ],
       [
-        'title' => '',
+        'title' => 'Explorez les meilleures opportunités de paris',
         'content' => 'Explorez avec nous les différentes options de paris, les meilleures cotes, et des bonus exclusifs offerts par les sites de paris sportifs les plus réputés de France. Que vous soyez un amateur de football, de tennis, ou même d\'esports, Mega Bet 3000 vous guide vers les meilleures opportunités de paris.'
       ],
       [
-        'title' => '',
+        'title' => 'Maximisez vos gains avec les bonus',
         'content' => 'Découvrez comment les bonus de bienvenue et les promotions régulières peuvent vous aider à maximiser vos gains tout en restant conforme aux réglementations françaises. Mega Bet 3000 vous accompagne dans ces offres, en vous expliquant les conditions associées pour éviter toute surprise.'
       ],
       [
-        'title' => '',
+        'title' => 'Comparez les cotes pour des décisions éclairées',
         'content' => 'L\'une des clés du succès dans les paris sportifs est de comprendre et comparer les cotes proposées par différentes plateformes. Notre outil de comparaison vous permet d\'accéder facilement aux meilleures cotes pour chaque événement, vous aidant ainsi à prendre des décisions éclairées.'
       ],
       [
-        'title' => '',
+        'title' => 'Stratégies de paris et conseils d\'experts',
         'content' => 'Non seulement nous vous proposons les meilleures offres, mais nous vous équipons également avec des stratégies de paris testées et des conseils d\'experts pour améliorer vos chances de gains. Que vous soyez débutant ou parieur expérimenté, nos guides détaillés sont conçus pour affiner vos techniques de pari.'
       ],
       [
-        'title' => '',
+        'title' => 'Gérez votre bankroll de manière responsable',
         'content' => 'Apprendre à gérer votre bankroll est crucial pour un pari durable et responsable. Découvrez nos conseils sur la gestion financière dans les paris sportifs pour maintenir le plaisir du jeu sans risquer votre stabilité financière.'
       ],
       [
-        'title' => '',
+        'title' => 'Le jeu responsable avant tout',
         'content' => 'Le jeu doit rester une source de divertissement et non une dépendance. Sur Mega Bet 3000, nous promouvons activement le jeu responsable en vous fournissant des ressources pour maintenir le contrôle de vos activités de pari et en soulignant l\'importance de jouer de manière réfléchie et mesurée.'
       ],
       [
-        'title' => '',
+        'title' => 'Votre destination pour les paris sportifs légaux',
         'content' => 'Mega Bet 3000 est votre destination de choix pour naviguer dans l\'univers des paris sportifs légaux en France. Avec une approche basée sur la sécurité, la conformité, et le divertissement responsable, nous nous engageons à vous offrir une expérience premium. Restez informé, pariez intelligemment, et surtout, jouez de manière responsable. Explorez dès maintenant nos ressources et commencez votre aventure de paris avec assurance!'
       ]
     ]
@@ -49,51 +49,51 @@ $pageTexts = [
     'hero_subtitle' => 'Plongez dans l\'univers du basketball et transformez votre passion en gains substantiels avec Mega Bet 3000.',
     'main_content' => [
       [
-        'title' => '',
+        'title' => 'Plongez dans l\'univers du basketball',
         'content' => 'Plongez dans l\'univers du basketball et transformez votre passion en gains substantiels avec Mega Bet 3000. Spécialement conçu pour les connaisseurs, notre site offre une expérience de pari haut de gamme, où chaque détail est pensé pour maximiser vos chances de réussite. Que vous soyez amateur de la NBA, de l\'Euroligue ou d\'autres compétitions majeures, nous apportons une touche de raffinement à vos paris sportifs. Rejoignez notre communauté exclusive et bénéficiez de conseils d\'experts, d\'analyses précises et d\'offres sur mesure.'
       ],
       [
-        'title' => '',
+        'title' => 'Le basketball est un sport dynamique',
         'content' => 'Le basketball est un sport dynamique et les paris le sont tout autant. Connaître les types de paris, des simples paris de match aux paris sur les performances des joueurs, est crucial. Comprendre l\'influence des cotes et la manière dont elles sont calculées vous permettra de mettre en place vos stratégies de pari. Les cotes peuvent varier significativement en fonction des performances passées des équipes, de leur état actuel et des conditions de match, y compris les blessures de joueurs clés. Analyser ces facteurs est essentiel pour prendre des décisions éclairées et rentabiliser vos paris sportifs.'
       ],
       [
-        'title' => '',
+        'title' => 'Sélectionner le bon bookmaker',
         'content' => 'Sélectionner le bon bookmaker est essentiel pour parier sur le basketball. Mega Bet 3000 se distingue par son interface élégante qui offre une navigation fluide et une expérience utilisateur de premier ordre. Nous proposons des cotes compétitives et une large variété d\'options de paris. De plus, nos promotions régulières et nos bonus exclusifs garantissent que chaque pari placé sur notre plateforme constitue une véritable valeur ajoutée.'
       ],
       [
-        'title' => '',
+        'title' => 'Pour réussir vos paris sur le basketball',
         'content' => 'Pour réussir vos paris sur le basketball, une approche stratégique est indispensable. Premièrement, l\'importance de suivre régulièrement les actualités et les analyses statistiques ne peut être négligée. Deuxièmement, comprendre l\'importance du "pari à valeur" est crucial. Un pari à valeur survient lorsque les cotes proposées par un bookmaker reflètent une probabilité de victoire inférieure à la réalité. En identifiant ces opportunités, vous augmentez vos chances de gains à long terme.'
       ],
       [
-        'title' => '',
+        'title' => 'Parier responsablement',
         'content' => 'Parier responsablement est la clé du maintien d\'une expérience de pari positive et sûre. Chez Mega Bet 3000, nous promouvons activement des pratiques de jeu saines en fournissant les outils et ressources pour aider nos utilisateurs à gérer leurs activités de pari. Fixez des limites de dépôts, surveillez le temps passé en ligne et ne pariez jamais plus que vous ne pouvez vous permettre de perdre.'
       ],
       [
-        'title' => '• Comment calculer les cotes pour les paris sur le basketball?',
+        'title' => 'Comment calculer les cotes pour les paris sur le basketball?',
         'content' => 'Les cotes en basketball sont déterminées par plusieurs facteurs: la forme actuelle des équipes, les confrontations directes, les blessures, le calendrier, les statistiques historiques. Les bookmakers utilisent des algorithmes complexes qui analysent ces données pour établir des probabilités, puis les convertissent en cotes. Par exemple, une équipe avec 60% de chances de gagner aura une probabilité est élevée, plus la cote est faible.'
       ],
       [
-        'title' => '• Quelle est la meilleure stratégie de pari pour un débutant?',
+        'title' => 'Quelle est la meilleure stratégie de pari pour un débutant?',
         'content' => 'Pour débuter, concentrez-vous sur les paris simples (victoire d\'une équipe) plutôt que sur les combinés complexes. Suivez une ligue que vous connaissez bien, fixez-vous un budget strict et ne pariez jamais plus de 2-5% de votre bankroll sur un seul match. Analysez les statistiques de base: moyenne de points, forme récente, confrontations directes. Évitez de parier sur votre équipe favorite par émotion.'
       ],
       [
-        'title' => '• Comment les performances des joueurs influencent-elles les paris?',
+        'title' => 'Comment les performances des joueurs influencent-elles les paris?',
         'content' => 'L\'absence d\'un joueur clé peut considérablement modifier les cotes. Un meneur vedette blessé affecte l\'attaque, un pivot défensif absent fragilise la raquette, un bookmaker ajuste rapidement les cotes selon les compositions d\'équipe. Suivez les actualités des équipes, les rapports médicaux et les décisions de dernière minute. Les performances individuelles influencent aussi les paris sur les statistiques personnelles (points, rebonds, passes).'
       ],
       [
-        'title' => '• Y a-t-il des paris spéciaux pendant les playoffs de NBA?',
+        'title' => 'Y a-t-il des paris spéciaux pendant les playoffs de NBA?',
         'content' => 'Oui, les playoffs offrent de nombreux paris spéciaux: vainqueur de la série, nombre de matchs dans une série, performances en clutch time, records personnels bâtus, ou encore le MVP des Finals. Les cotes évoluent match après match selon les résultats. C\'est une période très riche pour les parieurs, avec des marchés étendus et des analyses approfondies disponibles.'
       ],
       [
-        'title' => '• Comment suivre efficacement mes paris sur le basketball?',
+        'title' => 'Comment suivre efficacement mes paris sur le basketball?',
         'content' => 'Tenez un journal de vos paris avec les détails : date, match, type de pari, mise, cote, résultat et analyse. Utilisez les statistiques en temps réel, suivez les matchs en direct quand possible, et analysez vos performances mensuellement. Identifiez vos points forts (certains types de paris, ligues spécifiques) et vos erreurs récurrentes pour améliorer votre stratégie.'
       ],
       [
-        'title' => '• Quels sont les signes d\'un problème de jeu?',
+        'title' => 'Quels sont les signes d\'un problème de jeu?',
         'content' => 'Attention si vous: dépassez régulièrement votre budget, pariez pour récupérer des pertes, négligez vos responsabilités, mentez sur vos activités de pari, ou ressentez de l\'anxiété quand vous ne pouvez pas parier. D\'autres signes incluent : parier impulsivement, augmenter constamment les mises, ou penser constamment aux paris. En cas de doute, contactez Joueurs Info Service (09 74 75 13 13) ou utilisez les outils d\'auto-exclusion.'
       ],
       [
-        'title' => '',
+        'title' => 'Rejoignez l\'élite des parieurs',
         'content' => 'Chez Mega Bet 3000, nous vous guidons vers des paris réfléchis et judicieux. En plus de profiter d\'un site premium, vous accédez à une gamme d\'outils pour parfaire vos stratégies. N\'attendez plus pour placer votre prochain pari gagnant sur le basketball avec nous. Vos ambitions méritent le cadre distingué de Mega Bet 3000. Rejoignez l\'élite des parieurs et transformez vos analyses en victoires concrètes.'
       ]
     ]
@@ -105,51 +105,51 @@ $pageTexts = [
     'hero_subtitle' => 'Plongez au cœur de l\'action avec Mega Bet 3000 et sublimez vos paris sur la NBA.',
     'main_content' => [
       [
-        'title' => '',
+        'title' => 'Plongez au cœur de l\'action avec Mega Bet 3000',
         'content' => 'Plongez au cœur de l\'action avec Mega Bet 3000 et sublimez vos paris sur la NBA. Chaque rencontre, chaque quart-temps, chaque seconde compte pour faire de votre passion pour le basketball une aventure lucrative et exaltante. Que vous soyez novice ou expert, notre plateforme vous offre une gamme raffinée et des informations ciblées pour maximiser vos gains tout en savourant le luxe d\'un service haut de gamme. Chez Mega Bet 3000, parier sur la NBA devient un part de votre art de vivre élégant et raffiné.'
       ],
       [
-        'title' => '',
+        'title' => 'Les paris sur la NBA',
         'content' => 'Les paris sur la NBA ne se limitent pas à choisir un gagnant; ils constituent un art sophistiqué qui demande compréhension et finesse. Les types de paris varient: du simple pari sur le vainqueur aux paris sur le score exact, en passant par les performances individuelles de joueur. Les cotes reflètent les gains potentiels et sont influencées par des facteurs multiples tels que les blessures, la forme des joueurs et les enjeux du match. Une stratégie solide est cruciale et nécessite une lecture approfondie des statistiques et des tendances de la ligue. Pour les connaisseurs, les paris en direct offrent un aspect palpitant avec des décisions rapides à prendre tout au long du match.'
       ],
       [
-        'title' => '',
+        'title' => 'Sélectionner le bon bookmaker',
         'content' => 'Sélectionner le bon bookmaker est essentiel pour parier sur la NBA avec assurance et élégance. Mega Bet 3000 se distingue par ses interfaces utilisateur raffinées et ses offres exclusives. Notre plateforme démontre sa supériorité en termes de cotes, de bonus de bienvenue et de promotions liées à la NBA. Nos services garantissent sécurité et confidentialité, avec un support client toujours disponible pour répondre à vos exigences les plus pointues.'
       ],
       [
-        'title' => '',
+        'title' => 'Parier avec succès sur la NBA',
         'content' => 'Parier avec succès sur la NBA exige plus qu\'un simple enthousiasme pour le basketball; cela nécessite une analyse et un discernement avisé fins. Nos experts vous conseillent de suivre parmi d\'autres les dernières nouvelles des équipes et joueurs clés. Comprendre les stratégies des équipes, adapter vos paris en fonction des confrontations et des conditions de jeu peut significativement augmenter vos chances de victoire. Et surtout, la gestion de votre bankroll est primordiale; pariez judicieusement pour maintenir le contrôle.'
       ],
       [
-        'title' => '',
+        'title' => 'Parier sur la NBA de manière responsable',
         'content' => 'Parier sur la NBA est une passion qui doit rester divertissante et sécurisée. Chez Mega Bet 3000, nous promouvons un jeu responsable en fournissant les outils et supports nécessaires pour parier de manière réfléchie. Fixez-vous des limites de dépôts, des durées de jeu et n\'hésitez pas à contacter notre service d\'assistance en cas de besoin. Le jeu doit rester un plaisir, jamais une contrainte.'
       ],
       [
-        'title' => '• Quels sont les types de paris les plus populaires en NBA?',
+        'title' => 'Quels sont les types de paris les plus populaires en NBA?',
         'content' => 'Les paris les plus populaires sont: le pari sur la victoire simple (money line), les écarts de points (spread), le total de points (over/under), les performances individuelles (points, rebonds, passes d\'un joueur), les paris combinés, et les paris en direct. Les playoffs ajoutent les paris sur les séries et les futurs (champion, MVP). Le pari sur le Total de points est particulièrement apprécié car il implique les deux équipes et au cœur de la NBA.'
       ],
       [
-        'title' => '• Comment les cotes sont-elles calculées pour les matchs NBA?',
+        'title' => 'Comment les cotes sont-elles calculées pour les matchs NBA?',
         'content' => 'Les bookmakers analysent de multiples données: statistiques avancées des équipes, forme récente, blessures, repos des joueurs, facteur domicile, confrontations directes et même les conditions de voyage. Des modèles prédictifs complexes calculent les probabilités, ajustées en temps réel selon les mises des parieurs. Les équipes populaires comme les Lakers peuvent avoir des cotes légèrement réduites à cause de la demande.'
       ],
       [
-        'title' => '• Quels facteurs dois-je considérer avant de placer un pari sur la NBA?',
+        'title' => 'Quels facteurs dois-je considérer avant de placer un pari sur la NBA?',
         'content' => 'Vérifiez d\'abord les compositions d\'équipe et les blessures sur les sites officiels. Analysez la forme récente (5-10 derniers matchs), le facteur domicile (crucial en NBA), les confrontations cette saison, et le calendrier (back-to-back, fin de road trip). Considérez aussi la motivation: équipe en course pour les playoffs vs équipe déjà qualifiée. Les statistiques défensives sont souvent sous-estimées par les parieurs amateurs.'
       ],
       [
-        'title' => '• NBA en direct, que choisir?',
+        'title' => 'NBA en direct, que choisir?',
         'content' => 'Les paris pré-match permettent une analyse approfondie et des cotes souvent meilleures. Les paris en direct offrent l\'avantage de voir l\'état de forme réel des joueurs et les ajustements tactiques, mais demandent une grande réactivité. Pour débuter, privilégiez le pré-match. Les paris en direct sont excellents pour les totaux de points selon le rythme observé en première période.'
       ],
       [
-        'title' => '• Comment puis-je suivre l\'évolution de mes paris en direct?',
+        'title' => 'Comment puis-je suivre l\'évolution de mes paris en direct?',
         'content' => 'Utilisez les applications des bookmakers qui offrent des statistiques en temps réel. Suivez les box scores live sur ESPN ou NBA.com pour des données détaillées. De nombreux sites proposent des graphiques d\'évolution des cotes pendant le match. L\'idéal est de regarder le match tout en ayant accès aux statistiques avancées pour prendre des décisions éclairées sur les paris en cours.'
       ],
       [
-        'title' => '• Quelles sont les meilleures stratégies pour parier sur les playoffs NBA?',
+        'title' => 'Quelles sont les meilleures stratégies pour parier sur les playoffs NBA?',
         'content' => 'En playoffs, privilégiez l\'analyse des ajustements tactiques entre les matchs d\'une série. Les équipes s\'adaptent, les rotations changent, les faiblesses sont exploitées. Pariez sur les séries 2-0: l\'équipe menée réagit souvent au match 3. Les totaux de points sont souvent plus prévisibles car les équipes se connaissent mieux. Méfiez-vous des sweep (4-0) qui sont statistiquement rares.'
       ],
       [
-        'title' => '',
+        'title' => 'Rejoignez Mega Bet 3000',
         'content' => 'Au cœur de la saison NBA, chaque match est une opportunité de briller chez Mega Bet 3000. Inscrivez-vous dès maintenant pour accéder à des analyses exceptionnelles, des conseils d\'experts et une expérience de pari sécurisée et luxueuse. Rejoignez-nous pour transformer chaque jeu en une chance de célébrer et d\'amplifier votre passion pour le basketball. Votre prochain pari gagnant vous attend chez Mega Bet 3000, là où les amateurs de NBA parient avec distinction et expertise.'
       ]
     ]

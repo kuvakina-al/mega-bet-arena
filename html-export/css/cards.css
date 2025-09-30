@@ -112,7 +112,7 @@
   align-items: flex-start;
   padding: 0;
   gap: 16px;
-  margin: 0 auto;
+  margin: -15px auto 0;
   width: 260px;
   height: 0;
   flex: none;

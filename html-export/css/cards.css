@@ -444,33 +444,38 @@
   }
   
   .card-rating {
-    width: 120px;
-    height: 45px;
-    padding: 6px;
-    gap: 8px;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    gap: 6px;
   }
   
   .rating-content {
     width: 100%;
-    gap: 8px;
+    gap: 6px;
+  }
+  
+  .rating-header {
+    width: 100%;
+    gap: 10px;
   }
   
   .rating-label {
-    font-size: 11px;
+    font-size: 9px;
     width: auto;
   }
   
   .rating-percentage {
-    font-size: 11px;
+    font-size: 9px;
     width: auto;
   }
   
   .rating-bar {
-    height: 12px;
+    height: 10px;
   }
   
   .rating-fill {
-    height: 12px;
+    height: 10px;
   }
   
   .payment-methods {
@@ -544,37 +549,38 @@
   }
   
   .card-rating {
-    width: 90px;
-    height: 36px;
-    padding: 4px;
-    gap: 4px;
+    width: 85px;
+    height: 34px;
+    padding: 3px;
+    gap: 3px;
   }
   
   .rating-content {
-    gap: 4px;
+    gap: 3px;
     height: auto;
     width: 100%;
   }
   
   .rating-header {
-    gap: 10px;
+    gap: 8px;
     height: auto;
+    width: 100%;
   }
   
   .rating-label,
   .rating-percentage {
-    font-size: 9px;
-    height: auto;
+    font-size: 8px;
+    line-height: 10px;
     width: auto;
   }
   
   .rating-bar {
-    height: 8px;
+    height: 7px;
     width: 100%;
   }
   
   .rating-fill {
-    height: 8px;
+    height: 7px;
   }
   
   .payment-methods {

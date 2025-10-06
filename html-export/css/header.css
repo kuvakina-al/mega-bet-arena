@@ -35,7 +35,7 @@
   padding: 0;
   gap: 10px;
   width: 100vw;
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   top: 0;
@@ -44,7 +44,9 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  z-index: 2;
+  z-index: 100;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
 }
 
 .header-warning-text {

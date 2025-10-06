@@ -447,10 +447,8 @@
     min-height: 60px;
     padding: 16px 12px;
     width: 100vw;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
   
   .footer-bottom-text {
@@ -459,6 +457,18 @@
     padding: 0 8px;
     text-align: center;
     width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-bottom {
+    min-height: 60px;
+    padding: 16px 12px;
+  }
+  
+  .footer-bottom-text {
+    font-size: 8px;
+    line-height: 12px;
   }
 }
 

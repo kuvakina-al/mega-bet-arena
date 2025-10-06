@@ -296,10 +296,11 @@
   
   .header-warning {
     width: 100vw;
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
     top: 0;
+    z-index: 100;
   }
   
   .header-warning-text {

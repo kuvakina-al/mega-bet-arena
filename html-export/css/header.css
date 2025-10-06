@@ -32,12 +32,17 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
   gap: 10px;
   width: 100vw;
-  position: absolute;
-  left: 0;
-  right: 0;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
   height: 32px;
   background: #00000080;
   flex: none;
@@ -290,14 +295,11 @@
   }
   
   .header-warning {
-    width: 100vw;
-    left: 0;
-    right: 0;
+    width: 100%;
   }
   
   .header-warning-text {
     width: 100%;
-    max-width: 100%;
   }
   
   .header-main {

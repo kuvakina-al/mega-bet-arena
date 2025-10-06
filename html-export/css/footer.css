@@ -451,6 +451,9 @@
     width: 100vw;
     min-height: 60px;
     padding: 16px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .footer-bottom-text {
@@ -459,6 +462,7 @@
     padding: 0 8px;
     text-align: center;
     width: 100%;
+    margin: 0 auto;
   }
 }
 

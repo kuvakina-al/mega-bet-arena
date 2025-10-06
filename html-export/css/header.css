@@ -505,17 +505,13 @@
     align-items: center;
     padding: 0 20px;
     gap: 10px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100vw;
+    width: 440px;
     height: 55px;
     background: #00000080;
     flex: none;
     order: 0;
     flex-grow: 0;
-    z-index: 100;
+    z-index: 10;
   }
   
   /* Mobile logo and toggle container */

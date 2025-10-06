@@ -111,6 +111,23 @@
   margin-bottom: 24px;
 }
 
+/* Responsive adjustments for title */
+@media (max-width: 1024px) {
+  .text-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+}
+
 /* Content Text */
 .text-content {
   width: 100%;

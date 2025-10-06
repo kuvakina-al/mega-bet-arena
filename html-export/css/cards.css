@@ -544,27 +544,32 @@
   }
   
   .card-rating {
-    width: 100px;
-    height: 40px;
-    padding: 5px;
-    gap: 6px;
+    width: 95px;
+    height: 38px;
+    padding: 4px;
+    gap: 5px;
   }
   
   .rating-content {
-    gap: 6px;
+    gap: 5px;
+    height: auto;
+    width: 100%;
   }
   
   .rating-label,
   .rating-percentage {
     font-size: 9px;
+    height: auto;
+    width: auto;
   }
   
   .rating-bar {
-    height: 10px;
+    height: 9px;
+    width: 100%;
   }
   
   .rating-fill {
-    height: 10px;
+    height: 9px;
   }
   
   .payment-methods {

@@ -444,10 +444,10 @@
   }
   
   .card-rating {
-    width: 120px;
-    height: 45px;
-    padding: 6px;
-    gap: 8px;
+    width: 90px;
+    height: 40px;
+    padding: 5px;
+    gap: 6px;
   }
   
   .rating-content {
@@ -544,10 +544,10 @@
   }
   
   .card-rating {
-    width: 100px;
-    height: 40px;
-    padding: 5px;
-    gap: 6px;
+    width: 80px;
+    height: 35px;
+    padding: 4px;
+    gap: 5px;
   }
   
   .rating-content {

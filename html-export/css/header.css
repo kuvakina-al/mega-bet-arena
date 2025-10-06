@@ -37,7 +37,12 @@
   padding-bottom: 0;
   padding-left: 0;
   gap: 10px;
-  width: 1420px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
   height: 32px;
   background: #00000080;
   flex: none;
@@ -47,7 +52,8 @@
 }
 
 .header-warning-text {
-  width: 1420px;
+  width: 100%;
+  max-width: 1420px;
   height: 16px;
   font-family: 'Saira';
   font-style: normal;
@@ -332,15 +338,20 @@
   }
   
   .header-navigation {
-    gap: 12px;
-    height: 38px;
-    max-width: 320px;
+    gap: 10px;
+    height: 36px;
+    max-width: 300px;
   }
   
   .nav-button {
-    padding: 6px 12px;
-    height: 38px;
-    font-size: 14px;
+    padding: 5px 10px;
+    height: 36px;
+    font-size: 13px;
+  }
+  
+  .nav-text {
+    font-size: 13px;
+    line-height: 16px;
   }
   
   .nav-button.active {
@@ -411,15 +422,20 @@
   }
   
   .header-navigation {
-    gap: 8px;
-    height: 32px;
-    max-width: 280px;
+    gap: 6px;
+    height: 30px;
+    max-width: 260px;
   }
   
   .nav-button {
-    padding: 4px 8px;
-    height: 32px;
-    font-size: 12px;
+    padding: 3px 6px;
+    height: 30px;
+    font-size: 11px;
+  }
+  
+  .nav-text {
+    font-size: 11px;
+    line-height: 14px;
   }
   
   .nav-button.active {

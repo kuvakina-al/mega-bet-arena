@@ -12,7 +12,7 @@
   height: auto;
   margin: 0 auto;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 
 /* Background Basketball Images */

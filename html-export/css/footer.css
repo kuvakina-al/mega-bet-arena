@@ -390,10 +390,9 @@
   width: 100vw;
   min-height: 40px;
   background: rgba(0, 0, 0, 0.5);
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 7;
   flex-wrap: wrap;
 }
@@ -470,15 +469,7 @@
 
 
 @media (max-width: 480px) {
-  .footer-wrapper {
-    padding-bottom: 80px;
-  }
-  
   .footer-bottom {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
     width: 100vw;
     min-height: 60px;
     padding: 16px 12px;

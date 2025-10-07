@@ -36,9 +36,9 @@
   padding: 0;
   gap: 10px;
   width: 100vw;
-  position: fixed;
-  left: 0;
-  top: 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   height: 32px;
   background: #00000080;
   flex: none;

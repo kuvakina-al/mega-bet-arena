@@ -301,6 +301,11 @@
     z-index: 100;
   }
   
+  .header-section {
+    position: fixed;
+    top: 0;
+  }
+  
   .header-warning-text {
     width: 100%;
     max-width: 95%;

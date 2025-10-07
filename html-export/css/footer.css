@@ -491,6 +491,7 @@
     max-width: 320px;
     gap: 12px;
     height: 38px;
+    flex-wrap: nowrap;
   }
   
   .footer-nav-button {
@@ -500,15 +501,18 @@
   }
   
   .footer-nav-button-home {
-    width: 85px;
+    width: 70px;
+    min-width: 70px;
   }
   
   .footer-nav-button-basketball {
-    width: 120px;
+    width: 110px;
+    min-width: 110px;
   }
   
   .footer-nav-button-nba {
-    width: 60px;
+    width: 55px;
+    min-width: 55px;
   }
   
   .footer-disclaimer {
@@ -603,9 +607,9 @@
   
   .footer-nav {
     max-width: 280px;
-    gap: 10px;
+    gap: 8px;
     height: 32px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
   
   .footer-nav-button {
@@ -615,15 +619,18 @@
   }
   
   .footer-nav-button-home {
-    width: 75px;
+    width: 65px;
+    min-width: 65px;
   }
   
   .footer-nav-button-basketball {
-    width: 100px;
+    width: 90px;
+    min-width: 90px;
   }
   
   .footer-nav-button-nba {
-    width: 50px;
+    width: 45px;
+    min-width: 45px;
   }
   
   .footer-disclaimer {
@@ -872,20 +879,28 @@
   }
   
   .footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
-    height: 60px;
-    padding: 10px 0;
-    margin: 20px 0 0 0;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+    min-height: 60px;
+    padding: 16px 12px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
   }
   
   .footer-bottom-text {
     font-size: 10px;
     line-height: 14px;
     padding: 0 10px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .footer-wrapper {
+    padding-bottom: 100px;
   }
 }

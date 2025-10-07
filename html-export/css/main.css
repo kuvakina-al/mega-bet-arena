@@ -43,6 +43,7 @@ img {
   flex-direction: column;
   max-width: 100vw;
   overflow-x: hidden;
+  width: 100%;
 }
 
 .site-content {
@@ -53,6 +54,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
 }
 
 /* Hero Container */

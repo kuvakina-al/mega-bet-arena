@@ -27,6 +27,7 @@
 }
 
 /* Frame 1000002708 - Warning Bar */
+/* Frame 1000002708 - Warning Bar - SCROLLS WITH PAGE */
 .header-warning {
   display: flex;
   flex-direction: row;
@@ -35,10 +36,10 @@
   padding: 0;
   gap: 10px;
   width: 100vw;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: calc(-50vw + 50%);
   height: 32px;
   background: #00000080;
   flex: none;
@@ -290,20 +291,18 @@
     max-width: 95%;
     width: 95%;
     left: 2.5%;
+    position: absolute;
+    top: 0;
   }
   
   .header-warning {
     width: 100vw;
-    position: fixed;
-    left: 0;
-    right: 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: calc(-50vw + 50%);
     top: 0;
     z-index: 100;
-  }
-  
-  .header-section {
-    position: fixed;
-    top: 0;
   }
   
   .header-warning-text {
@@ -390,6 +389,18 @@
 @media (max-width: 768px) {
   .header-section {
     width: 95%;
+    position: absolute;
+    top: 0;
+  }
+  
+  .header-warning {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: calc(-50vw + 50%);
+    top: 0;
+    z-index: 100;
   }
   
   .header-top-text {

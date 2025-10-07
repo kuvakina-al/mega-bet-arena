@@ -390,10 +390,12 @@
   width: 100vw;
   min-height: 40px;
   background: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: 20px;
   z-index: 7;
   flex-wrap: wrap;
 }
@@ -420,9 +422,11 @@
     min-height: 50px;
     padding: 10px 20px;
     width: 100vw;
-    left: 0;
-    right: 0;
-    margin: 0;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-top: 20px;
   }
   
   .footer-bottom-text {
@@ -492,7 +496,10 @@
     padding: 12px 20px;
     width: 100vw;
     left: 50%;
+    right: 50%;
     margin-left: -50vw;
+    margin-right: -50vw;
+    margin-top: 20px;
   }
   
   .footer-bottom-text {

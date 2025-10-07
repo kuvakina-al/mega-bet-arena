@@ -88,6 +88,7 @@
   align-self: stretch;
   flex-grow: 0;
   z-index: 1;
+  margin-top: 32px;
 }
 
 /* 18+ Badge - Right Position (moved from left) */
@@ -301,13 +302,15 @@
     left: 0;
     right: 0;
     margin: 0;
+    height: auto;
+    min-height: 40px;
   }
   
   .header-warning-text {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 8px 20px;
   }
   
   .header-main {
@@ -398,6 +401,12 @@
     left: 0;
     right: 0;
     margin: 0;
+    height: auto;
+    min-height: 36px;
+  }
+  
+  .header-warning-text {
+    padding: 6px 20px;
   }
   
   .header-top-text {

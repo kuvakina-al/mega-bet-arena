@@ -38,7 +38,7 @@
   width: 100vw;
   position: relative;
   left: 50%;
-  transform: translateX(-50%);
+  margin-left: -50vw;
   height: 32px;
   background: #00000080;
   flex: none;

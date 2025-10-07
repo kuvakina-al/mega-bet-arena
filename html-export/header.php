@@ -4,13 +4,6 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
 ?>
 
 <div class="header-section">
-    <!-- Desktop Warning Bar -->
-    <div class="header-warning">
-        <div class="header-warning-text">
-            Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
-        </div>
-    </div>
-    
     <!-- Header Main -->
     <div class="header-main">
         <!-- 18+ Badge - Left Position -->

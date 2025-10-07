@@ -44,6 +44,13 @@
     </div>
     
     <div class="site-wrapper">
+        <!-- Desktop Warning Bar -->
+        <div class="header-warning">
+            <div class="header-warning-text">
+                Jouer Comporte des Risques: Endettement, Isolement, Dépendance. Pour être aidé, appelez le 09-74-75-13-13 (Appel non surtaxé)
+            </div>
+        </div>
+        
         <div class="site-content">
             <!-- Hero Section with Header, Background and Cards -->
             <section class="hero-section">
@@ -98,6 +105,14 @@
         
         <!-- Footer comes after all content -->
         <?php include 'footer.php'; ?>
+        
+        <!-- Footer Bottom - Full Width -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-text">
+                © 2025 megabet3000.fr - Tous Droits Réservés<br>
+                Appelez le 0800 35 777 (Belgique), 1-888-230-3505 (Canada), 09 74 75 13 13 (France), 0800 801 381 (Suisse).
+            </div>
+        </div>
     </div>
 </body>
 </html>

@@ -64,14 +64,7 @@
                             <a href="https://www.sosjoueurs.org" target="_blank" rel="noopener noreferrer" class="cert-logo cert-sos">
                                 <img src="images/sos_joueurs logo.png" alt="SOS Joueurs">
                             </a>
-                        </div>
-                    </div>
                 </div>
-                
-                <div class="footer-bottom">
-                    <div class="footer-bottom-text">
-                        © 2025 megabet3000.fr - Tous Droits Réservés<br>
-                        Appelez le 0800 35 777 (Belgique), 1-888-230-3505 (Canada), 09 74 75 13 13 (France), 0800 801 381 (Suisse).
-                    </div>
-                </div>
-            </footer>
+            </div>
+        </div>
+    </footer>

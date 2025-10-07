@@ -304,6 +304,7 @@
     margin: 0;
     height: auto;
     min-height: 40px;
+    align-items: flex-start;
   }
   
   .header-warning-text {
@@ -311,6 +312,8 @@
     max-width: 900px;
     margin: 0 auto;
     padding: 8px 20px;
+    height: auto;
+    line-height: 1.4;
   }
   
   .header-main {
@@ -403,10 +406,13 @@
     margin: 0;
     height: auto;
     min-height: 36px;
+    align-items: flex-start;
   }
   
   .header-warning-text {
     padding: 6px 20px;
+    height: auto;
+    line-height: 1.4;
   }
   
   .header-top-text {

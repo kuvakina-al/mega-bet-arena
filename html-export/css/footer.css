@@ -390,10 +390,9 @@
   width: 100vw;
   min-height: 40px;
   background: rgba(0, 0, 0, 0.5);
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 7;
   flex-wrap: wrap;
 }
@@ -411,7 +410,7 @@
   opacity: 0.9;
   padding: 0 20px;
   word-wrap: break-word;
-  max-width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -419,19 +418,48 @@
   .footer-bottom {
     min-height: 50px;
     padding: 10px 20px;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
   }
   
   .footer-bottom-text {
     font-size: 9px;
     line-height: 14px;
     padding: 0 20px;
+    max-width: 900px;
+  }
+  
+  .footer-nav {
+    gap: 10px;
+    flex-wrap: nowrap;
+  }
+  
+  .footer-nav-button {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+  
+  .footer-nav-button-home {
+    width: 85px;
+    min-width: 85px;
+  }
+  
+  .footer-nav-button-basketball {
+    width: 110px;
+    min-width: 110px;
+  }
+  
+  .footer-nav-button-nba {
+    width: 55px;
+    min-width: 55px;
   }
 }
 
 @media (max-width: 768px) {
   .footer-nav {
     max-width: 280px;
-    gap: 6px;
+    gap: 8px;
     height: 32px;
     flex-wrap: nowrap;
   }
@@ -443,28 +471,32 @@
   }
   
   .footer-nav-button-home {
-    width: 60px;
-    min-width: 60px;
+    width: 65px;
+    min-width: 65px;
   }
   
   .footer-nav-button-basketball {
-    width: 85px;
-    min-width: 85px;
+    width: 90px;
+    min-width: 90px;
   }
   
   .footer-nav-button-nba {
-    width: 40px;
-    min-width: 40px;
+    width: 45px;
+    min-width: 45px;
   }
   
   .footer-bottom {
     min-height: 48px;
     padding: 12px 20px;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
   }
   
   .footer-bottom-text {
     font-size: 8px;
     line-height: 12px;
+    max-width: 700px;
   }
 }
 
@@ -477,11 +509,14 @@
   .footer-bottom {
     position: fixed;
     bottom: 0;
-    left: 0;
-    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 100vw;
     min-height: 60px;
     padding: 16px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .footer-bottom-text {
@@ -490,6 +525,7 @@
     padding: 0 12px;
     text-align: center;
     width: 100%;
+    max-width: 400px;
     margin: 0 auto;
   }
 }
